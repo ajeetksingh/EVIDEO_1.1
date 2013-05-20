@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/textanalyzer.xml
+Export-Package: org.opencastproject.textanalyzer.impl;uses:="org.openc
+ astproject.composer.api,org.opencastproject.textanalyzer.api,org.open
+ castproject.util,org.opencastproject.mediapackage,org.slf4j,org.openc
+ astproject.textextractor.api,org.opencastproject.workspace.api,org.op
+ encastproject.job.api,org.opencastproject.serviceregistry.api,org.ope
+ ncastproject.metadata.mpeg7,org.opencastproject.dictionary.api,org.op
+ encastproject.security.api";version="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-textanalyzer-impl
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613069614
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Import-Package: javax.ws.rs;resolution:=optional;version="1.1",javax.w
+ s.rs.core;resolution:=optional;version="1.1",org.opencastproject.comp
+ oser.api;resolution:=optional;version="1.3",org.opencastproject.dicti
+ onary.api;resolution:=optional;version="1.3",org.opencastproject.job.
+ api;resolution:=optional;version="1.3",org.opencastproject.mediapacka
+ ge;resolution:=optional;version="1.3",org.opencastproject.metadata.mp
+ eg7;resolution:=optional;version="1.3",org.opencastproject.rest;resol
+ ution:=optional;version="1.3",org.opencastproject.security.api;resolu
+ tion:=optional;version="1.3",org.opencastproject.serviceregistry.api;
+ resolution:=optional;version="1.3",org.opencastproject.textanalyzer.a
+ pi;resolution:=optional;version="1.3",org.opencastproject.textanalyze
+ r.impl;resolution:=optional;version="1.3",org.opencastproject.textext
+ ractor.api;resolution:=optional;version="1.3",org.opencastproject.uti
+ l;resolution:=optional;version="1.3",org.opencastproject.util.doc.res
+ t;resolution:=optional;version="1.3",org.opencastproject.workspace.ap
+ i;resolution:=optional;version="1.3",org.osgi.service.component;resol
+ ution:=optional;version="1.1",org.slf4j;resolution:=optional;version=
+ "1.5"
+Bundle-SymbolicName: matterhorn-textanalyzer-impl
+Bundle-DocURL: http://opencastproject.org/
+

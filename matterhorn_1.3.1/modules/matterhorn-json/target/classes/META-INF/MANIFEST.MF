@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Export-Package: org.json.simple;uses:="org.json.simple.parser",org.jso
+ n.simple.parser;uses:="org.json.simple"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-json
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368612976331
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Embed-Dependency: json-simple;inline=true
+Import-Package: org.json.simple,org.json.simple.parser
+Bundle-SymbolicName: matterhorn-json
+Bundle-DocURL: http://opencastproject.org/
+

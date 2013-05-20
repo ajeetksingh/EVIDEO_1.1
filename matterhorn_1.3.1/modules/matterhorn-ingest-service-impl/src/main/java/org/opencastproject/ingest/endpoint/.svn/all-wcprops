@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-ingest-service-impl/src/main/java/org/opencastproject/ingest/endpoint
+END
+IngestRestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-ingest-service-impl/src/main/java/org/opencastproject/ingest/endpoint/IngestRestService.java
+END
+UploadJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-ingest-service-impl/src/main/java/org/opencastproject/ingest/endpoint/UploadJob.java
+END
+UploadProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-ingest-service-impl/src/main/java/org/opencastproject/ingest/endpoint/UploadProgressListener.java
+END

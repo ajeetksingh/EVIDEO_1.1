@@ -1,0 +1,2211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+    <head>
+        <title>Opencast Matterhorn - Media Player</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <!-- CSS includes -->
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.6.custom.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui-orange-custom.css">
+        <link rel="stylesheet" type="text/css" href="engage-hybrid-player/css/player-multi-hybrid.css" />
+        <link rel="stylesheet" type="text/css" href="engage-hybrid-player/css/player-multi-hybrid-icons.css" />
+        <link rel="stylesheet" type="text/css" href="css/shared.css" />
+        <link rel="stylesheet" type="text/css" href="engage-hybrid-player/css/opencast-reset.css" />
+        <link rel="stylesheet" type="text/css" href="jquery/plugins/jwysiwyg/jquery.wysiwyg.css" />
+        <link rel="stylesheet" type="text/css" href="css/oc.segments.css">
+        <link rel="stylesheet" type="text/css" href="css/watch.css">
+	<style>
+	 #blanket {
+background-color:#111;
+opacity: 0.65;
+filter:alpha(opacity=65);
+position:absolute;
+z-index: 9001;
+top:0px;
+left:0px;
+width:100%;
+}
+#popUpDiv {
+position:absolute;
+background-color:#eeeeee;
+width:350px;
+height:300px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+
+#popUpDivAppend {
+position:absolute;
+background-color:#eeeeee;
+width:350px;
+height:300px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+
+#popUpDiv2 {
+position:absolute;
+background-color:#eeeeee;
+width:260px;
+height:100px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+#popUpDiv3 {
+position:absolute;
+background-color:#eeeeee;
+width:350px;
+height:400px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+#popUpDivLinkAdded {
+position:absolute;
+background-color:#eeeeee;
+width:260px;
+height:100px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+#popUpDiv5 {
+position:absolute;
+background-color:#eeeeee;
+width:260px;
+height:100px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+#popUpDiv6 {
+position:absolute;
+background-color:#eeeeee;
+width:260px;
+height:100px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+#popUpDiv7 {
+position:absolute;
+background-color:#eeeeee;
+width:350px;
+height:300px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+#popUpDiv8 {
+position:absolute;
+background-color:#eeeeee;
+width:260px;
+height:100px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+
+#popUpDivAppendDone {
+position:absolute;
+background-color:#eeeeee;
+width:260px;
+height:100px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+
+#popUpDivUpdateLink {
+position:absolute;
+background-color:#eeeeee;
+width:260px;
+height:100px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+#popUpBookmarkAdd {
+position:absolute;
+background-color:#eeeeee;
+width:350px;
+height:400px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+
+#popUpBookmarkDetails {
+position:absolute;
+background-color:#eeeeee;
+width:350px;
+height:400px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+
+#popUpBookmarkAddConfirm {
+position:absolute;
+background-color:#eeeeee;
+width:260px;
+height:100px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+
+#popUp {
+position:absolute;
+background-color:#eeeeee;
+width:260px;
+height:100px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+
+#popUpBookmarkEdit {
+position:absolute;
+background-color:#eeeeee;
+width:350px;
+height:400px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+#popUpDivLinkEdit {
+position:absolute;
+background-color:#eeeeee;
+width:350px;
+height:400px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+#popUpDivUpdateBookmark {
+position:absolute;
+background-color:#eeeeee;
+width:260px;
+height:100px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+#popUpPlaylist {
+position:absolute;
+background-color:#eeeeee;
+width:450px;
+height:400px;
+margin-left:10px;
+z-index: 9002;
+border : solid 4px #F6921E;
+
+}
+
+
+#popUpViewAnnDetails {
+position:absolute;
+background-color:#eeeeee;
+width:450px;
+height:400px;
+margin-left:10px;
+z-index: 9002;
+border : solid 4px #F6921E;
+
+}
+
+
+#popUpViewOCRDetails {
+position:absolute;
+background-color:#eeeeee;
+width:600px;
+height:400px;
+margin-left:10px;
+z-index: 9002;
+border : solid 4px #F6921E;
+
+}
+
+
+#popUpAdvanced {
+position:absolute;
+background-color:#eeeeee;
+width:450px;
+height:400px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+
+#popUpOntology {
+position:absolute;
+background-color:#eeeeee;
+width:450px;
+height:600px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+
+#popUpDeleteBookmark {
+position:absolute;
+background-color:#eeeeee;
+width:260px;
+height:100px;
+z-index: 9002;
+border : solid 4px #F6921E;
+}
+body {
+    font-family:Arial;
+}
+#wrapper {
+    width:350px;
+
+}
+ul.tabs {
+    width:370px;
+    margin:0px;
+    padding:0;
+    display:block;
+}
+
+.button1 {   border-top: 1px solid #b52b2b;   background: #A01A1A;   background: -webkit-gradient(linear, left top, left bottom, from(#A01A1A), to(#A01A1A));   background: -webkit-linear-gradient(top, #A01A1A,#A01A1A);   background: -moz-linear-gradient(top, #A01A1A, #A01A1A);   background: -ms-linear-gradient(top, #A01A1A, #A01A1A);   background: -o-linear-gradient(top, #A01A1A, #A01A1A);   padding: 3px 6px;   -webkit-border-radius: 4px;   -moz-border-radius: 4px;   border-radius: 4px;   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;   box-shadow: rgba(0,0,0,1) 0 1px 0;   text-shadow: rgba(0,0,0,.4) 0 1px 0;  color: #ffffff;   font-size: 13px;   font-family:arial,helvetica,clean,sans-serif;   text-decoration: none;   vertical-align: middle;   } .button1:hover {   border-top-color: #b31616;   background: #b31616;   color: #f7f7f7;   } .button1:active {   border-top-color: #80111a;   background: #80111a;   }
+</style>
+    <!-- Javascript includes -->
+	<script language="javascript" src="jquery-1.5.1.min.js"></script>
+	<script type="text/javascript" src="client.js"></script>
+	<!--<script type="text/javascript" src="client_guest.js"></script>-->
+	<script language="javascript" src="csspopup.js"></script>
+	<script type="text/javascript" src="async.min.js"></script>
+    <script type="text/javascript" src="jquery/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jquery/plugins/jquery.xslt.js"></script>
+    <script type="text/javascript" src="jquery/plugins/jquery.hotkeys-0.7.9.js"></script>
+    <script type="text/javascript" src="js/jquery.utils-1.0.js"></script>
+    <script type="text/javascript" src="engage-hybrid-player/bridge/lib/FABridge.js"></script>
+    <script type="text/javascript" src="engage-hybrid-player/bridge/Videodisplay.js"></script>
+    <script type="text/javascript" src="jquery/plugins/jARIA.js"></script>
+    <script type="text/javascript" src="jquery/plugins/jquery.cookie.js"></script>
+    <script type="text/javascript" src="jquery/jquery-ui-1.8.1.custom.min.js"></script>
+    <script type="text/javascript" src="engage-hybrid-player/player-multi-hybrid-scubber.js"></script>
+    <script type="text/javascript" src="engage-hybrid-player/player-multi-hybrid.js"></script>
+    <script type="text/javascript" src="engage-hybrid-player/aria/js/ariaSpinbutton.js"></script>
+    <script type="text/javascript" src="jquery/plugins/jwysiwyg/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="jquery/plugins/jquery.client.js"></script>
+    <script type="text/javascript" src="jquery/plugins/jquery.sparkline.min.js"></script>
+    <script type="text/javascript" src="js/engage-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.timers-1.2.js"></script>
+    <script type="text/javascript" src="js/bookmarks.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/json2.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/description.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/download.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/description-plugin.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/segments_ui.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/segments_ui-plugin.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/segments_ui_slider-plugin.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/segments.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/segments-plugin.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/segments_text.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/segments_text-plugin.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/search.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/search-plugin.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/analytics-plugin.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/analytics.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/annotation_chapter-plugin.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/annotation_chapter.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/series-plugin.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/series.js"></script>
+    <script type="text/javascript" src="js/engage_plugins/logging.js"></script>
+    <script type="text/javascript" src="engage-hybrid-player/player-multi-hybrid-initialize.js"></script>
+    <script type="text/javascript" src="trimpath/trimpath-template-1.0.38.js"></script>
+    <script type="text/javascript" src="js/watch.js"></script>
+
+    <!--<script type="text/javascript" src="html5/init.js"></script>
+	<script type="text/javascript" src="html5/Videodisplay.js"></script>
+    <script type="text/javascript" src="html5/player.js"></script>-->
+    <script type="text/javascript">
+
+
+	function playlist()
+	{
+		$('#popUpPlaylist div').empty();
+		fetchBookmarks();
+		popup('popUpPlaylist');
+
+	}
+
+	function closeDetails()
+	{
+		popup('popUpBookmarkDetails');
+	}
+
+	function closeViewAnnDetails()
+	{
+		popup('popUpViewAnnDetails');
+	}
+
+	function searchAdvanced()
+	{
+		var user=readCookie('sessionId');
+		var title=document.formadvanced.title1.value;
+		var categ=document.formadvanced.category.value;
+		//var str= "run="+categ+"&title="+title+"&user="+user;
+		//alert(categ);
+		//location.href="http://localhost/engage/ui/index1.html?"+str;
+		popup('popUpAdvanced');
+		QueryString.q=undefined;
+		QueryString.cat=undefined;
+		//document.formadvanced.title1.value='';
+	}
+
+	function resetAdvanced()
+	{
+		popup('popUpAdvanced');
+	 	document.formadvanced.title1.value='';
+
+	}
+
+	function fetchBookmarks()
+	{
+		 $.getJSON('http://localhost:81/json-get-bookmark.php?user='+user+'&jsoncallback=?', function(r) {
+	 		console.log("Inside getJSON");
+				//alert(r);
+				r=JSON.stringify(r);
+				//alert(r);
+				var arrObj = eval('(' +r+ ')');
+				var i=0;
+				length1=arrObj.length;
+				var temp =JSON.parse(r);
+	                      console.log(temp);
+				for (i=0;i<length1;i++){
+					var title=temp[i].start;
+					var time=temp[i].stop;
+					var stop=temp[i].title;
+					var titleid=temp[i].media_id;
+					var id=temp[i].id;
+					var desc=temp[i].desc;
+					console.log(title+time+stop+titleid+id+desc);
+
+
+					$('#playlistContainer').append("<div id=div"+i+"><table><tr><td style='padding: 5px; font-size:20; font-weight:bold'><input type=checkbox id=checkbox"+i+"><td style='padding: 5px; font-size:20; font-	weight:bold'><label id=label"+i+">"+stop+"</label><input type=hidden id=hiddenmedia"+i+" value="+titleid+"><input type=hidden id=hiddenstart"+i+" value="+title+"><input type=hidden id=hiddenstop"+i+" 	value="+time+"></tr></table></div>");
+
+				}
+		});
+
+	}
+
+	function addPlaylist(){
+		var user=user_name;
+		var play=document.getElementById("playname").value;
+
+				for(i=0;i<length1;i++)
+					{
+						if(document.getElementById("checkbox"+i).checked)
+
+						{
+						var xmlhttp;
+						var mediaid=document.getElementById("hiddenmedia"+i).value;
+						var title=document.getElementById("label"+i).innerHTML;
+						var start=document.getElementById("hiddenstart"+i).value;
+						var stop=document.getElementById("hiddenstop"+i).value;
+
+
+						//alert(play);
+						//alert(user);
+
+			 			var str= "id="+mediaid+"&starttime="+start+"&stoptime="+stop+"&title="+title+"&play="+play+"&user="+user;
+						//alert(str);
+	 					if (window.XMLHttpRequest)
+						  {// code for IE7+, Firefox, Chrome, Opera, Safari
+	 			 			xmlhttp=new XMLHttpRequest();
+	 		 			}
+						else
+	 		 			{// code for IE6, IE5
+  						xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	 		 			}
+						xmlhttp.onreadystatechange=function()
+			  			{
+	 		 				if (xmlhttp.readyState==4 && xmlhttp.status==200)
+	  		 	 			{
+	 		 	  				console.log(xmlhttp.responseText);
+	   		 				}
+	  					}
+						xmlhttp.open("GET","http://localhost:81/addPlaylist.php?"+str+'&jsoncallback=?',true);
+						xmlhttp.send();
+
+						}
+					}
+
+						var str= "play="+play+"&user="+user;
+						//alert(str);
+	 					if (window.XMLHttpRequest)
+						  {// code for IE7+, Firefox, Chrome, Opera, Safari
+	 			 			xmlhttp=new XMLHttpRequest();
+		 		 			}
+						else
+	 		 			{// code for IE6, IE5
+  						xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	 		 			}
+						xmlhttp.onreadystatechange=function()
+			  			{
+	 		 				if (xmlhttp.readyState==4 && xmlhttp.status==200)
+	  		 	 			{
+	 		 	  				console.log(xmlhttp.responseText);
+	   		 				}
+	  					}
+						xmlhttp.open("GET","http://localhost:81/addPlaylist_data.php?"+str+'&jsoncallback=?',true);
+						xmlhttp.send();
+		popup('popUpPlaylist');}
+
+
+
+	// this function is used to get the value from the url parameter. To get the value of parameter use "QueryString.<url parameter>"
+	var QueryString = function () {
+	  	// This function is anonymous, is executed immediately and
+	  	// the return value is assigned to QueryString!
+	  	var query_string = {};
+	  	var query = window.location.search.substring(1);
+	  	var vars = query.split("&");
+	  	for (var i=0;i<vars.length;i++) {
+	    var pair = vars[i].split("=");
+	        // If first entry with this name
+	    if (typeof query_string[pair[0]] === "undefined") {
+	      query_string[pair[0]] = pair[1];
+	        // If second entry with this name
+	    } else if (typeof query_string[pair[0]] === "string") {
+	      var arr = [ query_string[pair[0]], pair[1] ];
+	      query_string[pair[0]] = arr;
+	        // If third or later entry with this name
+	    } else {
+	      query_string[pair[0]].push(pair[1]);
+	    }
+	  }
+	    return query_string;
+	} ();
+
+	function getUsername()
+	{
+		var str=document.referrer;
+		var str1=str.split('=');
+		return str1[2];
+	}
+
+	function close10()
+	{
+		popup('popUpDivUpdateBookmark');
+	}
+	function closeViewAll()
+	{
+	popup('popUpPlaylist');
+	}
+
+	function closeOntology()
+	{
+	popup('popUpOntology');
+	}
+
+	function close3()
+	{
+	popup('popUpDiv3');
+	}
+	function close5()
+	{
+	popup('popUpDiv5');
+	}
+	function close6()
+	{
+	popup('popUpDiv6');
+	}
+	function close7()
+	{
+	popup('popUpDiv7');
+
+	}
+	function close8()
+	{
+	popup('popUpDiv8');
+
+	}
+
+	function closeAppendDone()
+	{
+popup('popUpDivAppendDone');
+}
+
+function closeDeleteBookmark()
+{
+popup('popUpDeleteBookmark');
+}
+function popupAdv()
+{
+popup('popUpAdvanced');
+}
+
+function popupOnto()
+{
+popup('popUpOntology');
+document.getElementById("isa").checked=true;
+}
+
+function closePlaylistWidget()
+{
+popup('popUpPlaylist');
+dcoument.formplaylist.playname.value="";
+}
+
+$(".button1").click(function(){
+	(".playlist").empty();
+
+});
+
+function close9()
+{
+	popup('popUpDivUpdateLink');
+}
+
+function closeViewAnnDetailsWidget()
+{
+	popup('popUpViewAnnDetails');
+}
+
+function closeViewOCRDetailsWidget()
+{
+	popup('popUpViewOCRDetails');
+}
+
+function close()
+{
+popup('popUpDiv2');
+}
+function closeLink()
+{
+popup('popUpDivLinkAdded');
+}
+function closeBookmark()
+{
+popup('popUpBookmarkAddConfirm');
+}
+function resetField()
+{
+popup('popUpDiv');
+document.form.start.value="";
+document.form.stop.value="";
+document.form.val.value="";
+}
+
+function resetFieldAppendAnnotation()
+{
+popup('popUpDivAppend');
+document.formAppend.value="";
+}
+
+function close10()
+{
+	popup('popUpDivUpdateBookmark');
+}
+
+function resetField1()
+{
+popup('popUpDiv3');
+document.form1.start.value="";
+document.form1.stop.value="";
+document.form1.title.value="";
+document.form1.url.value="";
+document.form1.description.value="";
+}
+function resetField2()
+{
+popup('popUpDivLinkEdit');
+document.editform.start.value="";
+document.editform.stop.value="";
+document.editform.title.value="";
+document.editform.url.value="";
+document.editform.description.value="";
+}
+function resetField3()
+{
+popup('popUpBookmarkAdd');
+document.formbookmarkadd.start.value="";
+document.formbookmarkadd.stop.value="";
+document.formbookmarkadd.title.value="";
+document.formbookmarkadd.description.value="";
+document.formbookmarkadd.id.value="";
+document.formbookmarkadd.username.value="";
+}
+
+
+
+
+function resetField4()
+{
+popup('popUpBookmarkEdit');
+document.formbookmarkedit.start1.value="";
+document.formbookmarkedit.stop1.value="";
+document.formbookmarkedit.title1.value="";
+//document.form1.url.value="";
+document.formbookmarkedit.description1.value="";
+}
+ function get_widget_div() {
+        var c = '_vp_widget',
+            cq = '.'+c,
+            $vp;
+
+        $vp = $(cq);
+
+//not getting
+
+        if ($vp.length == 0 && /nptel.iitm.ac.in/.test(document.location.host)) {
+            if ($('table.tableheader:contains("Browse by concepts")').length) {
+                $('table.tableheader:contains("Browse by concepts")').replaceWith('<div class="'+c+'"></div>');
+                log('created one:', c, $(cq), $(cq).css('width'));
+            } else {
+                $('table:contains("Feedback")').filter(":contains('Coordinators')").last().parent().append('<div class="'+c+'"></div>');
+                log('created one afresh:', c, $(cq), $(cq).css('width'));
+            }
+            $vp = $(cq);
+        }
+
+        $vp.html('');
+
+        return $vp;
+    }
+
+$(document).ready(function() {
+
+	console.log("tabs showing");
+	$('.tabs a').click(function(){
+		console.log("tabs clicked");
+		switch_tabs($(this));
+	});
+
+	switch_tabs($('.defaulttab'));
+	/*console.log(QueryString.start);
+	if(QueryString.start)
+	{
+
+		Opencast.Watch.seekSegment(QueryString.start);
+	}*/
+	//alert(rid);
+});
+
+function switch_tabs(obj)
+{
+	$('.tab-content').hide();
+	$('.tabs a').removeClass("selected");
+	var id = obj.attr("rel");
+
+	$('#'+id).show();
+	obj.addClass("selected");
+}
+</script>
+<SCRIPT Language="JavaScript">
+
+
+	function nextpage(shID) {
+	mySearch = QueryString.id;
+	document.form.id.value=mySearch;
+	//document.form.val.value=Opencast.Utils.getURLParameter('');
+	//document.getElementById(shID+'-show').style.display = 'inline';
+	//document.getElementById(shID).style.display = 'none';
+	var $vp = get_widget_div();
+	$vp.attr('data-vid', QueryString.id);
+	//alert($vp.attr('data-vid'));
+
+
+}
+
+function closeOntology()
+{
+
+	popup('popUpOntology');
+
+}
+
+
+function radioCheck()
+{
+
+	var selection=document.formontology.property;
+
+	for(i=0;i<selection.length;i++)
+	{
+
+		if(selection[i].checked==true)
+		{
+			if(selection[i].value=="custom_prp")
+			{
+				return document.formontology.custom_property_text.value;
+			}
+			else
+			{
+				return selection[i].value;
+			}
+		}
+
+	}
+
+}
+
+
+$(function(){
+	$("#custom").click(function(){
+
+		//alert("Hi");
+		document.formontology.custom_property_text.disabled=false;
+
+	});
+
+	$("#hasa").click(function(){
+		console.log("Hasa Clicked");
+		document.formontology.custom_property_text.disabled=true;
+
+	});
+
+	$("#isa").click(function(){
+		console.log("Isa Clicked");
+		document.formontology.custom_property_text.disabled=true;
+
+	});
+
+	$("#akindof").click(function(){
+		console.log("Akindof Clicked");
+		document.formontology.custom_property_text.disabled=true;
+
+	});
+
+	$("#partof").click(function(){
+		console.log("Partof Clicked");
+		document.formontology.custom_property_text.disabled=true;
+
+	});
+
+	$("#cus_title").click(function(){
+		console.log("TextBox clicked!");
+
+	});
+
+
+});
+
+function addMoreOntology()
+{
+
+	var ont_title=document.formontology.title_onto.value;
+	var property=radioCheck();
+	var property_text=document.formontology.property_text.value;
+	var pro_relevance=document.formontology.relevance.value;
+	//alert(ont_title+property+property_text+pro_relevance);
+	createOntology(ont_title, property, property_text, pro_relevance);
+	document.formontology.property_text.value="";
+	popup('popUpOntology');
+	popup('popUpOntology');
+}
+
+function submitOntology()
+{
+
+	var ont_title=document.formontology.title_onto.value;
+	var property=radioCheck();
+	var property_text=document.formontology.property_text.value;
+	var pro_relevance=document.formontology.relevance.value;
+	createOntology(ont_title, property, property_text, pro_relevance);
+	popup('popUpOntology');
+
+}
+
+function createOntology(word, property, pro_text, pro_relevance)
+{
+
+	var str= "word="+word+"&property="+property+"&text="+pro_text+"&relevance="+pro_relevance;
+	alert(str);
+	if (window.XMLHttpRequest)
+	{// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.onreadystatechange=function()
+	{
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+  			document.getElementById("wrapper").innerHTML=xmlhttp.responseText;
+		}
+	}
+	xmlhttp.open("GET","http://localhost:81/new-xml-dom.php?"+str+'&jsoncallback=?',true);
+	xmlhttp.send();
+
+}
+
+
+function getID()
+{
+/*	var $vp = get_widget_div();
+	$vp.attr('data-vid', QueryString.id);
+	alert($vp.attr('data-vid'));*/
+
+return id;
+}
+
+	function showHint()
+	{
+		var xmlhttp;
+		var mid= QueryString.id;
+		var mstrt=document.form.start.value;
+		var mstp=document.form.stop.value;
+		var mstart=parseFloat(mstrt);
+		var mstop=parseFloat(mstp);
+		var mval=document.form.val.value;
+		var user=user_name;
+		if(mstart!=""&&mstop!=""&&mval!="")
+		{
+			if(!isNaN(mstart)&&!isNaN(mstop))
+			{
+				if(mstart>0 && mstop>0)
+				{
+					if (mstop>mstart)
+					{
+						var str= "id="+mid+"&starttime="+mstart+"&stoptime="+mstop+"&val="+mval+"&user="+user;
+ 						if (window.XMLHttpRequest)
+						{// code for IE7+, Firefox, Chrome, Opera, Safari
+ 					 		xmlhttp=new XMLHttpRequest();
+						}
+						else
+ 						{// code for IE6, IE5
+  							xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+ 		 				}
+						xmlhttp.onreadystatechange=function()
+		  				{
+ 		 					if (xmlhttp.readyState==4 && xmlhttp.status==200)
+  		 			 		{
+ 		 			  			//document.getElementById("wrapper").innerHTML=xmlhttp.responseText;
+								alert(xmlhttp.responseText);
+   		 					}
+  						}
+						xmlhttp.open("GET","http://localhost:81/addAnnotation.php?"+str+'&jsoncallback=?',true);
+						//xmlhttp.open("GET","../php/AddAnnotation?"+str,true);
+						xmlhttp.send();
+						document.form.start.value="";
+						document.form.stop.value="";
+						document.form.val.value="";
+						popup('popUpDiv');
+						popup('popUpDiv2');
+					}
+					else
+					{
+						alert("Stop time should be later than Start time!");
+						document.form.start.value="";
+						document.form.stop.value="";
+					}
+				}
+				else
+				{
+					alert("Start and Stop time should be Positive!");
+					document.form.start.value="";
+					document.form.stop.value="";
+				}
+			}
+			else
+			{
+				alert("Start and Stop time should be Numbers!");
+				document.form.start.value="";
+				document.form.stop.value="";
+			}
+		}
+		else
+		{
+			alert("All the fields are necessary!");
+		}
+	}
+
+
+	function showHint1()
+	{
+		var xmlhttp;
+
+		 var mid= QueryString.id;
+		 var mstart=parseFloat(document.form1.start.value);
+		 var mstop=parseFloat(document.form1.stop.value);
+		 var mtitle=document.form1.title.value;
+		 var murl=document.form1.url.value;
+		 var mdesc=document.form1.description.value;
+		 var id=document.formlinkedit.id.value;
+		var user=user_name;
+		if(mstart!=""&&mstop!=""&&murl!="")
+		{
+			murl_ok=murl.indexOf("http://");
+			if(murl_ok!=-1)
+			{
+				if(!isNaN(mstart)&&!isNaN(mstop))
+				{
+					if(mstart>0 && mstop>0)
+					{
+						if(mstart<mstop)
+						{
+							var str= "media_id="+mid+"&starttime="+mstart+"&stoptime="+mstop+"&title="+mtitle+"&url="+murl+"&description="+mdesc+"&user="+user;
+							console.log(str);
+							if (window.XMLHttpRequest)
+							{// code for IE7+, Firefox, Chrome, Opera, Safari
+								xmlhttp=new XMLHttpRequest();
+ 		 					}
+							else
+ 		 					{// code for IE6, IE5
+  								xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+ 		 					}
+							xmlhttp.onreadystatechange=function()
+		  					{
+ 		 						if (xmlhttp.readyState==4 && xmlhttp.status==200)
+  		 	 					{
+ 		 	  						document.getElementById("wrapper").innerHTML=xmlhttp.responseText;
+   		 						}
+  							}
+							xmlhttp.open("GET","http://localhost:81/addLink.php?"+str+'&jsoncallback=?',true);
+							xmlhttp.send();
+							document.form1.start.value="";
+							document.form1.stop.value="";
+							document.form1.title.value="";
+							document.form1.url.value="";
+							document.form1.description.value="";
+							popup('popUpDiv3');
+							popup('popUpDivLinkAdded');
+						}
+						else
+						{
+							alert("Stop Time should be later than Stop Time!");
+							document.form1.start.value="";
+							document.form1.stop.value="";
+						}
+					}
+					else
+					{
+						alert("Start time and Stop time should be Positive!");
+						document.form1.start.value="";
+						document.form1.stop.value="";
+					}
+				}
+				else
+				{
+					alert("The Start and Stop should be the Number!");
+					document.form1.start.value="";
+					document.form1.stop.value="";
+				}
+			}
+			else
+			{
+				alert("URl should contain 'http://'");
+				document.form1.url.value="";
+			}
+		}
+		else
+		{
+			alert("All the fields are necessary!");
+		}
+	}
+
+	function editAnnotate()
+	{
+		var xmlhttp;
+		var mid= QueryString.id;
+		var mstart=parseFloat(document.editform.start.value);
+		var mstop=parseFloat(document.editform.stop.value);
+		var mtitle=document.editform.val.value;
+		var id=document.editform.id.value;
+		if(mstart!=""&&mstop!=""&&mtitle!="")
+		{
+			if(!isNaN(mstart)&&!isNaN(mstop))
+			{
+				if(mstart>0 && mstop>0)
+				{
+					if (mstop>mstart)
+					{
+						var str= "media_id="+mid+"&starttime="+mstart+"&stoptime="+mstop+"&val="+mtitle+"&id="+id;
+						if (window.XMLHttpRequest)
+						{// code for IE7+, Firefox, Chrome, Opera, Safari
+ 			 				xmlhttp=new XMLHttpRequest();
+ 		 				}
+						else
+				 		{// code for IE6, IE5
+  							xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+ 			 			}
+						xmlhttp.onreadystatechange=function()
+			  			{
+ 			 				if (xmlhttp.readyState==4 && xmlhttp.status==200)
+  			 	 			{
+ 			 	  				document.getElementById("wrapper").innerHTML=xmlhttp.responseText;
+   			 				}
+  						}
+						xmlhttp.open("GET","http://localhost:81/json-edit-annotation.php?"+str+'&jsoncallback=?',true);
+						xmlhttp.send();
+						document.editform.start.value="";
+						document.editform.stop.value="";
+						document.editform.val.value="";
+						document.editform.id.value="";
+						popup('popUpDiv7');
+						popup('popUpDiv8');
+					}
+					else
+					{
+						alert("Stop time should be later than Start time!");
+						document.form.start.value="";
+						document.form.stop.value="";
+					}
+				}
+				else
+				{
+					alert("Start and Stop time should be Positive!");
+					document.form.start.value="";
+					document.form.stop.value="";
+				}
+			}
+			else
+			{
+				alert("Start and Stop time should be Numbers!");
+				document.form.start.value="";
+				document.form.stop.value="";
+			}
+		}
+		else
+		{
+			alert("All the fields are necessary!");
+		}
+	}
+
+	function appendAnnotate()
+	{
+		var xmlhttp;
+
+		 var mid= QueryString.id;
+		 var mstart=document.formAppend.start.value;
+		 var mstop=document.formAppend.stop.value;
+
+		var oldAnnotation=document.formAppend.annotation.value;
+		 var mtitle=document.formAppend.val.value;
+		var newAnnotation=oldAnnotation+". "+mtitle;
+
+		 var id=document.formAppend.id.value;
+
+
+		 var str= "media_id="+mid+"&starttime="+mstart+"&stoptime="+mstop+"&val="+newAnnotation+"&id="+id;
+		if (window.XMLHttpRequest)
+		  {// code for IE7+, Firefox, Chrome, Opera, Safari
+ 			 xmlhttp=new XMLHttpRequest();
+ 		 }
+		else
+ 		 {// code for IE6, IE5
+  			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+ 		 }
+		xmlhttp.onreadystatechange=function()
+		  {
+ 		 	if (xmlhttp.readyState==4 && xmlhttp.status==200)
+  		 	 {
+ 		 	  document.getElementById("wrapper").innerHTML=xmlhttp.responseText;
+   		 	}
+  		}
+		xmlhttp.open("GET","http://localhost:81/json-append-annotation.php?"+str+'&jsoncallback=?',true);
+		xmlhttp.send();
+		document.formAppend.val.value="";
+		popup('popUpDivAppend');
+		popup('popUpDivAppendDone');
+
+
+
+}
+
+	function docSyncRedirect()
+	{
+		var id = $.getURLParameter('id');
+		window.location = "http://localhost:81/pdf/viewer1.php?id="+id;
+	}
+
+	function playlistRedirect()
+	{
+		var user=user_name;
+		window.location="http://localhost:81/play/indexPlayer.html?user="+user;
+	}
+
+
+
+	function addBookmark()
+	{
+		var xmlhttp;
+
+
+		var mstart=parseFloat(document.formbookmarkadd.start.value);
+		var mstop=parseFloat(document.formbookmarkadd.stop.value);
+		var mtitle=document.formbookmarkadd.title1.value;
+		var id=document.formbookmarkadd.id.value;
+		//var user=document.formbookmarkadd.username.value;
+		user=user_name;
+		var desc=document.formbookmarkadd.description.value;
+		if(mstart!=""&&mstop!=""&&mtitle!="")
+		{
+			if(!isNaN(mstart)&&!isNaN(mstop))
+			{
+				if(mstart>0 && mstop>0)
+				{
+					if(mstop>mstart)
+					{
+						var str= "media_id="+id+"&starttime="+mstart+"&stoptime="+mstop+"&title="+mtitle+"&user="+user+"&desc="+desc;
+						if (window.XMLHttpRequest)
+						{// code for IE7+, Firefox, Chrome, Opera, Safari
+							xmlhttp=new XMLHttpRequest();
+ 		 				}
+						else
+						{// code for IE6, IE5
+  							xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+ 		 				}
+						xmlhttp.onreadystatechange=function()
+		  				{
+ 		 					if (xmlhttp.readyState==4 && xmlhttp.status==200)
+  		 	 				{
+ 		 	  					document.getElementById("wrapper").innerHTML=xmlhttp.responseText;
+   		 					}
+  						}
+						xmlhttp.open("GET","http://localhost:81/addBookmark.php?"+str+'&jsoncallback=?',true);
+						xmlhttp.send();
+						document.formbookmarkadd.start.value="";
+						document.formbookmarkadd.stop.value="";
+						document.formbookmarkadd.title.value="";
+						document.formbookmarkadd.id.value="";
+						popup('popUpBookmarkAdd');
+						popup('popUpBookmarkAddConfirm');
+					}
+					else
+					{
+						alert("Stop time should be later than Start time!");
+						document.formbookmarkedit.start1.value="";
+						document.formbookmarkedit.stop1.value="";
+					}
+				}
+				else
+				{
+					alert("Start and Stop time should be positive!");
+					document.formbookmarkedit.start1.value="";
+					document.formbookmarkedit.stop1.value="";
+				}
+			}
+			else
+			{
+				alert("Start and Stop should be Numbers!");
+				document.formbookmarkedit.start1.value="";
+				document.formbookmarkedit.stop1.value="";
+			}
+		}
+		else
+		{
+			alert("All the fields are Essential to fill!");
+		}
+
+	}
+
+
+			function insertMedia()
+			{
+				var xmlhttp;
+				//alert("In Insert MEdia");
+				// var mid= QueryString.id;
+			 	var media_name=document.getElementById("oc_title-1").innerHTML;
+		 		var media_id=QueryString.id;
+		 		var duration=document.getElementById("oc_duration").innerHTML;
+		 		var media_creator=document.getElementById("oc_title-creator").innerHTML;
+		 		var str= "media_id="+media_id+"&media_name="+media_name+"&media_creator="+media_creator+"&duration="+duration;
+ 				//alert(str);
+				if (window.XMLHttpRequest)
+		  		{// code for IE7+, Firefox, Chrome, Opera, Safari
+ 			 		xmlhttp=new XMLHttpRequest();
+ 		 		}
+				else
+ 		 		{// code for IE6, IE5
+  					xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+ 		 		}
+				xmlhttp.onreadystatechange=function()
+		  		{
+ 		 			if (xmlhttp.readyState==4 && xmlhttp.status==200)
+  		 	 		{
+ 		 	  		document.getElementById("wrapper").innerHTML=xmlhttp.responseText;
+   		 			}
+  				}
+				xmlhttp.open("GET","http://localhost:81/insertMedia.php?"+str+'&jsoncallback=?',true);
+				xmlhttp.send();
+			}
+
+
+
+</SCRIPT>
+ <script>
+//for changing the video on the stop time of bookmark
+function truncate(_value)
+{
+  if (_value<0) return Math.ceil(_value);
+  else return Math.floor(_value);
+}
+var stoptime=QueryString.stop;
+var bookId=QueryString.bid;
+
+var duration;
+setTimeout(function()
+{
+	duration= Opencast.Player.getDuration();
+	console.log(duration);
+ }, 2000);
+if(stoptime)
+{
+	setInterval(function(){
+
+	console.log(truncate(stoptime)+"-"+truncate(Opencast.Player.getCurrentPosition()));
+	if(truncate(stoptime) == truncate(Opencast.Player.getCurrentPosition()) || truncate(stoptime) == truncate(Opencast.Player.getCurrentPosition())+1 || truncate(stoptime) == truncate(Opencast.Player.getCurrentPosition())-1)
+	{
+
+
+		console.log(bookId);
+		seekVideoPage(bookId);
+	}
+	}, 1000);
+
+	//console.log(duration);
+
+}
+
+		function getStartPosition() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.form.start.value=myinpoint;
+			}
+		function getStopPosition() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.form.stop.value=myinpoint;
+			}
+		function getStartPosition1() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.form1.start.value=myinpoint;
+			}
+		function getStopPosition1() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.form1.stop.value=myinpoint;
+			}
+		function getStartPosition2() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.editform.start.value=myinpoint;
+			}
+		function getStopPosition2() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.editform.stop.value=myinpoint;
+			}
+		function getStartPosition3() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.formlinkedit.start1.value=myinpoint;
+			}
+		function getStopPosition3() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.formlinkedit.stop1.value=myinpoint;
+			}
+		function getStartPosition4() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.formbookmarkadd.start.value=myinpoint;
+			}
+		function getStopPosition4() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.formbookmarkadd.stop.value=myinpoint;
+			}
+		function getStartPosition5() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.formbookmarkedit.start.value=myinpoint;
+			}
+		function getStopPosition5() {
+			 var myinpoint = Opencast.Player.getCurrentPosition();
+			document.formbookmarkedit.stop.value=myinpoint;
+			}
+		var user_name;
+		role=new Array();
+      $(document).ready( function() {
+		setTimeout('insertMedia',1000);
+			setTimeout(QueryString.run,3000);
+			$("#advancedSearch").hide();
+			$("#adv_search").click(function(){
+				$("#advancedSearch").toggle();
+			});
+
+		$.getJSON("/info/me.json", function(r){
+				r=JSON.stringify(r);
+				var temp =JSON.parse(r);
+		         console.log(temp);
+				user_name=temp.username;
+				role=temp.roles;
+			});
+
+        //check whether a user is logged in and show logout link
+        $.ajax({
+          url: '/info/me.json',
+          type: 'GET',
+          dataType: 'json',
+          success: function(data)
+          {
+            if(data.username != "anonymous")
+            {
+              $('#logout').show();
+            }
+          }
+        });
+      });
+
+      $(function hideDisabledLinks(){
+          $.ajax({
+            url: '/info/me.json',
+            type: 'GET',
+            dataType: 'json',
+            success: function(data){
+                var download_enabled;
+
+                if (data.org.properties["engageui.link_download.enable"]){
+                   download_enabled = data.org.properties["engageui.link_download.enable"];
+                   if(download_enabled !== "true"){
+                       $("#oc_download-button").detach();
+                  }
+                }
+                else
+                {
+                      $("#oc_download-button").detach();
+                }
+             }
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="skip">
+      <a href="#controls" tabindex="10">
+        Skip to player controls
+      </a>
+    </div>
+
+    <div id="skip">
+      <a id="oc_a11y-shortcut" href="#shortcuts" onclick="Opencast.Player.doToggleShortcuts(event, 'oc_a11y-shortcut');" tabindex="20">
+        Skip to Shortcuts
+      </a>
+    </div>
+
+    <div id="oc_title-bar">
+      <div id="oc_title-bar-container">
+        <div id="oc_title-bar-logo">
+          <a href="/welcome.html" title="Back to Opencast Matterhorn Welcome page" tabindex="25">
+            <div id="matterhorn-main-logo"></div>
+          </a>
+        </div>
+        <div id="oc_search">
+          <form action="index.html">
+            <label id="skip" for="oc_searchField">
+              Search Media
+            </label>
+            <input id="oc_searchField" class="oc_search-Field handcursor ui-corner-all" type="text" name="q" value="Search Media" tabindex="40" />
+            <input id="oc_btn-search" class="handcursor" type="image" src="img/space.png" name="search" title="do search Matterhorn" value="Search" tabindex="50" aria-label="do search Matterhorn" />
+          </form>
+        </div>
+        </script>
+        <div id="oc_title-bar-gallery-link">
+          <a href="javascript:insertMedia()" id="adv_search" title="Advanced Search">
+			Advanced Search
+			</a>
+          		<a href="index.html" title="go to Media Gallery" tabindex="30">
+		        Go to Media Gallery
+          		</a>
+	      		<a title="logout" onclick="testTest()" href="/j_spring_security_logout">Log out</a>
+		<!--<a title="logout" href="javascript:testTest()">Test</a>-->
+	  		<a title="" href="javascript:popupOnto();">Make the Video More Searchable</a>
+			 <a href="javascript: " id="oc_shortcut-button" title="click to show shortcuts" role="button" aria-pressed="false" tabindex="80">
+                                            Shortcuts
+                                   </a>
+                <a href="javascript: " id="oc_share-button" title="click to show share options" role="button" aria-pressed="false" tabindex="70">
+
+                        Share
+
+		</a>
+			<div id="advancedSearch"><form name=formadvanced>
+				<tr><td  colspan=2 align=center style="padding: 5px;"><div id="label"></div></tr>
+				<input type=hidden name=id size=25 readonly style="background-color : #FAF0E6; color: black;  border: 1px solid #008000; width: 230px; height:23px"></tr>
+				<input type=hidden readonly name=username size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+				<input type=hidden name=oup size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+				<input type=hidden name=type value='chapter' size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+				<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Search Query:<td align=center style="padding: 5px;"><input type="text" name="title1" id="title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></td></tr>
+				<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Category:<td align=center style="padding: 5px;"><select type=category name=category id=category style="background-color:#FAF0E6; color: black; border:1px solid #008000; width: 170px;">
+				<option value="select">-Select Category-</option>
+ 			 	<option value="annotations">Annotation</option>
+ 			 	<option value="Link">External Links</option>
+  				<option value="bookmarks">Bookmarks</option>
+  			 	<option value="all">All</option>
+				</select></td></tr></form>
+			</div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!-- END #oc_title-bar -->
+
+        <div id="oc_player-head">
+            <div id="oc_title"></div>
+            <div id="oc_player-head-see-more" class="ui-helper-hidden">
+                <a href="javascript: " id="oc_see-more-button" title="click to see more of this series" role="button" aria-pressed="false">
+                    <div>
+                        See More
+                    </div>
+                </a>
+            </div>
+           <!-- <div id="oc_player-head-right">
+                <a href="javascript: " id="oc_shortcut-button" title="click to show shortcuts" role="button" aria-pressed="false" tabindex="80">
+                    <div>
+                        Shortcuts
+                    </div>
+                </a>
+                <a href="javascript: " id="oc_share-button" title="click to show share options" role="button" aria-pressed="false" tabindex="70">
+                    <div>
+                        Share
+                    </div>
+                </a>
+            </div>-->
+            <div class="clear"></div>
+        </div>
+	<div class="clear"></div>
+	<div id="oc_body" class="ui-widget ui-widget-content ui-corner-bottom">
+	<div id=id="oc_ui_tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all ui-tabs-collapsible" style="display: block; ">
+		    <div id="oc_tabs" class="oc_tabs-input tabs">
+		  <ul id="oc_tabs-head" class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+		  <li for ="oc_btn-cc" style="float:right;" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><a href="#" style="background-color:none;" class="defaulttab" rel="tabs1" id="tb1">Annotation</a></li>
+
+		 <li for ="oc_btn-cc" style="float:right;" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><a href="javascript:docSyncRedirect()"  style="background-color:none;" rel="tabs2" id="tb2">Document</a></li>
+
+		 <li for ="oc_btn-cc" style="float:right;" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><a href="#"  style="background-color:none;" rel="tabs3" id="tb3">Link</a></li>
+
+		 <li for ="oc_btn-cc" style="float:right;" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><a href="#"  style="background-color:none;" rel="tabs4" id="tb4">Bookmarks</a></li>
+		<li for ="oc_btn-cc" style="float:right;" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><a href="#"  style="background-color:none;" rel="tabs5" id="tb5">Search Results</a></li>
+		<li for ="oc_btn-cc" style="float:right;" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><a href="javascript:playlistRedirect()"  style="background-color:none;" rel="" id="">Playlist</a></li>
+		</ul>
+		</div>
+		</div></div>
+	<div class="clear"></div>
+      <div>
+        <a id="logout" href="/j_spring_security_logout">Log out</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <!-- END #oc_title-bar -->
+
+    <div id="oc_player-head">
+      <div id="oc_title"></div>
+      <div id="oc_player-head-see-more" class="ui-helper-hidden">
+        <a href="javascript: " id="oc_see-more-button" title="click to see more of this series" role="button" aria-pressed="false">
+          <div>
+            See More
+          </div>
+        </a>
+      </div>
+      <div id="oc_player-head-right">
+        <a href="javascript: " id="oc_shortcut-button" title="click to show shortcuts" role="button" aria-pressed="false" tabindex="80">
+          <div>
+            Shortcuts
+          </div>
+        </a>
+        <a href="javascript: " id="oc_share-button" title="click to show share options" role="button" aria-pressed="false" tabindex="70">
+          <div>
+            Share
+          </div>
+        </a>
+
+        <a href="javascript: " id="oc_download-button" title="click to show downloads" role="button" aria-pressed="false" tabindex="60">
+          <div>
+            Download
+          </div>
+      </a>
+
+      </div>
+      <div class="clear"></div>
+    </div>
+    <!-- END #oc_player-head -->
+
+    <div id="oc_body" class="ui-widget ui-widget-content ui-corner-bottom">
+      <div id="oc_flash-player-loading">
+        <span id="matterhorn-init-logo"></span>
+        <!-- START: Hide when no Javascript is activated -->
+        <script type="text/javascript">
+          document.write('<span id="initializing">initializing</span>');
+          document.write('<span id="loading-init"></span>');
+        </script>
+        <!-- END: Hide when no Javascript is activated -->
+      </div>
+
+      <!-- If no Javascript is activated -->
+      <noscript>
+        <center>
+          <div class="noJSAlert-outer">
+            <div class="noJSAlert-inner-up">
+              <div class="icon icon-error noJSAlert-inner-image">&nbsp;</div>
+              JavaScript is disabled
+            </div>
+            <div class="noJSAlert-inner-down">
+              JavaScript is turned off in your web browser, so this site won't work properly! <br />
+              <strong>
+                Please turn JavaScript on to use this site, then refresh the page.
+              </strong>
+            </div>
+          </div>
+        </center>
+      </noscript>
+
+
+
+	<table   cellpadding=2px cellspacing=2px><tr><td width=1050 style="border-style:dashed;margin-top:50px;">
+		 <div id="oc_flash-player">
+        <script type="text/javascript" src="engage-hybrid-player/player-multi-hybrid-flash.js"></script>
+    </div>
+	</td><td width=500  style="padding 4px;" valign=top>
+
+			<div id="wrapper">
+		<!-- <ul class="tabs">
+		  <li><a href="#" class="defaulttab" rel="tabs1" id="tb1">Annotation</a></li>
+
+		 <li><a href="#" rel="tabs2" id="tb2">Document</a></li>
+
+		 <li><a href="#" rel="tabs3" id="tb3">Link</a></li>
+
+		 <li><a href="#" rel="tabs4" id="tb4">Playlist</a></li>
+		</ul>	-->
+			<div class="tab-content" id="tabs1"><div style="margin-top:20px;margin-left:55px;"  class="_vp_widget"></div></div>
+    			<!--<div class="tab-content" id="tabs2"><div style="margin-top:20px;margin-left:55px;" data-vid="tIui7pi4IVd1p" class="_vp_widget3"></div></div>-->
+   			<div class="tab-content" id="tabs3"><div style="margin-top:20px;margin-left:55px;" data-vid="tIui7pi4IVd2p" class="_vp_widget1"></div></div>
+			<div class="tab-content" id="tabs4"><div style="margin-top:20px;margin-left:55px;"  class="_vp_widget2"></div></div>
+			<div class="tab-content" id="tabs5"><div style="margin-top:20px;margin-left:55px;"  class="_vp_widget3"></div></div>
+			<div id ="currentAnnotation" style="border:1px solid black;text-align:center"> Current Annotation: <label id="annotationCurrent" style = "color:red;" ></label></div>
+		</div>
+
+		</td></tr></table>
+
+	<!--<div id="oc_html-player" style="display:block;width:100%;"></div>-->
+
+      <!-- START: Hide when no Javascript is activated -->
+      <div id="oc_video-player-controls">
+        <div id="oc_video-time">
+          <div id="simpleEdit">
+            <input id="oc_current-time" class="oc_current-time handcursor ui-corner-all" type="text" name="Current Time" title="Current Time" value="00:00:00" />
+            <input id="oc_edit-time" class="oc_edit-time-hide handcursor ui-corner-all" type="text" maxlength="8" size="8" name="Edit Current Time HH:MM:SS" title="Edit Current Time HH:MM:SS" value="00:00:00" />
+            &nbsp;of&nbsp;
+            <span id="oc_duration" class="oc_duration" name="Duration" title="Duration">
+              Initializing
+            </span>&nbsp;
+            <span id="oc_video-cc">
+              <input id="oc_btn-cc" class="oc_btn-cc-off" type="checkbox" name="Closed Captions Off: Control + Alt + C" title="Closed Captions Off: Control + Alt + C" value="" />
+              <label for="oc_btn-cc" title="Closed Captions Off: Control + Alt + C">
+                Show Captions
+              </label>
+            </span>
+          </div>
+        </div>
+        <!-- END #oc_video-time -->
+        <div id="oc_video-controls">
+          <span id="skip">
+            <a name="controls"></a>
+            <h2>
+              Video Player Controls
+            </h2>
+          </span>
+          <input id="oc_btn-skip-backward" class="oc_btn-skip-backward handcursor" type="image" src="img/space.png" name="Jump To The Previous Slide" alt="Jump To The Previous Slide" title="Jump To The Previous Slide" value="Jump To The Previous Slide" />
+          <input id="oc_btn-rewind" class="oc_btn-rewind handcursor" type="image" src="img/space.png" name="Jump Back: Control + Alt + R" alt="Jump Back: Control + Alt + R" title="Jump Back: Control + Alt + R" value="Jump Back: Control + Alt + R" />
+          <input id="oc_btn-play-pause" class="oc_btn-play handcursor" type="image" src="img/space.png" name="Play: Control + Alt + P" alt="Play: Control + Alt + P" title="Play: Control + Alt + P" value="Play: Control + Alt + P" />
+          <input id="oc_btn-fast-forward" class="oc_btn-fast-forward handcursor" type="image" src="img/space.png" name="Jump Forward: Control + Alt + F" alt="Jump Forward: Control + Alt + F" title="Jump Forward: Control + Alt + F" value="Jump Forward: Control + Alt + F" />
+          <input id="oc_btn-skip-forward" class="oc_btn-skip-forward handcursor" type="image" src="img/space.png" alt="Jump To The Next Slide" title="Jump To The Next Slide" value="Jump To The Next Slide" />
+        </div>
+        <!-- END #oc_video-controls -->
+        <div id="oc_sound">
+          <span id="oc_volume-dropdown">
+            <input id="oc_btn-volume" class="oc_btn-volume-high handcursor" type="submit" name="Unmute: Control + Alt + M" alt="Unmute: Control + Alt + M" title="Unmute: Control + Alt + M" value="" />
+          </span>
+          <button id="oc_volume-container">
+            <div id="oc_volume-back">
+              <div id="oc_volume-front"></div>
+            </div>
+          </button>
+        </div>
+        <!-- END #oc_sound -->
+        <div id="oc_video-size-controls">
+          <span id="oc_video-size-dropdown">
+            <input id="oc_btn-dropdown" class="oc_btn-centerDisplay" type="submit" name="Video Size Controls" alt="Video Size Controls" title="Video Size Controls" value="" />
+          </span>
+        </div>
+        <!-- END #oc_video-size-controls -->
+      </div>
+      <!-- </script> -->
+      <!-- END: Hide when no Javascript is activated -->
+
+      <div id="oc_player_video-dropdown" class="ui-corner-all"></div>
+
+      <!-- segments_ui_slider + segments_ui -->
+      <div id="data">
+        <div id="oc_seek-slider">
+          <label id="skip" for="srubber">
+            Time Slider
+          </label>
+          <table id="scrubber-table">
+            <tbody>
+              <tr class="player-chrome">
+                <td class="progress-segment">
+                  <table class="segments" id="tableData1">
+                    <!-- data comes here -->
+                  </table>
+                  <div class="progress-list">
+                    <span class="load-progress" value="0"></span>
+                    <span id="play-progress" class="play-progress" value="0"></span>
+                    <span id="scubber-channel" class="scrubber-channel">
+                      <input id="scrubber" type="submit" type="image" src="img/space.png" class="scrubber-button" role="slider" />
+                      <div id="draggable" class="ui-widget-content"></div>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- END #oc_seek-slider -->
+
+        <!-- Analytics and Annotations -->
+        <div id="analytics-and-annotations">
+          <span id="analytics" class="analytics">Loading..</span>
+          <span id="annotation" class="annotation">Annotation..</span>
+          <table class="segments" id="segmentstable1">
+            <!-- data comes here -->
+          </table>
+        </div>
+        <div id="segments_ui_slider_data1"></div>
+        <div id="segments_ui_slider_data2"></div>
+        <div id="segments_ui_slider_information"></div>
+        <div id="segments_ui-media1"></div>
+        <div id="data1"></div>
+        <div id="segments_ui-mediapackagesAttachments"></div>
+        <div id="data2"></div>
+        <div id="segments_ui-mediapackagesCatalog"></div>
+        <div id="segments-table2">
+          <table id="segmentstable2"></table>
+        </div>
+      </div>
+      <!-- END #data -->
+      <div id="oc_video-view">
+        <span id="oc_video-quality">
+          <strong>Quality:</strong>&nbsp;
+          <select id="oc_video-quality-options">
+            <option value="low">Low</option>
+            <option value="medium" selected="selected">Medium</option>
+            <option value="high">High</option>
+            <option value="hd">HD</option>
+          </select>
+        </span>
+        &nbsp;
+        <strong>View:</strong>
+        <input id="oc_checkbox-annotations" type="checkbox" name="show Annotations" title="show Annotations" />
+        <label id="oc_label-annotations" for="oc_checkbox-annotations">
+          Annotations
+        </label>
+        <input id="oc_checkbox-statistics" type="checkbox" name="show Statistics" title="show Statistics" />
+        <label id="oc_label-statistics" for="oc_checkbox-statistics">
+          Viewing Statistics
+        </label>
+        &nbsp;
+        <div class="clear"></div>
+      </div>
+      <!-- END #oc_video-view -->
+    </div>
+    <!-- END #oc_body -->
+
+<div id="blanket" style="display:none;"></div>
+<div id="popUpDiv" style="display:none;">
+<a href="#" class="button1"  style="color:#ffffff;" onclick="resetField()">Close</a>
+<form name=form >
+<table  cellspacing=5 cellpadding=5 style="border-spacing:10px">
+<tr><td colspan=2 align=center style="padding: 5px; font-size:30; font-weight:bold">	ADD ANNOTATION	</tr>
+	<tr><td  colspan=2 align=center style="padding: 5px;"><div id="label"></div></tr>
+		<input type=hidden name=id size=25 readonly style="background-color : #FAF0E6; color: black;  border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden readonly name=inp size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=oup size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=type value='chapter' size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Annotation:<td align=center style="padding: 5px;"><textarea rows="3"cols="15" name="val" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;"></textarea></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStartPosition()"><span>Start</span></a><td  style="padding: 5px;"><input type="text" readonly="readonly" name="start" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+                            <tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStopPosition()"><span>Stop</span></a><td style="padding: 5px;"><input type="text" name="stop" readonly="readonly" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" id="addAnnotate" href="javascript:showHint()"><span>Submit</span></a><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" href="javascript:resetField()"><span>Cancel</span></a></tr>
+		</table>
+		</form>
+</div>
+<div id="popUpDivAppend" style="display:none;">
+<a href="#" class="button1"  style="color:#ffffff;" onclick="resetFieldAppendAnnotation()">Close</a>
+<form name=formAppend >
+<table  cellspacing=5 cellpadding=5 style="border-spacing:10px">
+<tr><td colspan=2 align=center style="padding: 5px; font-size:30; font-weight:bold">	APPEND TO THE ANNOTATION	</tr>
+	<tr><td  colspan=2 align=center style="padding: 5px;"><div id="label"></div></tr>
+		<input type=hidden name=id size=25 readonly style="background-color : #FAF0E6; color: black;  border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden readonly name=inp size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=oup size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=type value='chapter' size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Annotation:<td align=center style="padding: 5px;"><textarea rows="3"cols="15" name="val" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;"></textarea></tr>
+		<tr><input type="hidden" name="start" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><input type="hidden" name="stop" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><input type="hidden" name="annotation" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" id="appendAnnotate" href="javascript:appendAnnotate()"><span>Submit</span></a><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" href="javascript:resetFieldAppendAnnotation()"><span>Cancel</span></a></tr>
+		</table>
+		</form>
+</div>
+<div id="popUpDiv3" style="display:none;">
+<a href="#" class="button1"  style="color:#ffffff;" onclick="resetField1()">Close</a>
+<form name=form1 >
+<table  cellspacing=5 cellpadding=5 style="border-spacing:10px">
+<tr><td colspan=2 align=center style="padding: 5px; font-size:30; font-weight:bold">	ADD LINK	</tr>
+	<tr><td  colspan=2 align=center style="padding: 5px;"><div id="label"></div></tr>
+		<input type=hidden name=id size=25 readonly style="background-color : #FAF0E6; color: black;  border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden readonly name=inp size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=oup size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=type value='chapter' size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Title:<td align=center style="padding: 5px;"><input type="text" name="title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Url:<td align=center style="padding: 5px;"><input type="text" name="url" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Description:<td align=center style="padding: 5px;"><textarea rows="3"cols="15" name="description" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;"></textarea></tr>
+                            <tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStartPosition1()"><span>Start</span></a><td  style="padding: 5px;"><input type="text" readonly="readonly" name="start" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+                                        <tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStopPosition1()"><span>Stop</span></a><td style="padding: 5px;"><input type="text" name="stop" value="" readonly="readonly" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" id="addAnnotate" href="javascript:showHint1()"><span>Submit</span></a><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" href="javascript:resetField1()"><span>Cancel</span></a></tr>
+		</table>
+		</form>
+</div>
+
+<div id="popUpDiv7" style="display:none;">
+<a href="#" class="button1"  style="color:#ffffff;" onclick="close7()">Close</a>
+<form name="editform" id="form1">
+<table  cellspacing=5 cellpadding=5 style="border-spacing:10px">
+<tr><td colspan=2 align=center style="padding: 5px; font-size:30; font-weight:bold">	EDIT ANNOTATION	</tr>
+	<tr><td  colspan=2 align=center style="padding: 5px;"><div id="label"></div></tr>
+		<input type=hidden name=id size=25 readonly style="background-color : #FAF0E6; color: black;  border: 1px solid #008000; width: 230px; height:23px"></tr>
+
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Annotation:<td align=center style="padding: 5px;"><textarea rows="3"cols="15" name="val" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;"></textarea></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStartPosition2()"><span>Start</span></a><td  style="padding: 5px;"><input type="text" name="start" readonly="readonly" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStopPosition2()"><span>Stop</span></a><td style="padding: 5px;"><input type="text" name="stop" readonly="readonly" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" id="addAnnotate" href="javascript:editAnnotate()"><span>Edit</span></a><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" href="javascript:close7()"><span>Cancel</span></a></tr>
+		</table>
+		</form>
+</div>
+<div id="popUpDivLinkEdit" style="display:none;">
+<a href="#" class="button1"  style="color:#ffffff;" onclick="resetField2()">Close</a>
+<form name=formlinkedit >
+<table  cellspacing=5 cellpadding=5 style="border-spacing:10px">
+<tr><td colspan=2 align=center style="padding: 5px; font-size:30; font-weight:bold">	EDIT LINK	</tr>
+	<tr><td  colspan=2 align=center style="padding: 5px;"><div id="label"></div></tr>
+		<input type=hidden name=id size=25 readonly style="background-color : #FAF0E6; color: black;  border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden readonly name=inp size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=oup size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=type value='chapter' size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Title:<td align=center style="padding: 5px;"><input type="text" name="title1" id="title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Url:<td align=center style="padding: 5px;"><input type="text" name="url1" id="url" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Description:<td align=center style="padding: 5px;"><textarea rows="3"cols="15" id="description" name="description1" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;"></textarea></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStartPosition3()"><span>Start</span></a><td  style="padding: 5px;"><input type="text" readonly="readonly" id="start" name="start1" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+                            <tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStopPosition3()"><span>Stop</span></a><td style="padding: 5px;"><input type="text" id="stop" readonly="readonly" name="stop1" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" id="updateLink" href="javascript:updateLink()"><span>Submit</span></a><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" href="javascript:resetField2()"><span>Cancel</span></a></tr>
+		</table>
+		</form>
+</div>
+<div id="popUpBookmarkAdd" style="display:none;">
+<a href="#" class="button1"  style="color:#ffffff;" onclick="resetField3()">Close</a>
+<form name=formbookmarkadd >
+<table  cellspacing=5 cellpadding=5 style="border-spacing:10px">
+<tr><td colspan=2 align=center style="padding: 5px; font-size:30; font-weight:bold">	Add BOOKMARK	</tr>
+	<tr><td  colspan=2 align=center style="padding: 5px;"><div id="label"></div></tr>
+		<input type=hidden name=id size=25 readonly style="background-color : #FAF0E6; color: black;  border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden readonly name=username size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=oup size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=type value='chapter' size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Title:<td align=center style="padding: 5px;"><input type="text" name="title1" id="title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Description:<td align=center style="padding: 5px;"><textarea rows="3"cols="15" id="description" name="description" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;"></textarea></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStartPosition4()"><span>Start</span></a><td  style="padding: 5px;"><input type="text" id="start" readonly="readonly" name="start" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStopPosition4()"><span>Stop</span></a><td style="padding: 5px;"><input type="text" id="stop" name="stop" readonly="readonly" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" href="javascript:addBookmark()"><span>Submit</span></a><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" href="javascript:resetField3()"><span>Cancel</span></a></tr>
+		</table>
+		</form>
+</div>
+
+<div id="popUpBookmarkDetails" style="display:none;">
+<a href="#" class="button1"  style="color:#ffffff;" onclick="closeDetails()">Close</a>
+<form name=formbookmarkdetails >
+<table  cellspacing=5 cellpadding=5 style="border-spacing:10px">
+<tr><td colspan=2 align=center style="padding: 5px; font-size:30; font-weight:bold">	DETAILS OF THE BOOKMARK	</tr>
+	<tr><td  colspan=2 align=center style="padding: 5px;"><div id="label"></div></tr>
+		<input type=hidden name=id size=25 readonly style="background-color : #FAF0E6; color: black;  border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden readonly name=username size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=oup size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=type value='chapter' size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Title:<td align=center style="padding: 5px;"><input type="text" name="media_name" id="title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></tr>
+
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Author:<td align=center style="padding: 5px;"><input type="text" name="media_creator" id="title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></tr>
+
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Description:<td align=center style="padding: 5px;"><textarea rows="3"cols="15" id="description" name="description" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;"></textarea></tr>
+
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Duration:<td align=center style="padding: 5px;"><input type="text" name="duration" id="title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></tr>
+
+		<tr><td colspan=2 align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" href="javascript:closeDetails()"><span>OK</span></a></td></tr>
+		</table>
+		</form>
+</div>
+
+<div id="popUpBookmarkEdit" style="display:none;">
+<a href="#" class="button1"  style="color:#ffffff;" onclick="closeViewAll()">Close</a>
+<form name=formbookmarkedit >
+<table  cellspacing=5 cellpadding=5 style="border-spacing:10px">
+<tr><td colspan=2 align=center style="padding: 5px; font-size:30; font-weight:bold">	EDIT BOOKMARK	</tr>
+	<tr><td  colspan=2 align=center style="padding: 5px;"><div id="label"></div></tr>
+		<input type=hidden name=id size=25 readonly style="background-color : #FAF0E6; color: black;  border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden readonly name=username size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=oup size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=type value='chapter' size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Title:<td align=center style="padding: 5px;"><input type="text" name="title1" id="title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Description:<td align=center style="padding: 5px;"><textarea rows="3"cols="15" id="description" name="description1" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;"></textarea></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStartPosition5()"><span>Start</span></a><td  style="padding: 5px;"><input type="text" id="start" name="start1" readonly="readonly" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold"><a class="button1" style="color:#ffffff;" href="javascript:getStopPosition5()"><span>Stop</span></a><td style="padding: 5px;"><input type="text" id="stop" readonly="readonly" name="stop1" value="" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 100px;"/></tr>
+		<tr><td align=center  style="padding: 5px;"><a class="button1"  style="color:#ffffff;" href="javascript:updateBookmark()"><span>Submit</span></a><td align=center  style="padding: 5px;"><a class="button1" style="color:#ffffff;" href="javascript:resetField4()"><span>Cancel</span></a></tr>
+		</table>
+		</form>
+</div>
+
+<!--
+<div id="popUpAdvanced" style="display:none;">
+<a href="#" class="button1"  style="color:#ffffff;" onclick="closeViewAll()">Close</a>
+<form name=formadvanced >
+<table  cellspacing=5 cellpadding=5 style="border-spacing:10px">
+<tr><td colspan=2 align=center style="padding: 5px; font-size:30; font-weight:bold">	ADVANCED SEARCH	</tr>
+	<tr><td  colspan=2 align=center style="padding: 5px;"><div id="label"></div></tr>
+		<input type=hidden name=id size=25 readonly style="background-color : #FAF0E6; color: black;  border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden readonly name=username size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=oup size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=type value='chapter' size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Title:<td align=center style="padding: 5px;"><input type="text" name="title1" id="title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></td></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Category<td align=center style="padding: 5px;"><select type=category name=category id=category style="background-color:#FAF0E6; color: black; border:1px solid #008000; width: 170px;">
+  <option value="annotations">Annotation</option>
+  <option value="Link">External Links</option>
+  <option value="bookmarks">Bookmarks</option>
+  <option value="all">All</option>
+</select></td></tr>
+
+		<tr><td align=center  style="padding: 5px;"><a class="button1"  style="color:#ffffff;"  href="javascript:searchAdvanced()" rel=tabs5 id=tb6><span>Submit</span></a><td align=center  style="padding: 5px;"><a class="button1"  style="color:#ffffff;" href="javascript:resetAdvanced()"><span>Cancel</span></a></tr>
+		</table>
+		</form>
+</div>
+-->
+<div id="popUpOntology" style="display:none;">
+<a href="#" class="button1"  style="color:#ffffff;" onclick="closeOntology()">Close</a>
+<form name=formontology >
+<table  cellspacing=5 cellpadding=5 style="border-spacing:10px">
+<tr><td colspan=2 align=center style="padding: 5px; font-size:30; font-weight:bold">	Create Ontology	</tr>
+	<tr><td  colspan=2 align=center style="padding: 5px;"><div id="label"></div></tr>
+		<input type=hidden name=id size=25 readonly style="background-color : #FAF0E6; color: black;  border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden readonly name=username size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=oup size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<input type=hidden name=type value='chapter' size=25 style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 230px; height:23px"></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Title:<td align=center style="padding: 5px;"><input type="text" name="title_onto" id="title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></td></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Property</td><td align=center style="padding: 5px;"><input type=radio id=isa name=property value=isa /></td><td align=center style="padding: 5px;">is-a</td></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold"></td><td align=center style="padding: 5px;"><input type=radio id=hasa name=property value=hasa /><td align=center style="padding: 5px;">has-a</td></tr>
+	      <tr><td  style="padding: 5px; font-size:20; font-weight:bold"></td><td align=center style="padding: 5px;"><input type=radio id=akindof name=property value=akindof /><td align=center style="padding: 5px;">kind-of</td></tr>
+<tr><td  style="padding: 5px; font-size:20; font-weight:bold"></td><td align=center style="padding: 5px;"><input type=radio name=property id=partof value=partof /><td align=center style="padding: 5px;">part-of</td></tr>
+<tr><td  style="padding: 5px; font-size:20; font-weight:bold"></td><td align=center style="padding: 5px;"><input type=radio name=property id=custom value=custom_prp /><td align=center style="padding: 5px;">Custom Property
+		</td></tr>
+<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Property Name:<td align=center style="padding: 5px;"><input type=text name="custom_property_text" id="cus_title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></td></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Target Property:<td align=center style="padding: 5px;"><input type="text" name="property_text" id="title" style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;" /></td></tr>
+		<tr><td  style="padding: 5px; font-size:20; font-weight:bold">Relevance Quotient:</td><td><select type=relevance name=relevance id=relevance style="background-color:#FAF0E6; color: black; border:1px solid #008000; width: 170px;">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+
+</select></td></tr>
+
+		<tr><td align=center  style="padding: 5px;"><a class="button1"  style="color:#ffffff;"  href="javascript:addMoreOntology()" rel=tabs5 id=tb6>AddMore</a></td><td align=center  style="padding: 5px;"><a class="button1"  style="color:#ffffff;" href="javascript:submitOntology()">Submit</a></td><td><td align=center  style="padding: 5px;"><a class="button1"  style="color:#ffffff;" href="javascript:closeOntology()">Cancel</a></td></tr>
+		</table>
+		</form>
+</div>
+
+<div id="popUpPlaylist" class=playlist style="display:none;">
+<a href="#" onclick="closePlaylistWidget()"><img  style="cursor:pointer;" src="close_button.png"></a>
+<form name=formplaylist>
+<table><tr><td colspan=3 align=center style="padding: 5px; font-size:30; font-weight:bold">	ADD TO PLAYLIST	</td></tr>
+<tr>
+<td style="padding: 5px; font-size:20; font-weight:bold;" align="center">Enter the name of the Playlist:</td><td align="center"><input type=textbox id=playname  style="background-color : #FAF0E6; color: black; border: 1px solid #008000; width: 170px;"></td></tr><td style="padding: 5px;" align="center"><a class="button1"  style="color:#ffffff;" href="javascript:addPlaylist()"><span>Save</span></a></td><td align="center"><a id="closePlaylist" class="button1"  style="color:#ffffff;" href="javascript:closePlaylistWidget()"><span>Close</span></a></td>
+</tr></table>
+
+<b>Select the Bookmarks to be added to the Playlist</b>
+
+<div id="playlistContainer" style="position:absolute;
+background-color:#eeeeee;
+width:440px;
+height:280px;
+z-index: 9002;
+overflow:auto;border : solid 2px #a01a1a;
+margin: 0px auto;" ></div>
+
+</div>
+
+
+<div id="popUpViewAnnDetails" class=annDetails style="display:none;">
+<a href="#" onclick="closeViewAnnDetailsWidget()">Close</a>
+<form name=formViewAnnDetails>
+
+<table>
+<tr>
+<td align=center><b align=center>All Annotations</b></td></tr>
+
+<tr><td>
+<div id="annotationContainer" style="position:absolute;
+background-color:#eeeeee;
+width:440px;
+height:280px;
+z-index: 9002;
+overflow:auto;border : solid 2px #a01a1a;
+margin: 0px auto;" ></div>
+</td></tr>
+
+<tr><td><a id=closeViewAnnDetails class="button1"  style="color:#ffffff;" href="javascript:closeViewAnnDetails()"><span>OK</span></a></td></tr>
+</table>
+</form>
+</div>
+
+<div id="popUpViewOCRDetails" class=annDetails style="display:none;">
+<a href="#" onclick="closeViewOCRDetailsWidget()">Close</a>
+<form name=formViewOCRDetails>
+
+<table>
+<tr>
+<td align=center><b align=center>OCR Analysis of Clicked Video</b></td></tr>
+
+<tr><td>
+<div id="OCRContainer" style="position:absolute;
+background-color:#eeeeee;
+width:590px;
+height:350px;
+z-index: 9002;
+overflow:auto;border : solid 2px #a01a1a;
+margin: 0px auto;" >Hello!</div>
+</td></tr>
+
+<tr><td><a id="closeViewOCRDetails" class="button1"  style="color:#ffffff;" href="javascript:closeViewOCRDetails()"><span>OK</span></a></td></tr>
+</table>
+</form>
+</div>
+
+
+
+<div id="popUpDiv2" style="display:none;">
+<table><tr><td style="padding: 5px; font-size:20; font-weight:bold" align="center">Annotation Has been added
+</tr><tr><td align=center  style="padding: 5px;"><a id="addedAnnotate"class="button1"  style="color:#ffffff;" href="javascript:close()"><span>OK</span></a></tr></table>
+</div>
+<div id="popUpDivLinkAdded" style="display:none;">
+<table><tr><td style="padding: 5px; font-size:20; font-weight:bold" align="center">Link Has been added
+</tr><tr><td align=center  style="padding: 5px;"><a id="addedLink" class="button1"  style="color:#ffffff;" href="javascript:closeLink()"><span>OK</span></a></tr></table>
+</div>
+<div id="popUpDiv5" style="display:none;">
+<table><tr><td style="padding: 5px; font-size:20; font-weight:bold" align="center">Link Has been deleted
+</tr><tr><td align=center  style="padding: 5px;"><a id="deletedLink" class="button1"  style="color:#ffffff;" href="javascript:close5()"><span>OK</span></a></tr></table>
+</div>
+<div id="popUpDiv6" style="display:none;">
+<table><tr><td style="padding: 5px; font-size:20; font-weight:bold" align="center">Annotation Has been deleted
+</tr><tr><td align=center  style="padding: 5px;"><a id="deletedAnnotation" class="button1"  style="color:#ffffff;" href="javascript:close6()"><span>OK</span></a></tr></table>
+</div>
+<div id="popUpDiv8" style="display:none;">
+<table><tr><td style="padding: 5px; font-size:20; font-weight:bold" align="center">Annotation Has been edited
+</tr><tr><td align=center  style="padding: 5px;"><a id="editedAnnotation" class="button1"  style="color:#ffffff;" href="javascript:close8()"><span>OK</span></a></tr></table>
+</div>
+
+<div id="popUpDivAppendDone" style="display:none;">
+<table><tr><td style="padding: 5px; font-size:20; font-weight:bold" align="center">Annotation Has been Appended
+</tr><tr><td align=center  style="padding: 5px;"><a id="appendedAnnotation" class="button1"  style="color:#ffffff;" href="javascript:closeAppendDone()"><span>OK</span></a></tr></table>
+</div>
+
+<div id="popUpDivUpdateLink" style="display:none;">
+<table><tr><td style="padding: 5px; font-size:20; font-weight:bold" align="center">Link Has been updated
+</tr><tr><td align=center  style="padding: 5px;"><a id="updatedLink" class="button1"  style="color:#ffffff;" href="javascript:close9()"><span>OK</span></a></tr></table>
+</div>
+<div id="popUpBookmarkAddConfirm" style="display:none;">
+<table><tr><td style="padding: 5px; font-size:20; font-weight:bold" align="center">Bookmark Has been added
+</tr><tr><td align=center  style="padding: 5px;"><a id="addBookmark" class="button1"  style="color:#ffffff;" href="javascript:closeBookmark()"><span>OK</span></a></tr></table>
+</div>
+<div id="popUpDivUpdateBookmark" style="display:none;">
+<table><tr><td style="padding: 5px; font-size:20; font-weight:bold" align="center">Bookmark Has been updated
+</tr><tr><td align=center  style="padding: 5px;"><a id="updatedBookmark" class="button1"  style="color:#ffffff;" href="javascript:close10()"><span>OK</span></a></tr></table>
+</div>
+
+<div id="popUpDeleteBookmark" style="display:none;">
+<table><tr><td style="padding: 5px; font-size:20; font-weight:bold" align="center">Bookmark Has been deleted
+</tr><tr><td align=center  style="padding: 5px;"><a id="deletedBookmark" class="button1"  style="color:#ffffff;" href="javascript:closeDeleteBookmark()"><span>OK</span></a></tr></table>
+</div>
+
+
+    <!-- Tabs -->
+    <div id="oc_ui_tabs">
+      <div id="oc_tabs" class="oc_tabs-input">
+        <ul id="oc_tabs-head">
+          <li>
+            <a href="#oc_description" id="oc_btn-description" class="oc_btn-tabs handcursor" title="Description" aria-role="button">
+              Description
+            </a>
+          </li>
+          <li>
+            <a href="#oc_slides" id="oc_btn-slides" class="oc_btn-tabs handcursor" title="Segments" aria-role="button">
+              Segments
+            </a>
+          </li>
+          <li>
+            <a href="#oc_slidetext" id="oc_btn-slidetext" class="oc_btn-tabs handcursor" title="Segment Text" aria-role="button">
+              Segment Text
+            </a>
+          </li>
+          <li class="oc_lecturer-search-field-wrap ui-corner-top" id="search-textarea">
+            <label id="skip" for="oc_lecturer-search-field" class="oc_offScreen-hidden">
+              Search this recording
+            </label>
+            <input id="oc_lecturer-search-field" type="text" onkeyup="Opencast.search.showResult(this, this.value);" onfocus="$(this).trigger('click');Opencast.search.showResult(this, this.value);" size="30" value="Search this recording" />
+          </li>
+        </ul>
+      </div>
+      <!-- END #oc_tabs -->
+
+      <div id="oc_description" class="fl-fix">
+        <div id="description-loading" class="loadingImage"></div>
+        <div id="oc-description"></div>
+      </div>
+      <!-- END #oc_description -->
+
+      <div id="oc_slides" class="oc_DisplayBlock">
+        <div id="segments-holder" class="oc-segments-holder">
+          <div id="oc_segment-table" class="oc-segments">
+            <div id="oc-segments">
+              <div id="segments-loading" class="loadingImage">
+              </div>
+              <div id="slider">
+                <img alt="Scroll to previous slides" src="img/leftarrow.png" class="scrollButtons left" />
+                <div id="scroll" class="scroll">
+                  <div id="scrollcontainer" class="scrollContainer"></div>
+                </div>
+                <img alt="Scroll to subsequent slides" src="img/rightarrow.png" class="scrollButtons right" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END #oc_slides -->
+
+      <div id="oc_slidetext" class="fl-fix">
+        <div id="segments_text-loading" class="loadingImage"></div>
+        <div id="oc-segments_text"></div>
+      </div>
+      <div id="oc_search-segment" class="fl-fix">
+        <div id="search-loading" class="loadingImage"></div>
+        <div id="oc-search-result"></div>
+      </div>
+    </div>
+    <!-- END #oc_ui_tabs -->
+
+    <div class="clear"></div>
+
+    <div id="segment-tooltip" class="segment-tooltip"></div>
+
+    <!-- Shortcut dialog -->
+    <div id="oc_shortcuts" title="Shortcuts">
+      <span><a name="shortcuts"></a></span>
+      <div id="oc_client_shortcuts"></div>
+    </div>
+    <!-- END #oc_shortcuts -->
+
+    <!-- Download dialog -->
+    <div id="oc_downloads" title="Download Media Files">
+      <span id="skip"><a name="downloads"></a></span>
+      <div id="oc_client_downloads"></div>
+    </div>
+    <!-- END #oc_downloads -->
+
+    <!-- #share-button-layer dialog -->
+    <div id="oc_share-layer" class="ui-widget ui-widget-content ui-corner-all oc_popuplayer ui-helper-hidden" title="share this Video" tabindex="-1" role="dialog" aria-hidden="true">
+      <ul id="oc_share-list" class="oc_popuplayer-list">
+        <li>
+          <a href="javascript: " id="oc_btn-embed" class="handcursor" title="Embed" role="button">
+            Embed
+          </a>
+        </li>
+        <li>
+          <a href="javascript: " id="oc_btn-email" class="handcursor" title="Email" role="button">
+            Email
+          </a>
+        </li>
+        <li>
+          <a href="javascript: " id="oc_btn-share-time" class="handcursor" title="Share video URL at current time" role="button">
+            Video at current time
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- END #oc_share-layer -->
+
+    <!-- #time-chooser-layer dialog -->
+    <div id="oc_time-chooser-layer" class="ui-widget ui-widget-content ui-corner-all oc_popuplayer ui-helper-hidden" title="change player time/ session time" tabindex="-1" role="dialog" aria-hidden="true">
+      <ul id="oc_time-chooser-list" class="oc_popuplayer-list">
+        <li>
+          <a href="javascript: " id="oc_btn-player-time" onclick="Opencast.Player.doToggleTimeLayer();" class="handcursor" title="View player time" role="button">
+            View player time
+          </a>
+        </li>
+        <li>
+          <a href="javascript: " id="oc_btn-session-time" onclick="Opencast.Player.doToggleTimeLayer();" class="handcursor" title="View session time" role="button">
+            View session time
+          </a>
+        </li>
+      </ul>
+      <button id="oc_btn-leave-session-time" class="oc_btn-close">
+        Leave time dialog
+      </button>
+    </div>
+    <!-- END #oc_time-chooser-layer -->
+
+    <!-- Embed Dialog -->
+    <div id="oc_embed" title="Embed">
+      <div id="oc_embed-left">
+        <input id="oc_embed-icon-one" class="oc_embed-icon" type="submit" name="" alt="" title="" value="" />
+        <input id="oc_embed-icon-two" class="oc_embed-icon" type="submit" name="" alt="" title="" value="" />
+        <input id="oc_embed-icon-three" class="oc_embed-icon" type="submit" name="" alt="" title="" value="" />
+        <input id="oc_embed-icon-four" class="oc_embed-icon" type="submit" name="" alt="" title="" value="" />
+        <input id="oc_embed-icon-five" class="oc_embed-icon" type="submit" name="" alt="" title="" value="" />
+      </div>
+      <div id="oc_embed-right">
+        <div id="oc_embed-custom-title">
+          Custom size:
+        </div>
+        <label for="oc_embed-costum-width-textinput" class="handcursor">
+          Width:
+        </label>
+	&nbsp;
+        <input id="oc_embed-costum-width-textinput" maxlength="4" type="text" name="Costum width min 300px" alt="Costum width min 300px" title="Costum width min 300px" value="" />
+        <div class="clear"></div>
+        <label for="oc_embed-costum-height-textinput" class="handcursor">
+          Height:
+        </label>
+	&nbsp;
+        <input id="oc_embed-costum-height-textinput" maxlength="4" type="text" name="" alt="" title="" value="" />
+
+        <div class="clear"></div>
+        <label for="oc_embed-costum-hide-controls-checkbox" class="handcursor">
+          Controls:
+        </label>
+		&nbsp;
+        <input id="oc_embed-costum-hide-controls-checkbox" type="checkbox" name="Display controls" alt="Display controls" title="Display controls" value="" />
+	<br />
+        <label for="oc_embed-costum-hide-controls-checkbox" class="handcursor">
+
+        <a href="javascript: " id="oc_btn-leave-session-time" onclick="$('#oc_embed').dialog('close');" class="handcursor ui-helper-hidden-accessible" title="Leave embed dialog" role="button">
+          Leave embed dialog
+        </a>
+      </div>
+
+      <div class="clear"></div>
+      <label for="oc_embed-textarea">
+        Choose your embed size. Copy the text and paste it in your html page.
+      </label>
+      <textarea id="oc_embed-textarea" class="oc_embed-textarea" rows="2" cols="1"></textarea>
+    </div>
+    <!-- END #oc_embed -->
+
+    <!-- Share video at current time Dialog -->
+    <div id="oc_share-time" title="Video at current time">
+      <div id="oc_share-time-text"></div>
+      <div>
+	<textarea id="oc_share-time-textfield" class="oc_embed-textarea" rows="1" cols="1"></textarea>
+      </div>
+      <div id="oc_share-time-tip">
+	Press the pause button in the player to get the exact time.
+      </div>
+    </div>
+    <!-- END #oc_share-time -->
+
+    <!-- Series dialog -->
+    <div id="oc_series" class="ui-widget ui-widget-content ui-corner-all oc_popuplayer ui-state-hover" title="see more of this series" tabindex="-1" role="dialog" aria-hidden="true"></div>
+  </body>
+</html>

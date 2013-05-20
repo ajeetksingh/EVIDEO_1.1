@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main" if="unpackTo">
+  <unzip dest="${unpackTo}/matterhorn-annotation-api-1.3.1" overwrite="true">
+    <fileset dir="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-annotation-api/target">
+      <include name="matterhorn-annotation-api-1.3.1.jar"/>
+    </fileset>
+  </unzip>
+</target>
+</project>

@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/mpeg7-service.xml
+Export-Package: org.opencastproject.metadata.mpeg7;uses:="org.opencast
+ project.mediapackage,org.w3c.dom,org.opencastproject.metadata.api,jav
+ ax.xml.transform,javax.xml.parsers,org.apache.commons.io.output,javax
+ .xml.transform.stream,javax.xml.transform.dom,org.slf4j,org.xml.sax.h
+ elpers,org.xml.sax,org.apache.commons.lang,javax.xml.bind.annotation"
+ ;version="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-mpeg7
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368612999882
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: javax.xml.bind.annotation;resolution:=optional,javax.x
+ ml.parsers;resolution:=optional,javax.xml.transform;resolution:=optio
+ nal,javax.xml.transform.dom;resolution:=optional,javax.xml.transform.
+ stream;resolution:=optional,org.apache.commons.io.output;resolution:=
+ optional;version="1.4",org.apache.commons.lang;resolution:=optional;v
+ ersion="2.4",org.opencastproject.mediapackage;resolution:=optional;ve
+ rsion="1.3",org.opencastproject.metadata.api;version="1.3.1",org.open
+ castproject.metadata.mpeg7;resolution:=optional;version="1.3",org.slf
+ 4j;resolution:=optional;version="1.5",org.w3c.dom;resolution:=optiona
+ l,org.xml.sax;resolution:=optional,org.xml.sax.helpers;resolution:=op
+ tional
+Bundle-SymbolicName: matterhorn-mpeg7
+Bundle-DocURL: http://opencastproject.org/
+

@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Export-Package: org.opencastproject.db;uses:="org.osgi.framework,org.s
+ lf4j,javax.sql";version="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-db
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613005795
+Bundle-Activator: org.opencastproject.db.Activator
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Embed-Dependency: c3p0;inline=true,              h2;inline=true,      
+         mysql-connector-java;inline=true,              postgresql;inl
+ ine=true
+Import-Package: javax.management;resolution:=optional,javax.naming;res
+ olution:=optional,javax.naming.spi;resolution:=optional,javax.net;res
+ olution:=optional,javax.net.ssl;resolution:=optional,javax.security.a
+ uth;resolution:=optional,javax.security.auth.callback;resolution:=opt
+ ional,javax.security.auth.login;resolution:=optional,javax.servlet;re
+ solution:=optional,javax.servlet.http;resolution:=optional,javax.sql;
+ resolution:=optional,javax.transaction.xa;resolution:=optional,javax.
+ xml.parsers;resolution:=optional,javax.xml.stream;resolution:=optiona
+ l,javax.xml.transform;resolution:=optional,javax.xml.transform.dom;re
+ solution:=optional,javax.xml.transform.sax;resolution:=optional,javax
+ .xml.transform.stax;resolution:=optional,javax.xml.transform.stream;r
+ esolution:=optional,org.apache.commons.logging;resolution:=optional,o
+ rg.apache.log4j;resolution:=optional,org.apache.lucene.analysis;resol
+ ution:=optional,org.apache.lucene.analysis.standard;resolution:=optio
+ nal,org.apache.lucene.document;resolution:=optional,org.apache.lucene
+ .index;resolution:=optional,org.apache.lucene.queryParser;resolution:
+ =optional,org.apache.lucene.search;resolution:=optional,org.apache.lu
+ cene.store;resolution:=optional,org.apache.lucene.util;resolution:=op
+ tional,org.ietf.jgss;resolution:=optional,org.jboss.resource.adapter.
+ jdbc;resolution:=optional,org.jboss.resource.adapter.jdbc.vendor;reso
+ lution:=optional,org.opencastproject.db;resolution:=optional;version=
+ "1.3",org.osgi.framework;resolution:=optional;version="1.5",org.slf4j
+ ;resolution:=optional;version="1.5",org.w3c.dom;resolution:=optional,
+ org.xml.sax;resolution:=optional,org.xml.sax.helpers;resolution:=opti
+ onal
+Bundle-SymbolicName: matterhorn-db
+Bundle-DocURL: http://opencastproject.org/
+

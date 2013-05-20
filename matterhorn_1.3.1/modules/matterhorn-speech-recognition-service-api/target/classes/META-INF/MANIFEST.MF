@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: org.opencastproject.speechrecognition.api;uses:="org.o
+ pencastproject.job.api,org.opencastproject.mediapackage";version="1.3
+ .1"
+Built-By: medialab
+Tool: Bnd-0.0.357
+Bundle-Category: opencastproject
+Bundle-Name: matterhorn-speech-recognition-service-api
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613002197
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: org.opencastproject.job.api;version="1.3",org.opencast
+ project.mediapackage;version="1.3",org.opencastproject.speechrecognit
+ ion.api;version="1.3"
+Bundle-SymbolicName: matterhorn-speech-recognition-service-api
+Bundle-DocURL: http://opencastproject.org/
+

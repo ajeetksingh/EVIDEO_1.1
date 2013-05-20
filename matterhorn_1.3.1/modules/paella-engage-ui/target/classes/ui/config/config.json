@@ -1,0 +1,25 @@
+{
+	"proxyLoader":{
+		"enabled":false,
+		"url":"loadurl.php",
+		"usejsonp":false
+	},
+	"restServer":{
+		"url":"/",
+		"seriesXml":"search/series.xml",
+		"seriesJson":"search/series.json",
+		"episodeXml":"search/episode.xml",
+		"episodeJson":"search/episode.json"
+	},
+	"editor":{
+		"enabled":false
+	},	
+	"trimming":{
+		"enabled":false
+	},
+	"defaultProfile":"slide_professor",
+	"annotations":{
+		"enabled":false,
+		"url":"/"
+	}
+}

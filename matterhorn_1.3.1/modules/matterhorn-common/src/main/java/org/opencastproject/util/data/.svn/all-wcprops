@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data
+END
+Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/Function.java
+END
+Function0.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/Function0.java
+END
+NonEmptyList.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/NonEmptyList.java
+END
+Function2.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/Function2.java
+END
+Functions.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/Functions.java
+END
+Option.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/Option.java
+END
+CollectionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/CollectionUtil.java
+END
+Tuple.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/Tuple.java
+END
+Tuple3.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/Tuple3.java
+END
+Monadics.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/Monadics.java
+END
+Creator.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/Creator.java
+END
+Predicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/data/Predicate.java
+END

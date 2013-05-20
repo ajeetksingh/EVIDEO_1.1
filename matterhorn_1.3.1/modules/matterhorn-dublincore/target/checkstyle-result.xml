@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreCatalog.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreValidator.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreCatalogService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/Precision.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreValue.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/Temporal.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreCatalogImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/EncodingSchemeUtils.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreCatalogList.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCore.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DCMIPeriod.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/StaticMetadataServiceDublinCoreImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/test/java/org/opencastproject/metadata/dublincore/DublinCoreTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/test/java/org/opencastproject/metadata/dublincore/StaticMetadataServiceDublinCoreImplTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/test/java/org/opencastproject/metadata/dublincore/TestUtil.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/test/java/org/opencastproject/metadata/dublincore/EncodingSchemeUtilsTest.java">
+</file>
+</checkstyle>

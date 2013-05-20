@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/authorization-service.xml
+Export-Package: org.opencastproject.authorization.xacml;uses:="org.ope
+ ncastproject.util,org.opencastproject.mediapackage,org.slf4j,org.apac
+ he.commons.lang,org.opencastproject.mediapackage.identifier,org.openc
+ astproject.workspace.api,org.apache.commons.io,javax.xml.bind,org.ope
+ ncastproject.security.api";version="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-authorization-xacml
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368612987406
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Embed-Dependency: jboss-xacml;inline=true
+Import-Package: javax.crypto;resolution:=optional,javax.crypto.spec;re
+ solution:=optional,javax.naming;resolution:=optional,javax.naming.dir
+ ectory;resolution:=optional,javax.naming.ldap;resolution:=optional,ja
+ vax.security.auth.x500;resolution:=optional,javax.sql;resolution:=opt
+ ional,javax.xml.bind;resolution:=optional,javax.xml.bind.annotation;r
+ esolution:=optional,javax.xml.datatype;resolution:=optional,javax.xml
+ .namespace;version=0,javax.xml.parsers;resolution:=optional,javax.xml
+ .stream;resolution:=optional;version="1.0",javax.xml.validation;resol
+ ution:=optional,javax.xml.xpath;resolution:=optional,org.apache.commo
+ ns.io;resolution:=optional;version="1.4",org.apache.commons.lang;reso
+ lution:=optional;version="2.4",org.opencastproject.authorization.xacm
+ l;resolution:=optional;version="1.3",org.opencastproject.mediapackage
+ ;resolution:=optional;version="1.3",org.opencastproject.mediapackage.
+ identifier;resolution:=optional;version="1.3",org.opencastproject.sec
+ urity.api;version="1.3.1",org.opencastproject.util;resolution:=option
+ al;version="1.3",org.opencastproject.workspace.api;version="1.3.1",or
+ g.slf4j;version="1.5",org.w3c.dom;resolution:=optional,org.w3c.dom.ls
+ ;resolution:=optional,org.xml.sax;resolution:=optional
+Bundle-SymbolicName: matterhorn-authorization-xacml
+Bundle-DocURL: http://opencastproject.org/
+

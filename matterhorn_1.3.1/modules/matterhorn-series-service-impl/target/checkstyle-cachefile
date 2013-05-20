@@ -1,0 +1,13 @@
+#Wed May 15 15:46:49 IST 2013
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/solr/SolrFields.java=1368074497000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceDatabase.java=1368074497000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/test/java/org/opencastproject/series/impl/solr/SeriesServiceSolrTest.java=1368074497000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceDatabaseException.java=1368074497000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/persistence/SeriesEntity.java=1368074497000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/test/java/org/opencastproject/series/impl/persistence/SeriesServicePersistenceTest.java=1368074497000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceImpl.java=1368074497000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceIndex.java=1368074497000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/test/java/org/opencastproject/series/impl/SeriesServiceImplTest.java=1368074497000
+configuration*?=90B79EA319EB025759F0936E465A6DDB2B73D0D3
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/persistence/SeriesServiceDatabaseImpl.java=1368074497000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/solr/SeriesServiceSolrIndex.java=1368074497000

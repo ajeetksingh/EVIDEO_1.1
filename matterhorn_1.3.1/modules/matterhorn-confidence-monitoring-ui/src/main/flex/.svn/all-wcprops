@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-confidence-monitoring-ui/src/main/flex
+END
+ImageRequest.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-confidence-monitoring-ui/src/main/flex/ImageRequest.mxml
+END
+GetDeviceNamesRequest.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-confidence-monitoring-ui/src/main/flex/GetDeviceNamesRequest.mxml
+END
+CaptureStatusRequest.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-confidence-monitoring-ui/src/main/flex/CaptureStatusRequest.mxml
+END
+AudioLevelRequest.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-confidence-monitoring-ui/src/main/flex/AudioLevelRequest.mxml
+END
+ConfidenceMonitoring.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-confidence-monitoring-ui/src/main/flex/ConfidenceMonitoring.mxml
+END
+AudioControls.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-confidence-monitoring-ui/src/main/flex/AudioControls.mxml
+END

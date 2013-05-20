@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/resources/org/opencastproject/util
+END
+jaxb.index
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/resources/org/opencastproject/util/jaxb.index
+END
+MimeTypes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/resources/org/opencastproject/util/MimeTypes.xml
+END

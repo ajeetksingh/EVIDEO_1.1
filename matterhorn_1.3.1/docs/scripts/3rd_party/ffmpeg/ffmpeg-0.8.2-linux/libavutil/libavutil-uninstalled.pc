@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/opt/matterhorn/matterhorn_1.3.1/docs/scripts/3rd_party/ffmpeg/ffmpeg-0.8.2-linux
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 51.9.1
+Requires: 
+Conflicts:
+Libs: ${libdir}/libavutil.a -lm
+Cflags: -I${includedir}

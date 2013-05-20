@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="SDL-1.2.15-linux">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ffmpeg_libs/sdl/SDL-1.2.15-linux/Watcom-OS2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ffmpeg_libs/sdl/SDL-1.2.15-linux/Watcom-Win32.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ffmpeg_libs/sdl/SDL-1.2.15-linux/symbian.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ffmpeg_libs/sdl/SDL-1.2.15-linux/Borland.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

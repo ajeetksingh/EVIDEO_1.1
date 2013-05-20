@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/info.xml
+Export-Package: org.opencastproject.runtimeinfo;uses:="javax.ws.rs,org
+ .slf4j,org.apache.commons.lang,javax.servlet,org.osgi.framework,org.o
+ pencastproject.util.doc.rest,javax.servlet.http,org.json.simple.parse
+ r,org.json.simple,org.osgi.service.component,org.opencastproject.secu
+ rity.api"
+Http-Classpath: /ui
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-runtime-info-ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613036544
+Http-Alias: /
+Bundle-Activator: org.opencastproject.runtimeinfo.Activator
+Http-Welcome: welcome.html
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Embed-Dependency: freemarker;inline=true
+Import-Package: com.sun.org.apache.xml.internal.utils;resolution:=opti
+ onal,com.sun.org.apache.xpath.internal;resolution:=optional,com.sun.o
+ rg.apache.xpath.internal.objects;resolution:=optional,javax.el;resolu
+ tion:=optional,javax.servlet,javax.servlet.http,javax.servlet.jsp;res
+ olution:=optional,javax.servlet.jsp.el;resolution:=optional,javax.ser
+ vlet.jsp.tagext;resolution:=optional,javax.swing;resolution:=optional
+ ,javax.swing.tree;resolution:=optional,javax.ws.rs;version="1.1",java
+ x.xml.parsers;resolution:=optional,javax.xml.transform;resolution:=op
+ tional,org.apache.commons.beanutils;resolution:=optional;version="1.7
+ ",org.apache.commons.io;resolution:=optional;version="1.4",org.apache
+ .commons.lang;version="2.4",org.apache.log;resolution:=optional,org.a
+ pache.log4j;resolution:=optional,org.apache.tools.ant;resolution:=opt
+ ional,org.apache.tools.ant.taskdefs;resolution:=optional,org.apache.x
+ ml.utils;resolution:=optional,org.apache.xpath;resolution:=optional,o
+ rg.apache.xpath.objects;resolution:=optional,org.dom4j;resolution:=op
+ tional,org.dom4j.tree;resolution:=optional,org.jaxen;resolution:=opti
+ onal,org.jaxen.dom;resolution:=optional,org.jaxen.dom4j;resolution:=o
+ ptional,org.jaxen.jdom;resolution:=optional,org.jdom;resolution:=opti
+ onal,org.jdom.input;resolution:=optional,org.jdom.output;resolution:=
+ optional,org.json.simple,org.json.simple.parser,org.mozilla.javascrip
+ t;resolution:=optional,org.opencastproject.rest;version="1.3",org.ope
+ ncastproject.runtimeinfo;resolution:=optional,org.opencastproject.sec
+ urity.api;version="1.3",org.opencastproject.util;version="1.3",org.op
+ encastproject.util.doc.rest;version="1.3",org.osgi.framework;version=
+ "1.5",org.osgi.service.component;version="1.1",org.python.core;resolu
+ tion:=optional,org.python.util;resolution:=optional,org.slf4j;version
+ ="1.5",org.w3c.dom;resolution:=optional,org.w3c.dom.traversal;resolut
+ ion:=optional,org.xml.sax;resolution:=optional,org.xml.sax.helpers;re
+ solution:=optional,org.zeroturnaround.javarebel;resolution:=optional
+Bundle-SymbolicName: matterhorn-runtime-info-ui
+Bundle-DocURL: http://opencastproject.org/
+

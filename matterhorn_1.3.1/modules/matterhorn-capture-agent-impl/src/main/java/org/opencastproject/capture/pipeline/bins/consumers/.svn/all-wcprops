@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers
+END
+XVImagesinkConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/XVImagesinkConsumer.java
+END
+AudioFilesinkConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/AudioFilesinkConsumer.java
+END
+AudioMonitoringConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/AudioMonitoringConsumer.java
+END
+ConsumerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/ConsumerFactory.java
+END
+NoConsumerFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/NoConsumerFoundException.java
+END
+ConsumerBin.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/ConsumerBin.java
+END
+CustomConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/CustomConsumer.java
+END
+VideoFilesinkConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/VideoFilesinkConsumer.java
+END
+VideoMonitoringConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/VideoMonitoringConsumer.java
+END
+ConsumerType.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/ConsumerType.java
+END
+RTPVideoSinkConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/RTPVideoSinkConsumer.java
+END
+FilesinkConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/consumers/FilesinkConsumer.java
+END

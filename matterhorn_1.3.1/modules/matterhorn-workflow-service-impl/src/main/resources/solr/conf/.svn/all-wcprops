@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-workflow-service-impl/src/main/resources/solr/conf
+END
+protwords.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-workflow-service-impl/src/main/resources/solr/conf/protwords.txt
+END
+stopwords.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-workflow-service-impl/src/main/resources/solr/conf/stopwords.txt
+END
+solrconfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-workflow-service-impl/src/main/resources/solr/conf/solrconfig.xml
+END
+scripts.conf
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-workflow-service-impl/src/main/resources/solr/conf/scripts.conf
+END
+synonyms.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-workflow-service-impl/src/main/resources/solr/conf/synonyms.txt
+END
+schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-workflow-service-impl/src/main/resources/solr/conf/schema.xml
+END

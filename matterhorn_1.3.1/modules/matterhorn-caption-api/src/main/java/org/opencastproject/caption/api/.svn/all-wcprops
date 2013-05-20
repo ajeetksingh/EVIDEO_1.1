@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api
+END
+Caption.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/Caption.java
+END
+CaptionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/CaptionService.java
+END
+Time.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/Time.java
+END
+UnsupportedCaptionFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/UnsupportedCaptionFormatException.java
+END
+IllegalTimeFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/IllegalTimeFormatException.java
+END
+CaptionConverterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/CaptionConverterException.java
+END
+CaptionConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/CaptionConverter.java
+END
+CaptionCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/CaptionCollection.java
+END

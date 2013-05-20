@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 184
+.htmlCaptureAgents
+.htmlScheduleRecording
+.htmlSuite
+.htmlSeriesList
+.htmlViewInfoTest
+.htmlStatistics
+.htmlVerifyInspect
+.htmlRedirectToRecordings
+.htmlUploadRecording
+.htmlAddSeries
+
+END

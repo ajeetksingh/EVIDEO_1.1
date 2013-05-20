@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: org.opencastproject.composer.api;uses:="org.opencastpr
+ oject.job.api,org.opencastproject.mediapackage,javax.xml.bind.annotat
+ ion,javax.xml.parsers,org.apache.commons.io,javax.xml.bind,org.w3c.do
+ m";version="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-composer-service-api
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368612993031
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: javax.xml.bind,javax.xml.bind.annotation,javax.xml.par
+ sers,org.apache.commons.io;version="1.4",org.opencastproject.composer
+ .api;version="1.3",org.opencastproject.job.api;version="1.3",org.open
+ castproject.mediapackage;version="1.3",org.w3c.dom
+Bundle-SymbolicName: matterhorn-composer-service-api
+Bundle-DocURL: http://opencastproject.org/
+

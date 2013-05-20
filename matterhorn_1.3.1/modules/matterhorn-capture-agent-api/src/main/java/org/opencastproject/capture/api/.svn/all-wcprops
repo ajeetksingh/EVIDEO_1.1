@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-api/src/main/java/org/opencastproject/capture/api
+END
+StateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-api/src/main/java/org/opencastproject/capture/api/StateService.java
+END
+CaptureAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-api/src/main/java/org/opencastproject/capture/api/CaptureAgent.java
+END
+ScheduledEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-api/src/main/java/org/opencastproject/capture/api/ScheduledEvent.java
+END
+ScheduledEventImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-api/src/main/java/org/opencastproject/capture/api/ScheduledEventImpl.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-api/src/main/java/org/opencastproject/capture/api/package-info.java
+END
+ConfidenceMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-api/src/main/java/org/opencastproject/capture/api/ConfidenceMonitor.java
+END
+AgentRecording.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-api/src/main/java/org/opencastproject/capture/api/AgentRecording.java
+END
+Scheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-api/src/main/java/org/opencastproject/capture/api/Scheduler.java
+END

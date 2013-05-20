@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textanalyzer-impl/src/main/java/org/opencastproject/textanalyzer/impl/endpoint/TextAnalysisRestEndpoint.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textanalyzer-impl/src/main/java/org/opencastproject/textanalyzer/impl/TextAnalyzerServiceImpl.java">
+</file>
+</checkstyle>

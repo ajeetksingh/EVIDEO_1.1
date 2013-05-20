@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-authorization-xacml/src/main/java/org/opencastproject/authorization/xacml/XACMLUtils.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-authorization-xacml/src/main/java/org/opencastproject/authorization/xacml/XACMLAuthorizationService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-authorization-xacml/src/test/java/org/opencastproject/authorization/xacml/XacmlSecurityTest.java">
+</file>
+</checkstyle>

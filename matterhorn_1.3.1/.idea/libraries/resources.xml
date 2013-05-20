@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="resources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/modules/matterhorn-admin-ui/src/test/resources/JsTestDriver-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/modules/matterhorn-admin-ui/src/test/resources/JsTestDriver-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

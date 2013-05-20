@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs
+END
+StartCaptureJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/StartCaptureJob.java
+END
+JobDetailTriggerPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/JobDetailTriggerPair.java
+END
+JobParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/JobParameters.java
+END
+AgentConfigurationJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/AgentConfigurationJob.java
+END
+CleanCaptureJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/CleanCaptureJob.java
+END
+SerializeJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/SerializeJob.java
+END
+IngestJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/IngestJob.java
+END
+StopCaptureJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/StopCaptureJob.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/package-info.java
+END
+AgentStateJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/AgentStateJob.java
+END
+JobCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/JobCreator.java
+END
+LoadRecordingsJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/LoadRecordingsJob.java
+END
+PollCalendarJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/jobs/PollCalendarJob.java
+END

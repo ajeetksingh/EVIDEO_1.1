@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/KeywordAnnotation.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MediaTimePoint.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/SegmentImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/TextualImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/SpatioTemporalDecomposition.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MediaRelTimePointImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MultimediaContent.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MediaTimeImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/FreeTextAnnotation.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/VideoTextImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/KeywordAnnotationImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/VideoSegment.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MediaLocatorImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MediaLocator.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/AudioSegment.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/VideoText.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/TemporalDecompositionImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MultimediaContentTypeImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/TextAnnotationImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/Mpeg7CatalogImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MediaRelTimeImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MediaDuration.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MultimediaContentType.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MediaTimePointImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/Mpeg7.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/FreeTextAnnotationImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/Segment.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/TemporalDecomposition.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MultimediaContentImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/SpatioTemporalLocatorImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MovingRegion.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/Audio.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/Mpeg7Parser.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/SpatioTemporalDecompositionImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MediaDurationImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/TextAnnotation.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/Mpeg7Catalog.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/Video.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/AudioVisual.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/Textual.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/SpatioTemporalLocator.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/Mpeg7CatalogService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/AudioVisualSegment.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/main/java/org/opencastproject/metadata/mpeg7/MediaTime.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-mpeg7/src/test/java/org/opencastproject/metadata/mpeg7/Mpeg7Test.java">
+</file>
+</checkstyle>

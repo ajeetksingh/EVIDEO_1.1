@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-admin-service-api/src/main/java/org/opencastproject/capture/admin/api
+END
+AgentState.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-admin-service-api/src/main/java/org/opencastproject/capture/admin/api/AgentState.java
+END
+RecordingStateUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-admin-service-api/src/main/java/org/opencastproject/capture/admin/api/RecordingStateUpdate.java
+END
+AgentStateUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-admin-service-api/src/main/java/org/opencastproject/capture/admin/api/AgentStateUpdate.java
+END
+CaptureAgentStateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-admin-service-api/src/main/java/org/opencastproject/capture/admin/api/CaptureAgentStateService.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-admin-service-api/src/main/java/org/opencastproject/capture/admin/api/package-info.java
+END
+Recording.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-admin-service-api/src/main/java/org/opencastproject/capture/admin/api/Recording.java
+END
+RecordingState.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-admin-service-api/src/main/java/org/opencastproject/capture/admin/api/RecordingState.java
+END
+Agent.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-admin-service-api/src/main/java/org/opencastproject/capture/admin/api/Agent.java
+END

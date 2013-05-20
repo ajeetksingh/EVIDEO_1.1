@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl
+END
+SeriesServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceImpl.java
+END
+SeriesServiceDatabaseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceDatabaseException.java
+END
+SeriesServiceDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceDatabase.java
+END
+SeriesServiceIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceIndex.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/package-info.java
+END

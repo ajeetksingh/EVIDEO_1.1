@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline
+END
+CannotFindSourceFileOrDeviceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/CannotFindSourceFileOrDeviceException.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/package-info.java
+END
+MonitoringGStreamerPipeline.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/MonitoringGStreamerPipeline.java
+END
+InvalidDeviceNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/InvalidDeviceNameException.java
+END
+InvalidCaptureDevicesSpecifiedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/InvalidCaptureDevicesSpecifiedException.java
+END
+UnrecognizedDeviceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/UnrecognizedDeviceException.java
+END
+GStreamerPipeline.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/GStreamerPipeline.java
+END
+UnableToCreateSampleOutputFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/UnableToCreateSampleOutputFileException.java
+END

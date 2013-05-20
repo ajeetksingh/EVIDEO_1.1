@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/dublin-core-service.xml,OSGI-INF/static-me
+ tadata-service.xml
+Export-Package: org.opencastproject.metadata.dublincore;uses:="org.ope
+ ncastproject.mediapackage,org.opencastproject.metadata.api,javax.xml.
+ bind.annotation.adapters,org.apache.commons.collections,javax.xml.par
+ sers,org.slf4j,org.xml.sax.helpers,org.xml.sax,org.json.simple.parser
+ ,org.json.simple,org.opencastproject.util,org.w3c.dom,org.apache.comm
+ ons.lang,javax.xml.transform,org.apache.commons.io,javax.xml.transfor
+ m.stream,javax.xml.transform.dom,org.apache.commons.io.output,org.ope
+ ncastproject.workspace.api,org.joda.time,org.joda.time.format,org.ope
+ ncastproject.util.data,org.opencastproject.metadata.api.util";version
+ ="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-dublincore
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368612995337
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: javax.xml.bind.annotation.adapters;resolution:=optiona
+ l,javax.xml.parsers;resolution:=optional,javax.xml.transform;resoluti
+ on:=optional,javax.xml.transform.dom;resolution:=optional,javax.xml.t
+ ransform.stream;resolution:=optional,org.apache.commons.collections;r
+ esolution:=optional;version="3.2",org.apache.commons.io;resolution:=o
+ ptional;version="1.4",org.apache.commons.io.output;resolution:=option
+ al;version="1.4",org.apache.commons.lang;resolution:=optional;version
+ ="2.4",org.joda.time;resolution:=optional;version="1.6",org.joda.time
+ .format;resolution:=optional;version="1.6",org.json.simple;resolution
+ :=optional,org.json.simple.parser;resolution:=optional,org.opencastpr
+ oject.mediapackage;resolution:=optional;version="1.3",org.opencastpro
+ ject.metadata.api;version="1.3.1",org.opencastproject.metadata.api.ut
+ il;resolution:=optional;version="1.3",org.opencastproject.metadata.du
+ blincore;resolution:=optional;version="1.3",org.opencastproject.util;
+ resolution:=optional;version="1.3",org.opencastproject.util.data;reso
+ lution:=optional;version="1.3",org.opencastproject.workspace.api;reso
+ lution:=optional;version="1.3",org.slf4j;resolution:=optional;version
+ ="1.5",org.w3c.dom;resolution:=optional,org.xml.sax;resolution:=optio
+ nal,org.xml.sax.helpers;resolution:=optional
+Bundle-SymbolicName: matterhorn-dublincore
+Bundle-DocURL: http://opencastproject.org/
+

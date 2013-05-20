@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/dictionary-service.xml,OSGI-INF/dictionary
+ -scanner.xml
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-dictionary-impl
+Created-By: Apache Maven Bundle Plugin
+JPA-PersistenceUnits: org.opencastproject.dictionary
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613067224
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Import-Package: javax.persistence;resolution:=optional;version="2.0",j
+ avax.persistence.spi;resolution:=optional;version="2.0",javax.xml.par
+ sers;resolution:=optional,org.apache.commons.lang;resolution:=optiona
+ l;version="2.4",org.apache.felix.fileinstall;resolution:=optional;ver
+ sion="3.1",org.opencastproject.dictionary.api;resolution:=optional;ve
+ rsion="1.3",org.osgi.service.component;resolution:=optional;version="
+ 1.1",org.slf4j;resolution:=optional;version="1.5",org.xml.sax;resolut
+ ion:=optional,org.xml.sax.helpers;resolution:=optional
+Bundle-SymbolicName: matterhorn-dictionary-impl
+Bundle-DocURL: http://opencastproject.org/
+Main-Class: org.opencastproject.dictionary.impl.parser.PopulateDiction
+ ary
+

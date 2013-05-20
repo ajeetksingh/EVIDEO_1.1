@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-serviceregistry/src/main/java/org/opencastproject/serviceregistry/command/MaintenanceCommand.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-serviceregistry/src/main/java/org/opencastproject/serviceregistry/impl/endpoint/ServiceRegistryEndpoint.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-serviceregistry/src/main/java/org/opencastproject/serviceregistry/impl/ServiceRegistryJpaImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-serviceregistry/src/main/java/org/opencastproject/serviceregistry/impl/JobPropertyJpaImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-serviceregistry/src/main/java/org/opencastproject/serviceregistry/impl/HostRegistration.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-serviceregistry/src/main/java/org/opencastproject/serviceregistry/impl/JobJpaImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-serviceregistry/src/main/java/org/opencastproject/serviceregistry/impl/ServiceRegistrationJpaImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-serviceregistry/src/test/java/org/opencastproject/serviceregistry/impl/JobTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-serviceregistry/src/test/java/org/opencastproject/serviceregistry/impl/ServiceRegistryJpaImplTest.java">
+</file>
+</checkstyle>

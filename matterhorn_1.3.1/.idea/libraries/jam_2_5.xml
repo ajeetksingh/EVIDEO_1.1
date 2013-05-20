@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jam-2.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/base_libs/jam/jam-2.5.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

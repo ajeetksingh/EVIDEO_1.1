@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="regex-2.7-src">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/regex/regex-2.7-src.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

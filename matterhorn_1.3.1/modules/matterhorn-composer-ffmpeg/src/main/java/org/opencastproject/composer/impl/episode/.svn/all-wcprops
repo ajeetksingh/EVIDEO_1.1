@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/episode
+END
+EpisodeSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/episode/EpisodeSettings.java
+END
+EpisodeEncoderEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/episode/EpisodeEncoderEngine.java
+END
+XmlRpcEngineController.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/episode/XmlRpcEngineController.java
+END
+XmlRpcJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/episode/XmlRpcJob.java
+END

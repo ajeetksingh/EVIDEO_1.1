@@ -1,0 +1,59 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/inspection-service.xml
+Export-Package: org.opencastproject.inspection.impl;uses:="org.apache.
+ commons.beanutils,org.apache.commons.lang,org.opencastproject.mediapa
+ ckage.track,org.opencastproject.inspection.impl.api,org.opencastproje
+ ct.inspection.impl.api.util,org.slf4j,org.opencastproject.inspection.
+ api,org.opencastproject.mediapackage,org.opencastproject.util,org.osg
+ i.service.component,org.opencastproject.workspace.api,org.opencastpro
+ ject.job.api,org.opencastproject.serviceregistry.api,org.osgi.framewo
+ rk,org.apache.commons.io,org.osgi.service.cm,org.opencastproject.secu
+ rity.api";version="1.3.1",org.opencastproject.inspection.impl.api;use
+ s:="org.opencastproject.mediapackage.track";version="1.3.1",org.openc
+ astproject.inspection.impl.api.util;uses:="org.opencastproject.inspec
+ tion.impl.api,org.opencastproject.util,org.slf4j,org.apache.commons.l
+ ang";version="1.3.1",org.opencastproject.inspection.impl.endpoints;us
+ es:="javax.ws.rs,org.opencastproject.rest,javax.xml.parsers,org.openc
+ astproject.mediapackage,org.osgi.service.component,org.w3c.dom,org.sl
+ f4j,org.opencastproject.job.api,org.opencastproject.serviceregistry.a
+ pi,org.apache.commons.io,org.opencastproject.util.doc.rest,org.openca
+ stproject.inspection.api,javax.ws.rs.core";version="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-inspection-service-impl
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613068665
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: javax.ws.rs;resolution:=optional;version="1.1",javax.w
+ s.rs.core;resolution:=optional;version="1.1",javax.xml.parsers;versio
+ n=0,org.apache.commons.beanutils;resolution:=optional;version="1.7",o
+ rg.apache.commons.io;resolution:=optional;version="1.4",org.apache.co
+ mmons.lang;resolution:=optional;version="2.4",org.opencastproject.ins
+ pection.api;resolution:=optional,org.opencastproject.inspection.impl;
+ resolution:=optional;version="1.3",org.opencastproject.inspection.imp
+ l.api;resolution:=optional;version="1.3",org.opencastproject.inspecti
+ on.impl.api.util;resolution:=optional;version="1.3",org.opencastproje
+ ct.inspection.impl.endpoints;resolution:=optional;version="1.3",org.o
+ pencastproject.job.api;resolution:=optional;version="1.3",org.opencas
+ tproject.mediapackage;resolution:=optional;version="1.3",org.opencast
+ project.mediapackage.track;resolution:=optional;version="1.3",org.ope
+ ncastproject.rest;resolution:=optional;version="1.3",org.opencastproj
+ ect.security.api;resolution:=optional;version="1.3",org.opencastproje
+ ct.serviceregistry.api;resolution:=optional;version="1.3",org.opencas
+ tproject.util;resolution:=optional;version="1.3",org.opencastproject.
+ util.doc.rest;resolution:=optional;version="1.3",org.opencastproject.
+ workspace.api;resolution:=optional;version="1.3",org.osgi.framework;r
+ esolution:=optional;version="1.5",org.osgi.service.cm;resolution:=opt
+ ional;version="1.3",org.osgi.service.component;resolution:=optional;v
+ ersion="1.1",org.slf4j;resolution:=optional;version="1.5",org.w3c.dom
+ ;version=0
+Bundle-SymbolicName: matterhorn-inspection-service-impl
+Bundle-DocURL: http://opencastproject.org/
+

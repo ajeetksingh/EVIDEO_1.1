@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-textanalyzer-api/src/main/java/org/opencastproject/textextractor/api
+END
+TextLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-textanalyzer-api/src/main/java/org/opencastproject/textextractor/api/TextLine.java
+END
+TextExtractorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-textanalyzer-api/src/main/java/org/opencastproject/textextractor/api/TextExtractorException.java
+END
+TextFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-textanalyzer-api/src/main/java/org/opencastproject/textextractor/api/TextFrame.java
+END
+TextExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-textanalyzer-api/src/main/java/org/opencastproject/textextractor/api/TextExtractor.java
+END

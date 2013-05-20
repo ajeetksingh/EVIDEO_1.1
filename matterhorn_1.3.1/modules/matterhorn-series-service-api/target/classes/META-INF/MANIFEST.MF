@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: org.opencastproject.series.api;uses:="org.apache.commo
+ ns.lang,org.opencastproject.util,org.opencastproject.metadata.dublinc
+ ore,org.opencastproject.security.api";version="1.3.1"
+Built-By: medialab
+Tool: Bnd-0.0.357
+Bundle-Category: opencastproject
+Bundle-Name: matterhorn-series-service-api
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368612996335
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: org.apache.commons.lang;resolution:=optional;version="
+ 2.4",org.opencastproject.metadata.dublincore;version="1.3.1",org.open
+ castproject.security.api;resolution:=optional;version="1.3",org.openc
+ astproject.series.api;resolution:=optional;version="1.3",org.opencast
+ project.util;resolution:=optional;version="1.3"
+Bundle-SymbolicName: matterhorn-series-service-api
+Bundle-DocURL: http://opencastproject.org/
+

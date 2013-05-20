@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl
+END
+CalendarGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/CalendarGenerator.java
+END
+SchedulerServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/SchedulerServiceImpl.java
+END
+SchedulerServiceDatabaseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/SchedulerServiceDatabaseException.java
+END
+SchedulerServiceDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/SchedulerServiceDatabase.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/package-info.java
+END
+SchedulerServiceIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/SchedulerServiceIndex.java
+END

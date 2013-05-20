@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers
+END
+HauppaugePVR350VideoProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/HauppaugePVR350VideoProducer.java
+END
+NoProducerFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/NoProducerFoundException.java
+END
+EpiphanVGA2USBV4LSubAbstractBin.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/EpiphanVGA2USBV4LSubAbstractBin.java
+END
+V4L2Producer.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/V4L2Producer.java
+END
+DV1394Producer.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/DV1394Producer.java
+END
+UndecodedFileProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/UndecodedFileProducer.java
+END
+CustomAudioProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/CustomAudioProducer.java
+END
+CustomVideoProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/CustomVideoProducer.java
+END
+BlueCherryBT878Producer.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/BlueCherryBT878Producer.java
+END
+AudioProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/AudioProducer.java
+END
+EpiphanVGA2USBV4LSubBin.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/EpiphanVGA2USBV4LSubBin.java
+END
+EpiphanVGA2USBV4LProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/EpiphanVGA2USBV4LProducer.java
+END
+V4LProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/V4LProducer.java
+END
+VideoProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/VideoProducer.java
+END
+ProducerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/ProducerFactory.java
+END
+EpiphanVGA2USBV4LSubPngBin.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/EpiphanVGA2USBV4LSubPngBin.java
+END
+ProducerBin.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/ProducerBin.java
+END
+AudioTestSrcProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/AudioTestSrcProducer.java
+END
+PulseAudioProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/PulseAudioProducer.java
+END
+EpiphanVGA2USBV4LSubTestSrcBin.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/EpiphanVGA2USBV4LSubTestSrcBin.java
+END
+VideoTestSrcProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/VideoTestSrcProducer.java
+END
+FileProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/FileProducer.java
+END
+AlsaProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/AlsaProducer.java
+END
+EpiphanVGA2USBV4LSubDeviceBin.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/pipeline/bins/producers/EpiphanVGA2USBV4LSubDeviceBin.java
+END

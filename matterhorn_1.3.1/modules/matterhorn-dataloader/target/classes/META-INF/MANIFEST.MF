@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/dataloader.xml
+Export-Package: org.opencastproject.dataloader;uses:="org.opencastproj
+ ect.series.api,org.opencastproject.mediapackage,org.opencastproject.u
+ til,org.slf4j,org.opencastproject.metadata.dublincore,org.opencastpro
+ ject.security.api,org.osgi.framework,org.osgi.service.component,org.a
+ pache.commons.lang,org.opencastproject.userdirectory.jpa";version="1.
+ 3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-dataloader
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613081401
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: org.apache.commons.lang;version="2.4",org.opencastproj
+ ect.dataloader;version="1.3",org.opencastproject.mediapackage;version
+ ="1.3",org.opencastproject.metadata.dublincore;version="1.3",org.open
+ castproject.security.api;version="1.3",org.opencastproject.series.api
+ ;version="1.3",org.opencastproject.userdirectory.jpa;version="1.3",or
+ g.opencastproject.util;version="1.3",org.osgi.framework;version="1.5"
+ ,org.osgi.service.component;version="1.1",org.slf4j;version="1.5"
+Bundle-SymbolicName: matterhorn-dataloader
+Bundle-DocURL: http://opencastproject.org/
+

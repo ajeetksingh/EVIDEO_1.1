@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-youtube/src/test/resources
+END
+mediapackage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-youtube/src/test/resources/mediapackage.xml
+END
+mpeg7.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-youtube/src/test/resources/mpeg7.xml
+END
+media.mov
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-youtube/src/test/resources/media.mov
+END
+dublincore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-youtube/src/test/resources/dublincore.xml
+END
+attachment.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-youtube/src/test/resources/attachment.txt
+END

@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 85
+tiff-*.tar.gz
+tiff-*.tgz
+tiff-*.tar.bz2
+tiff-*.tbz
+tiff-*.tb2
+tiff-*.zip
+.done-linux
+
+END

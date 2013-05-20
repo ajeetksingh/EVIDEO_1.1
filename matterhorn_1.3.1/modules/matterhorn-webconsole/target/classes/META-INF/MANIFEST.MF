@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.felix.webconsole;uses:="javax.servlet,org.o
+ sgi.framework,org.apache.commons.io,javax.servlet.http,org.apache.com
+ mons.fileupload.disk,org.apache.commons.fileupload,org.apache.commons
+ .fileupload.servlet";version="3.1.6",org.opencastproject.webconsole;u
+ ses:="javax.servlet,org.opencastproject.rest,org.osgi.framework,org.a
+ pache.felix.webconsole,org.osgi.service.http,org.slf4j";version="1.3.
+ 1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-webconsole
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+DynamicImport-Package: org.apache.felix.bundlerepository,             
+    org.osgi.service.obr
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613044873
+Bundle-Activator: org.opencastproject.webconsole.Activator
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Embed-Dependency: json;inline=true,              org.apache.felix.webc
+ onsole;inline=true
+Import-Package: javax.servlet;version="2.4",javax.servlet.http;version
+ ="2.4",org.apache.commons.fileupload,org.apache.commons.fileupload.di
+ sk,org.apache.commons.fileupload.servlet,org.apache.commons.io;versio
+ n="1.4",org.apache.felix.scr;resolution:=optional,org.apache.felix.sh
+ ell;resolution:=optional,org.apache.felix.webconsole;version="3.1",or
+ g.opencastproject.rest;version="1.3",org.opencastproject.webconsole;v
+ ersion="1.3",org.osgi.framework;version="1.5",org.osgi.service.cm;res
+ olution:=optional;version="1.3",org.osgi.service.condpermadmin;resolu
+ tion:=optional;version="1.1",org.osgi.service.deploymentadmin;resolut
+ ion:=optional;version="1.1",org.osgi.service.http;version="1.2",org.o
+ sgi.service.log;resolution:=optional;version="1.3",org.osgi.service.m
+ etatype;resolution:=optional;version="1.1",org.osgi.service.packagead
+ min;resolution:=optional;version="1.2",org.osgi.service.permissionadm
+ in;resolution:=optional;version="1.2",org.osgi.service.prefs;resoluti
+ on:=optional;version="1.1",org.osgi.service.startlevel;resolution:=op
+ tional;version="1.1",org.osgi.service.wireadmin;resolution:=optional;
+ version="1.0",org.slf4j;version="1.5"
+Bundle-SymbolicName: matterhorn-webconsole
+Bundle-DocURL: http://opencastproject.org/
+

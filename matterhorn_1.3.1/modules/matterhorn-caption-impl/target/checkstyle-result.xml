@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/endpoint/CaptionServiceRestEndpoint.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/impl/CaptionImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/impl/CaptionCollectionImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/impl/TimeImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/impl/CaptionServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/converters/DFXPCaptionConverter.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/converters/SubRipCaptionConverter.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/util/TimeUtil.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/test/java/org/opencastproject/caption/impl/TimeTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/test/java/org/opencastproject/caption/converters/SubRipConverterTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/test/java/org/opencastproject/caption/converters/DFXPConverterTest.java">
+</file>
+</checkstyle>

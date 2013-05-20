@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/AbstractWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowOperationInstanceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowParser.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowException.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowInstance.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowOperationResult.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowListener.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/ResumableWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowStateListener.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/Configurable.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowDefinitionImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowQuery.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowSet.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowOperationDefinition.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowDefinitionSet.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowConfigurationImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowOperationInstance.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowParsingException.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowSetImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowConfiguration.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowOperationException.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowStatistics.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowDefinition.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowOperationDefinitionImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowInstanceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowOperationResultImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-api/src/main/java/org/opencastproject/workflow/api/WorkflowDatabaseException.java">
+</file>
+</checkstyle>

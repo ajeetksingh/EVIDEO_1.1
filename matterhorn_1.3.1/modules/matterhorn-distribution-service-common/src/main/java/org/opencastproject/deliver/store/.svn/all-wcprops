@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-common/src/main/java/org/opencastproject/deliver/store
+END
+Serializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-common/src/main/java/org/opencastproject/deliver/store/Serializer.java
+END
+Store.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-common/src/main/java/org/opencastproject/deliver/store/Store.java
+END
+InvalidKeyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-common/src/main/java/org/opencastproject/deliver/store/InvalidKeyException.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-common/src/main/java/org/opencastproject/deliver/store/package.html
+END
+FileSystemStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-common/src/main/java/org/opencastproject/deliver/store/FileSystemStore.java
+END
+MarkerLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-common/src/main/java/org/opencastproject/deliver/store/MarkerLocator.java
+END
+MemoryStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-common/src/main/java/org/opencastproject/deliver/store/MemoryStore.java
+END

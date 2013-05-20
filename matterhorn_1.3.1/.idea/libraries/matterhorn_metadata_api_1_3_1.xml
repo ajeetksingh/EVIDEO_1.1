@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="matterhorn-metadata-api-1.3.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/modules/matterhorn-metadata-api/target/matterhorn-metadata-api-1.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

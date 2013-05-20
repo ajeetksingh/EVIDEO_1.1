@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-oaipmh/src/main/java/org/opencastproject/oaipmh/harvester
+END
+MatterhornHarvester.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-oaipmh/src/main/java/org/opencastproject/oaipmh/harvester/MatterhornHarvester.java
+END
+RequestException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-oaipmh/src/main/java/org/opencastproject/oaipmh/harvester/RequestException.java
+END
+LastHarvested.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-oaipmh/src/main/java/org/opencastproject/oaipmh/harvester/LastHarvested.java
+END
+IdentifyResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-oaipmh/src/main/java/org/opencastproject/oaipmh/harvester/IdentifyResponse.java
+END
+ListRecordsResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-oaipmh/src/main/java/org/opencastproject/oaipmh/harvester/ListRecordsResponse.java
+END
+OaiPmhRepositoryClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-oaipmh/src/main/java/org/opencastproject/oaipmh/harvester/OaiPmhRepositoryClient.java
+END
+OaiPmhResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-oaipmh/src/main/java/org/opencastproject/oaipmh/harvester/OaiPmhResponse.java
+END
+OaiPmhNamespaceContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-oaipmh/src/main/java/org/opencastproject/oaipmh/harvester/OaiPmhNamespaceContext.java
+END
+HarvesterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-oaipmh/src/main/java/org/opencastproject/oaipmh/harvester/HarvesterException.java
+END
+MalformedResponseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-oaipmh/src/main/java/org/opencastproject/oaipmh/harvester/MalformedResponseException.java
+END

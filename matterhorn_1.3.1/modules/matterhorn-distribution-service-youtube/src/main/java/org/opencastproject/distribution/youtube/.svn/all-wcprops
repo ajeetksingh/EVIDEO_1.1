@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-youtube/src/main/java/org/opencastproject/distribution/youtube
+END
+YoutubeDistributionContextStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-youtube/src/main/java/org/opencastproject/distribution/youtube/YoutubeDistributionContextStrategy.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-youtube/src/main/java/org/opencastproject/distribution/youtube/package-info.java
+END
+TestAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-youtube/src/main/java/org/opencastproject/distribution/youtube/TestAction.java
+END
+YoutubeDistributionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-youtube/src/main/java/org/opencastproject/distribution/youtube/YoutubeDistributionService.java
+END

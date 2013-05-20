@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/search/impl/solr
+END
+DField.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/search/impl/solr/DField.java
+END
+SolrRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/search/impl/solr/SolrRequester.java
+END
+Schema.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/search/impl/solr/Schema.java
+END
+SolrIndexManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/search/impl/solr/SolrIndexManager.java
+END

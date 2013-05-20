@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/endpoint/SchedulerRestService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/SchedulerServiceDatabase.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/persistence/SchedulerServiceDatabaseImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/persistence/EventEntity.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/CalendarGenerator.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/SchedulerServiceIndex.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/SchedulerServiceDatabaseException.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/solr/SolrFields.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/solr/SchedulerServiceSolrIndex.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/SchedulerServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/test/java/org/opencastproject/scheduler/impl/SchedulerServiceImplTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/test/java/org/opencastproject/scheduler/impl/persistence/SchedulerServiceDatabaseImplTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-scheduler-impl/src/test/java/org/opencastproject/scheduler/impl/solr/SchedulerServiceSolrIndexTest.java">
+</file>
+</checkstyle>

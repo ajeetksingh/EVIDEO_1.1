@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/http/impl
+END
+HttpClientImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/http/impl/HttpClientImpl.java
+END
+HttpClientFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/http/impl/HttpClientFactory.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/job/api
+END
+JobProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/job/api/JobProducer.java
+END
+JaxbJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/job/api/JaxbJob.java
+END
+JobContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/job/api/JobContext.java
+END
+JobBarrier.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/job/api/JobBarrier.java
+END
+AbstractJobProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/job/api/AbstractJobProducer.java
+END
+JaxbJobContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/job/api/JaxbJobContext.java
+END
+JobParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/job/api/JobParser.java
+END
+Job.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/job/api/Job.java
+END
+JaxbJobList.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/job/api/JaxbJobList.java
+END

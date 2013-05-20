@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workspace-impl/src/main/java/org/opencastproject/workspace/impl/WorkspaceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workspace-impl/src/test/java/org/opencastproject/workspace/impl/WorkspaceImplTest.java">
+</file>
+</checkstyle>

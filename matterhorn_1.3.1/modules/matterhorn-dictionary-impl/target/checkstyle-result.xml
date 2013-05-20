@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dictionary-impl/src/main/java/org/opencastproject/dictionary/impl/parser/PopulateDictionary.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dictionary-impl/src/main/java/org/opencastproject/dictionary/impl/Word.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dictionary-impl/src/main/java/org/opencastproject/dictionary/impl/DictionaryScanner.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dictionary-impl/src/main/java/org/opencastproject/dictionary/impl/DictionaryServiceJpaImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dictionary-impl/src/test/java/org/opencastproject/dictionary/impl/DictionaryServiceJpaImplTest.java">
+</file>
+</checkstyle>

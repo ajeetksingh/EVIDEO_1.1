@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/EpisodeService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/SearchResultItemImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/MediaSegmentImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/EpisodeServiceException.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/MediaSegmentPreview.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/MediaSegment.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/SearchResultItem.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/SearchResultImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/EpisodeQuery.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/SearchResult.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/MediaSegmentPreviewImpl.java">
+</file>
+</checkstyle>

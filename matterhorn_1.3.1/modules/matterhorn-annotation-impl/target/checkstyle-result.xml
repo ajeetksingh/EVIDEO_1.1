@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-annotation-impl/src/main/java/org/opencastproject/annotation/impl/AnnotationImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-annotation-impl/src/main/java/org/opencastproject/annotation/impl/AnnotationListImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-annotation-impl/src/main/java/org/opencastproject/annotation/impl/AnnotationRestService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-annotation-impl/src/main/java/org/opencastproject/annotation/impl/AnnotationServiceJpaImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-annotation-impl/src/test/java/org/opencastproject/annotation/impl/AnnotationServiceJpaImplTest.java">
+</file>
+</checkstyle>

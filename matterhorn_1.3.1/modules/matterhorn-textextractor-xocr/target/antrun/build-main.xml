@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main" if="deployTo">
+  <copy todir="/opt/matterhorn/felix/matterhorn" file="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textextractor-xocr/target/matterhorn-textextractor-xocr-1.2.0.jar" failonerror="false"/>
+</target>
+</project>

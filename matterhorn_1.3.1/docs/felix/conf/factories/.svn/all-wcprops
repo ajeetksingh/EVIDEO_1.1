@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/factories
+END
+org.opencastproject.ingest.scanner.InboxScanner.properties
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/factories/org.opencastproject.ingest.scanner.InboxScanner.properties
+END
+org.opencastproject.userdirectory.ldap.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/factories/org.opencastproject.userdirectory.ldap.properties
+END

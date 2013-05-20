@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-dublincore/src/test/resources
+END
+manifest-simple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-dublincore/src/test/resources/manifest-simple.xml
+END
+dublincore-defect.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-dublincore/src/test/resources/dublincore-defect.xml
+END
+series-dublincore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-dublincore/src/test/resources/series-dublincore.xml
+END
+manifest-simple-defect.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-dublincore/src/test/resources/manifest-simple-defect.xml
+END
+dublincore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-dublincore/src/test/resources/dublincore.xml
+END

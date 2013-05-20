@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textextractor-tesseract/src/main/java/org/opencastproject/textextractor/tesseract/TesseractLine.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textextractor-tesseract/src/main/java/org/opencastproject/textextractor/tesseract/TesseractTextFrame.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textextractor-tesseract/src/main/java/org/opencastproject/textextractor/tesseract/TesseractTextExtractor.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textextractor-tesseract/src/test/java/org/opencastproject/analysis/text/TesseractTextFrameTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textextractor-tesseract/src/test/java/org/opencastproject/analysis/text/TesseractTextLineTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textextractor-tesseract/src/test/java/org/opencastproject/analysis/text/TesseractTextExtractorTest.java">
+</file>
+</checkstyle>

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security
+END
+OAuthSingleConsumerDetailsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/OAuthSingleConsumerDetailsService.java
+END
+OrganizationEndpoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/OrganizationEndpoint.java
+END
+AuthenticationSuccessHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/AuthenticationSuccessHandler.java
+END
+HttpConnectionMXBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/HttpConnectionMXBean.java
+END
+OrganizationFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/OrganizationFilter.java
+END
+LtiProcessingFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/LtiProcessingFilter.java
+END
+TrustedHttpClientImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/TrustedHttpClientImpl.java
+END
+OrganizationDirectoryServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/OrganizationDirectoryServiceImpl.java
+END
+SecurityFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/SecurityFilter.java
+END
+SecurityServiceSpringImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/SecurityServiceSpringImpl.java
+END
+SpringSecurityConfigurationArtifactInstaller.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/SpringSecurityConfigurationArtifactInstaller.java
+END
+DelegatingAuthenticationEntryPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/DelegatingAuthenticationEntryPoint.java
+END
+LtiLaunchAuthenticationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/LtiLaunchAuthenticationHandler.java
+END

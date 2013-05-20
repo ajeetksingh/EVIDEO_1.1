@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-distribution-service-download/src/main/java/org/opencastproject/distribution/download/endpoint/DownloadDistributionRestService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-distribution-service-download/src/main/java/org/opencastproject/distribution/download/DownloadDistributionService.java">
+<error line="319" column="51" severity="error" message="&apos;+&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="319" column="52" severity="error" message="&apos;+&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-distribution-service-download/src/test/java/org/opencastproject/distribution/download/DownloadDistributionServiceImplTest.java">
+</file>
+</checkstyle>

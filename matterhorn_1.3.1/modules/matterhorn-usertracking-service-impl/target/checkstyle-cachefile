@@ -1,0 +1,12 @@
+#Wed May 15 15:47:40 IST 2013
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/test/java/org/opencastproject/usertracking/impl/UserTrackingServiceImplTest.java=1368074361000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/StatsImpl.java=1368074361000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/FootprintImpl.java=1368074361000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/FootprintsListImpl.java=1368074361000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/UserTrackingRestService.java=1368074361000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/impl/UserActionImpl.java=1368074361000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/impl/UserTrackingServiceImpl.java=1368074361000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/ReportItemImpl.java=1368074361000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/ReportImpl.java=1368074361000
+configuration*?=2B07B9C11DC373E2B1CA424E0E514047BE131790
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/impl/UserActionListImpl.java=1368074361000

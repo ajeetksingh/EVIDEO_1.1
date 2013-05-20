@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo
+END
+Activator.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/Activator.java
+END
+ComponentsJsonParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/ComponentsJsonParser.java
+END
+RuntimeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/RuntimeInfo.java
+END

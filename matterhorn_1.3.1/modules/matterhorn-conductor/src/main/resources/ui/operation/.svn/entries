@@ -1,0 +1,52 @@
+10
+
+dir
+14579
+https://opencast.jira.com/svn/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/ui/operation
+https://opencast.jira.com/svn
+
+
+
+2012-07-02T12:12:36.731315Z
+12366
+mmoorman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e6edf6fb-f266-4316-afb4-e53d95876a76
+
+capture
+dir
+
+append
+dir
+
+ingest
+dir
+
+trim
+dir
+
+schedule
+dir
+
+caption
+dir
+
+review
+dir
+
+download-dvd
+dir
+

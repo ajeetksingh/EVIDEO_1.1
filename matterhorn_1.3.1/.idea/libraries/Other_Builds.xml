@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Other Builds">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/sdl_gfx/SDL_gfx-2.0.22-linux/Other Builds/VisualC7.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/sdl_gfx/SDL_gfx-2.0.22-linux/Other Builds/VisualC8.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/sdl_gfx/SDL_gfx-2.0.22-linux/Other Builds/OSX-PB-XCode.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/sdl_gfx/SDL_gfx-2.0.22-linux/Other Builds/VisualCE.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/sdl_gfx/SDL_gfx-2.0.22-linux/Other Builds/Dev-Cpp.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/sdl_gfx/SDL_gfx-2.0.22-linux/Other Builds/mingw.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/sdl_gfx/SDL_gfx-2.0.22-linux/Other Builds/VisualC6.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

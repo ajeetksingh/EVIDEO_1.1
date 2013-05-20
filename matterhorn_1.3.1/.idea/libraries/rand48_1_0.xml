@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rand48-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/base_libs/rand48/rand48-1.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

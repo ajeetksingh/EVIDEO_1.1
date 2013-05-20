@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/tesseract.xml
+Export-Package: org.opencastproject.textextractor.tesseract;uses:="org
+ .opencastproject.textextractor.api,org.opencastproject.textanalyzer.a
+ pi,org.opencastproject.util,org.osgi.framework,org.apache.commons.io,
+ org.osgi.service.cm,org.slf4j,org.osgi.service.component,org.apache.c
+ ommons.lang";version="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-textextractor-tesseract
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368075659009
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: org.apache.commons.io;version="1.4",org.apache.commons
+ .lang;version="2.4",org.opencastproject.textanalyzer.api;version="1.3
+ ",org.opencastproject.textextractor.api;version="1.3",org.opencastpro
+ ject.textextractor.tesseract;version="1.3",org.opencastproject.util;v
+ ersion="1.3",org.osgi.framework;version="1.5",org.osgi.service.cm;ver
+ sion="1.3",org.osgi.service.component;version="1.1",org.slf4j;version
+ ="1.5"
+Bundle-SymbolicName: matterhorn-textextractor-tesseract
+Bundle-DocURL: http://opencastproject.org/
+

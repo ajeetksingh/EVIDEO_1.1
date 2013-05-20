@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/UnsupportedCaptionFormatException.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/CaptionConverter.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/Time.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/CaptionCollection.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/CaptionConverterException.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/CaptionService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/Caption.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-api/src/main/java/org/opencastproject/caption/api/IllegalTimeFormatException.java">
+</file>
+</checkstyle>

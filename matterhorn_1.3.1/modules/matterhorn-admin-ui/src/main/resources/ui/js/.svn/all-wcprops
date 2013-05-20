@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js
+END
+popuphelp.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/popuphelp.js
+END
+viewevent.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/viewevent.js
+END
+js-class.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/js-class.js
+END
+bluff-min.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/bluff-min.js
+END
+oc.upload.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.upload.js
+END
+jquery.address-1.4.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/jquery.address-1.4.min.js
+END
+jquery.cookie.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/jquery.cookie.js
+END
+oc.admin.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.admin.js
+END
+oc.ingest.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.ingest.js
+END
+scheduler.helptexts.json
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/scheduler.helptexts.json
+END
+oc.statistics.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.statistics.js
+END
+oc.series.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.series.js
+END
+oc.utils.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.utils.js
+END
+oc.capture.agent.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.capture.agent.js
+END
+oc.users.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.users.js
+END
+oc.series.list.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.series.list.js
+END
+oc.inspect.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.inspect.js
+END
+oc.security.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.security.js
+END
+jquery.ui.spinner.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/jquery.ui.spinner.js
+END
+oc.view.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.view.js
+END
+oc.upload.new.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.upload.new.js
+END
+jquery.tmpl.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/jquery.tmpl.min.js
+END
+oc.scheduler.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.scheduler.js
+END
+jquery.jqote2.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/jquery.jqote2.js
+END
+oc.episode.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.episode.js
+END
+oc.uploadListener.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.uploadListener.js
+END
+oc.pager.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.pager.js
+END
+oc.recordings.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.recordings.js
+END
+upload.helptexts.json
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/upload.helptexts.json
+END
+oc.view.series.js
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.view.series.js
+END
+excanvas.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/excanvas.js
+END
+jquery.ui.searchbox.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/jquery.ui.searchbox.js
+END
+oc.workflow.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/js/oc.workflow.js
+END

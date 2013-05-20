@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/event/handler/WorkflowPermissionsUpdatedEventHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/event/handler/SeriesUpdatedEventHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/event/handler/EpisodesPermissionsUpdatedEventHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/ZipWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/VideoSegmenterWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/ArchiveWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/ScheduleWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/CaptionEmbedderWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/CaptionUploadWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/CleanupWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/DistributeWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/NCASTVideoSplitWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/SegmentPreviewsWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/ComposeWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/ApplyAclWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/SearchIndexRemoveWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/PrepareAVWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/RetractWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/CLIWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/TextAnalysisWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/ErrorLoggingOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/ResumableWorkflowOperationHandlerBase.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/WatermarkWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/DownloadDVDWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/CaptureWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/InspectWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/ImageWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/TrimWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/ReviewWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/AppendWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/IngestWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/SpeechRecognitionWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/main/java/org/opencastproject/workflow/handler/PublishWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/test/java/org/opencastproject/workflow/handler/PublishWorkflowOperationHandlerTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/test/java/org/opencastproject/workflow/handler/CLIWorkflowOperationHandlerTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/test/java/org/opencastproject/workflow/handler/MediaPackageEquals.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/test/java/org/opencastproject/workflow/handler/InspectWorkflowOperationHandlerTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/test/java/org/opencastproject/workflow/handler/ComposeWorkflowOperationHandlerTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/test/java/org/opencastproject/workflow/handler/NCASTVideoSplitWorkflowOperationHandlerTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-conductor/src/test/java/org/opencastproject/workflow/handler/DistributeWorkflowOperationHandlerTest.java">
+</file>
+</checkstyle>

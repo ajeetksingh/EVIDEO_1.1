@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/endpoint/SeriesRestService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/persistence/SeriesEntity.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/persistence/SeriesServiceDatabaseImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceDatabaseException.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/solr/SolrFields.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/solr/SeriesServiceSolrIndex.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceIndex.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/main/java/org/opencastproject/series/impl/SeriesServiceDatabase.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/test/java/org/opencastproject/series/impl/persistence/SeriesServicePersistenceTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/test/java/org/opencastproject/series/impl/SeriesServiceImplTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-series-service-impl/src/test/java/org/opencastproject/series/impl/solr/SeriesServiceSolrTest.java">
+</file>
+</checkstyle>

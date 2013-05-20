@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 53.1.1
+Requires: libavformat = 53.4.0
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavdevice -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lSDL -lpthread -lxvidcore -lx264 -lvpx -lvpx -lvorbisenc -lvorbis -logg -ltheoraenc -ltheoradec -logg -lmp3lame -lfaac -lm -lbz2 -lz -lvpx -ltheora -lvorbis -lfaac -lmp3lame -lx264 -lpthread -lxvidcore
+Libs.private: 
+Cflags: -I${includedir}

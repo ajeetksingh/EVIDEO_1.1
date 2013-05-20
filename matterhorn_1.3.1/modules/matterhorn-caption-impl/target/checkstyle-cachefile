@@ -1,0 +1,13 @@
+#Wed May 15 15:47:42 IST 2013
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/converters/DFXPCaptionConverter.java=1368074437000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/endpoint/CaptionServiceRestEndpoint.java=1368074437000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/test/java/org/opencastproject/caption/converters/DFXPConverterTest.java=1368074437000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/test/java/org/opencastproject/caption/converters/SubRipConverterTest.java=1368074437000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/impl/CaptionCollectionImpl.java=1368074437000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/impl/TimeImpl.java=1368074437000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/impl/CaptionServiceImpl.java=1368074437000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/impl/CaptionImpl.java=1368074437000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/test/java/org/opencastproject/caption/impl/TimeTest.java=1368074437000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/util/TimeUtil.java=1368074437000
+configuration*?=9C1579F1390626DB6AA618F25DE3CCD4268B97F1
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-caption-impl/src/main/java/org/opencastproject/caption/converters/SubRipCaptionConverter.java=1368074437000

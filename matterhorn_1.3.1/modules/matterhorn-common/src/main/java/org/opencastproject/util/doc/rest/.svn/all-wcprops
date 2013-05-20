@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/doc/rest
+END
+ExtendedMediaType.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/doc/rest/ExtendedMediaType.java
+END
+RestQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/doc/rest/RestQuery.java
+END
+RestResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/doc/rest/RestResponse.java
+END
+RestParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/doc/rest/RestParameter.java
+END
+RestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/util/doc/rest/RestService.java
+END

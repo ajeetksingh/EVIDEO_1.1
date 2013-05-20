@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SDL_image-1.2.10-linux">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/sdl_image/SDL_image-1.2.10-linux/VisualCE.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/sdl_image/SDL_image-1.2.10-linux/VisualC.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/sdl_image/SDL_image-1.2.10-linux/Watcom-OS2.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

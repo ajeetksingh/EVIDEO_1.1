@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-videosegmenter-impl/src/main/java/org/opencastproject/videosegmenter/impl/VideoSegmenterServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-videosegmenter-impl/src/main/java/org/opencastproject/videosegmenter/impl/endpoint/VideoSegmenterRestEndpoint.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-videosegmenter-impl/src/main/java/org/opencastproject/videosegmenter/impl/EdgeDetector.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-videosegmenter-impl/src/main/java/org/opencastproject/videosegmenter/impl/jmf/ImageUtils.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-videosegmenter-impl/src/main/java/org/opencastproject/videosegmenter/impl/jmf/ImageComparator.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-videosegmenter-impl/src/main/java/org/opencastproject/videosegmenter/impl/jmf/FrameGrabber.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-videosegmenter-impl/src/main/java/org/opencastproject/videosegmenter/impl/jmf/PlayerListener.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-videosegmenter-impl/src/test/java/org/opencastproject/videosegmenter/impl/VideoSegmenterTest.java">
+</file>
+</checkstyle>

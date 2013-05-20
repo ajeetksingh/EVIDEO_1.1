@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 85
+x264-*.tar.gz
+x264-*.tgz
+x264-*.tar.bz2
+x264-*.tbz
+x264-*.tb2
+x264-*.zip
+.done-linux
+
+END

@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/xocr.xml
+Export-Package: org.opencastproject.textextractor.xocr;uses:="org.open
+ castproject.textextractor.api,org.opencastproject.textanalyzer.api,or
+ g.opencastproject.util,org.slf4j,org.apache.commons.io,org.osgi.servi
+ ce.cm,org.apache.commons.lang";version="1.2.0"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-textextractor-xocr
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.2.0
+Bnd-LastModified: 1368613071454
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: org.apache.commons.io;version="1.4",org.apache.commons
+ .lang;version="2.4",org.opencastproject.textanalyzer.api;version="1.2
+ ",org.opencastproject.textextractor.api;version="1.2",org.opencastpro
+ ject.textextractor.xocr;version="1.2",org.opencastproject.util;versio
+ n="1.2",org.osgi.service.cm;version="1.3",org.slf4j;version="1.5"
+Bundle-SymbolicName: matterhorn-textextractor-xocr
+Bundle-DocURL: http://opencastproject.org/
+

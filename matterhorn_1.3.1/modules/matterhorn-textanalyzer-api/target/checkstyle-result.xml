@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textanalyzer-api/src/main/java/org/opencastproject/textextractor/api/TextExtractorException.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textanalyzer-api/src/main/java/org/opencastproject/textextractor/api/TextFrame.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textanalyzer-api/src/main/java/org/opencastproject/textextractor/api/TextExtractor.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textanalyzer-api/src/main/java/org/opencastproject/textextractor/api/TextLine.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textanalyzer-api/src/main/java/org/opencastproject/textanalyzer/api/TextAnalyzerException.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-textanalyzer-api/src/main/java/org/opencastproject/textanalyzer/api/TextAnalyzerService.java">
+</file>
+</checkstyle>

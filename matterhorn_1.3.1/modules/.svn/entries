@@ -1,0 +1,298 @@
+10
+
+dir
+14579
+https://opencast.jira.com/svn/MH/tags/1.3.1/modules
+https://opencast.jira.com/svn
+
+
+
+2012-07-10T17:23:17.717108Z
+12399
+greg_logan
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+e6edf6fb-f266-4316-afb4-e53d95876a76
+
+matterhorn-workflow-service-api
+dir
+
+matterhorn-kernel
+dir
+
+matterhorn-db
+dir
+
+matterhorn-ingest-service-impl
+dir
+
+matterhorn-capture-admin-service-impl
+dir
+
+matterhorn-workspace-impl
+dir
+
+matterhorn-capture-agent-impl
+dir
+
+matterhorn-series-service-api
+dir
+
+matterhorn-conductor
+dir
+
+matterhorn-dataloader
+dir
+
+matterhorn-webconsole
+dir
+
+matterhorn-workflow-service-remote
+dir
+
+matterhorn-authorization-xacml
+dir
+
+matterhorn-workspace-api
+dir
+
+matterhorn-distribution-service-itunesu
+dir
+
+matterhorn-distribution-service-youtube
+dir
+
+matterhorn-inspection-service-impl
+dir
+
+matterhorn-json
+dir
+
+matterhorn-search-service-api
+dir
+
+matterhorn-distribution-service-download-remote
+dir
+
+matterhorn-userdirectory-jpa
+dir
+
+matterhorn-scheduler-impl
+dir
+
+matterhorn-oaipmh
+dir
+
+matterhorn-composer-service-remote
+dir
+
+matterhorn-mpeg7
+dir
+
+matterhorn-solr
+dir
+
+matterhorn-metadata
+dir
+
+matterhorn-scheduler-api
+dir
+
+matterhorn-episode-service-impl
+dir
+
+matterhorn-runtime-info-ui
+dir
+
+matterhorn-metadata-api
+dir
+
+matterhorn-static
+dir
+
+matterhorn-videosegmenter-api
+dir
+
+matterhorn-common
+dir
+
+matterhorn-lti
+dir
+
+matterhorn-confidence-monitoring-ui
+dir
+
+matterhorn-welcome
+dir
+
+matterhorn-load-test
+dir
+
+matterhorn-composer-service-api
+dir
+
+matterhorn-caption-impl
+dir
+
+matterhorn-episode-service-api
+dir
+
+matterhorn-search-service-impl
+dir
+
+matterhorn-inspection-service-remote
+dir
+
+matterhorn-admin-ui
+dir
+
+matterhorn-distribution-service-streaming
+dir
+
+matterhorn-runtime-dependencies
+dir
+
+matterhorn-workflow-service-impl
+dir
+
+matterhorn-annotation-impl
+dir
+
+matterhorn-videosegmenter-remote
+dir
+
+matterhorn-working-file-repository-service-api
+dir
+
+matterhorn-inspection-service-api
+dir
+
+matterhorn-engage-player
+dir
+
+matterhorn-annotation-api
+dir
+
+matterhorn-serviceregistry-remote
+dir
+
+matterhorn-distribution-service-download
+dir
+
+matterhorn-textanalyzer-remote
+dir
+
+matterhorn-series-service-impl
+dir
+
+matterhorn-search-service-feeds
+dir
+
+matterhorn-serviceregistry
+dir
+
+matterhorn-search-service-remote
+dir
+
+matterhorn-distribution-service-streaming-remote
+dir
+
+matterhorn-distribution-service-itunesu-remote
+dir
+
+matterhorn-distribution-service-youtube-remote
+dir
+
+matterhorn-working-file-repository-service-remote
+dir
+
+matterhorn-distribution-service-common
+dir
+
+matterhorn-caption-api
+dir
+
+matterhorn-dictionary-impl
+dir
+
+matterhorn-security-impl
+dir
+
+matterhorn-usertracking-service-api
+dir
+
+matterhorn-textextractor-ocropus
+dir
+
+matterhorn-textextractor-tesseract
+dir
+
+matterhorn-composer-gstreamer
+dir
+
+matterhorn-videosegmenter-impl
+dir
+
+matterhorn-test-harness
+dir
+
+matterhorn-userdirectory-ldap
+dir
+
+matterhorn-distribution-service-api
+dir
+
+matterhorn-dublincore
+dir
+
+matterhorn-composer-ffmpeg
+dir
+
+matterhorn-textanalyzer-impl
+dir
+
+matterhorn-speech-recognition-service-api
+dir
+
+matterhorn-ingest-service-api
+dir
+
+matterhorn-capture-admin-service-api
+dir
+
+matterhorn-usertracking-service-impl
+dir
+
+matterhorn-engage-ui
+dir
+
+matterhorn-textanalyzer-api
+dir
+
+matterhorn-cas
+dir
+
+matterhorn-capture-agent-api
+dir
+
+matterhorn-working-file-repository-service-impl
+dir
+
+matterhorn-engage-repository-service-api
+dir
+
+matterhorn-dictionary-api
+dir
+

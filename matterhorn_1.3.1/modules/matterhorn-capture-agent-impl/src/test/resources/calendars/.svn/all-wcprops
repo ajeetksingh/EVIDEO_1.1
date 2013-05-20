@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/resources/calendars
+END
+Blank.ics
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/resources/calendars/Blank.ics
+END
+Garbage.ics
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/resources/calendars/Garbage.ics
+END
+Opencast.ics
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/resources/calendars/Opencast.ics
+END
+Opencast-with-dups.ics
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/resources/calendars/Opencast-with-dups.ics
+END
+ThreeCaptures.ics
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/resources/calendars/ThreeCaptures.ics
+END
+Incomplete.ics
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/resources/calendars/Incomplete.ics
+END
+Edge-Cases.ics
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/resources/calendars/Edge-Cases.ics
+END
+Overlapping-Cases.ics
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/resources/calendars/Overlapping-Cases.ics
+END

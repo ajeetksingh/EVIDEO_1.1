@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: org.opencastproject.adminui;uses:="org.osgi.framework,
+ org.slf4j"
+Http-Classpath: /ui
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-admin-ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368770013887
+Http-Alias: /admin
+Bundle-Activator: org.opencastproject.adminui.Activator
+Http-Welcome: index.html
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Import-Package: org.opencastproject.rest;version="1.3.1",org.osgi.fram
+ ework;version="1.5",org.slf4j;version="1.5"
+Bundle-SymbolicName: matterhorn-admin-ui
+Bundle-DocURL: http://opencastproject.org/
+

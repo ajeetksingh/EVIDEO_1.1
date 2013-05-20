@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-impl/src/test/resources
+END
+feeds.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-impl/src/test/resources/feeds.properties
+END
+dublincore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-impl/src/test/resources/dublincore.xml
+END
+manifest-full.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-impl/src/test/resources/manifest-full.xml
+END
+manifest-simple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-impl/src/test/resources/manifest-simple.xml
+END
+series-dublincore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-impl/src/test/resources/series-dublincore.xml
+END

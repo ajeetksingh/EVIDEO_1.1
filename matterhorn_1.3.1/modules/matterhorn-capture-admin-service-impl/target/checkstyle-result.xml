@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-capture-admin-service-impl/src/main/java/org/opencastproject/capture/admin/endpoint/CaptureAgentStateRestService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-capture-admin-service-impl/src/main/java/org/opencastproject/capture/admin/endpoint/AgentStateUpdateList.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-capture-admin-service-impl/src/main/java/org/opencastproject/capture/admin/impl/AgentImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-capture-admin-service-impl/src/main/java/org/opencastproject/capture/admin/impl/RecordingImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-capture-admin-service-impl/src/main/java/org/opencastproject/capture/admin/impl/CaptureAgentStateServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-capture-admin-service-impl/src/test/java/org/opencastproject/capture/admin/impl/CaptureAgentStateServiceImplTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-capture-admin-service-impl/src/test/java/org/opencastproject/capture/admin/impl/AgentTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-capture-admin-service-impl/src/test/java/org/opencastproject/capture/admin/impl/RecordingTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-capture-admin-service-impl/src/test/java/org/opencastproject/capture/admin/impl/RecordingStateUpdateTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-capture-admin-service-impl/src/test/java/org/opencastproject/capture/admin/impl/AgentStateUpdateTest.java">
+</file>
+</checkstyle>

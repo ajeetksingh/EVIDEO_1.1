@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="resources1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/modules/matterhorn-ingest-service-impl/src/test/resources/data.zip!/" />
+      <root url="jar://$PROJECT_DIR$/modules/matterhorn-ingest-service-impl/src/test/resources/testingZip.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

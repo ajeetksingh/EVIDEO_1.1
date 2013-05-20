@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gsl-1.8-src">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/docs/scripts/3rd_party/ocropus_libs/gsl/gsl-1.8-src.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

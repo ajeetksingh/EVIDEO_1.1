@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations
+END
+publish.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/publish.xml
+END
+cli.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/cli.xml
+END
+embed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/embed.xml
+END
+image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/image.xml
+END
+apply-acl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/apply-acl.xml
+END
+distribute-download.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/distribute-download.xml
+END
+ncastsplit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/ncastsplit.xml
+END
+segmentpreviews.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/segmentpreviews.xml
+END
+retract-streaming.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/retract-streaming.xml
+END
+capture.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/capture.xml
+END
+inspect.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/inspect.xml
+END
+append.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/append.xml
+END
+distribute-itunesu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/distribute-itunesu.xml
+END
+distribute-youtube.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/distribute-youtube.xml
+END
+retract-download.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/retract-download.xml
+END
+trim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/trim.xml
+END
+analyze-videosegments.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/analyze-videosegments.xml
+END
+archive.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/archive.xml
+END
+download-dvd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/download-dvd.xml
+END
+speech-recognition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/speech-recognition.xml
+END
+analyze-text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/analyze-text.xml
+END
+cleanup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/cleanup.xml
+END
+searchindex-remove.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/searchindex-remove.xml
+END
+ingest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/ingest.xml
+END
+schedule.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/schedule.xml
+END
+watermark.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/watermark.xml
+END
+caption.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/caption.xml
+END
+review.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/review.xml
+END
+prepare-av.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/prepare-av.xml
+END
+zip.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/zip.xml
+END
+error-handler.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/error-handler.xml
+END
+compose.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/compose.xml
+END
+distribute-streaming.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-conductor/src/main/resources/OSGI-INF/operations/distribute-streaming.xml
+END

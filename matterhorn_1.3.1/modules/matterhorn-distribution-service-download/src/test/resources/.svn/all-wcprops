@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-download/src/test/resources
+END
+mpeg7.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-download/src/test/resources/mpeg7.xml
+END
+media.mov
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-download/src/test/resources/media.mov
+END
+dublincore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-download/src/test/resources/dublincore.xml
+END
+attachment.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-download/src/test/resources/attachment.txt
+END
+mediapackage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-distribution-service-download/src/test/resources/mediapackage.xml
+END

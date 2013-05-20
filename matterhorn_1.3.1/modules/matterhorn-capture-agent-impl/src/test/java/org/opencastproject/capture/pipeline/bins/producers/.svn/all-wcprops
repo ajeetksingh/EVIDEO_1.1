@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/producers
+END
+EpiphanVGA2USBV4LSubTestSrcBinTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/producers/EpiphanVGA2USBV4LSubTestSrcBinTest.java
+END
+CustomAudioProducerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/producers/CustomAudioProducerTest.java
+END
+EpiphanVGA2USBV4LTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/producers/EpiphanVGA2USBV4LTest.java
+END
+CustomVideoProducerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/producers/CustomVideoProducerTest.java
+END
+EpiphanVGA2USBV4LSubDeviceBinTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/producers/EpiphanVGA2USBV4LSubDeviceBinTest.java
+END
+EpiphanVGA2USBV4LProducerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/producers/EpiphanVGA2USBV4LProducerTest.java
+END
+ProducerFactoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/producers/ProducerFactoryTest.java
+END
+EpiphanVGA2USBV4LSubPngBinTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/producers/EpiphanVGA2USBV4LSubPngBinTest.java
+END

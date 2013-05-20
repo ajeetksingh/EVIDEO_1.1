@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/working-file-repo.xml
+Export-Package: org.opencastproject.workingfilerepository.impl;uses:="
+ org.opencastproject.workingfilerepository.api,org.apache.commons.code
+ c.digest,org.opencastproject.util,org.osgi.service.component,org.slf4
+ j,org.apache.commons.lang,org.opencastproject.serviceregistry.api,org
+ .osgi.framework,org.apache.commons.io,javax.ws.rs,org.apache.commons.
+ fileupload,org.apache.commons.fileupload.servlet,org.json.simple,org.
+ apache.tika.sax,org.xml.sax,org.apache.tika.metadata,javax.activation
+ ,org.apache.tika.parser,org.opencastproject.util.doc.rest,javax.servl
+ et.http,javax.ws.rs.core";version="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-working-file-repository-service-impl
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613076084
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Import-Package: javax.activation,javax.servlet.http,javax.ws.rs;versio
+ n="1.1",javax.ws.rs.core;version="1.1",org.apache.commons.codec.diges
+ t;version="1.4",org.apache.commons.fileupload;version="1.2",org.apach
+ e.commons.fileupload.servlet;version="1.2",org.apache.commons.io;vers
+ ion="1.4",org.apache.commons.lang;version="2.4",org.apache.tika.metad
+ ata,org.apache.tika.parser,org.apache.tika.sax,org.json.simple,org.op
+ encastproject.serviceregistry.api;version="1.3",org.opencastproject.u
+ til;version="1.3",org.opencastproject.util.doc.rest;version="1.3",org
+ .opencastproject.workingfilerepository.api;version="1.3",org.opencast
+ project.workingfilerepository.impl;version="1.3",org.osgi.framework;v
+ ersion="1.5",org.osgi.service.component;version="1.1",org.slf4j;versi
+ on="1.5",org.xml.sax
+Bundle-SymbolicName: matterhorn-working-file-repository-service-impl
+Bundle-DocURL: http://opencastproject.org/
+

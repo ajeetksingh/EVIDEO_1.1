@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier
+END
+HandleBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/HandleBuilder.java
+END
+IdBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/IdBuilder.java
+END
+SerialIdBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/SerialIdBuilder.java
+END
+HandleBuilderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/HandleBuilderImpl.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/package-info.java
+END
+HandleSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/HandleSupport.java
+END
+HandleBuilderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/HandleBuilderFactory.java
+END
+HandleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/HandleException.java
+END
+Handle.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/Handle.java
+END
+IdBuilderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/IdBuilderFactory.java
+END
+Id.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/Id.java
+END
+UUIDIdBuilderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/UUIDIdBuilderImpl.java
+END
+HandleImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/HandleImpl.java
+END
+IdImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/java/org/opencastproject/mediapackage/identifier/IdImpl.java
+END

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/search/endpoint/SearchRestService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/search/impl/solr/Schema.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/search/impl/solr/SolrIndexManager.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/search/impl/solr/DField.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/search/impl/solr/SolrRequester.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/search/impl/SearchServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/DublinCoreExtension.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/LatestFeedService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/FeedImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/CustomFeedService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/ImageImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/HtmlContent.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/ITunesFeedEntryExtension.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/SeriesFeedService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/ContentImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/ITunesFeedExtension.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/AbstractFeedService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/LinkImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/PersonImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/FeedEntryImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/FeedInfo.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/FeedServlet.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/CategoryImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/DOIExtension.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/EnclosureImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/RomeFeed.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/AggregationFeedService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/PlainTextContent.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/AbstractFeedGenerator.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/test/java/org/opencastproject/search/impl/SearchServiceImplTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-search-service-impl/src/test/java/org/opencastproject/feed/impl/FeedImplTest.java">
+</file>
+</checkstyle>

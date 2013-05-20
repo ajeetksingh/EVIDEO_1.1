@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/solr
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/solr/package-info.java
+END
+SolrFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/solr/SolrFields.java
+END
+SchedulerServiceSolrIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-scheduler-impl/src/main/java/org/opencastproject/scheduler/impl/solr/SchedulerServiceSolrIndex.java
+END

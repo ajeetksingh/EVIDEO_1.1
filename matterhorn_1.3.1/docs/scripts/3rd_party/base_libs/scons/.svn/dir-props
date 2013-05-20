@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 91
+scons-*.tar.gz
+scons-*.tgz
+scons-*.tar.bz2
+scons-*.tbz
+scons-*.tb2
+scons-*.zip
+.done-linux
+
+END

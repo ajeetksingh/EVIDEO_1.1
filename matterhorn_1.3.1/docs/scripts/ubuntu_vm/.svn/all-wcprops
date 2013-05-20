@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/12400/MH/tags/1.3.1/docs/scripts/ubuntu_vm
+END
+buildvm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/12400/MH/tags/1.3.1/docs/scripts/ubuntu_vm/buildvm.sh
+END
+mediainfo
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/scripts/ubuntu_vm/mediainfo
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/scripts/ubuntu_vm/readme.txt
+END
+matterhorn_setup.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/scripts/ubuntu_vm/matterhorn_setup.sh
+END
+libmediainfo.la
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/scripts/ubuntu_vm/libmediainfo.la
+END
+rc.local
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/scripts/ubuntu_vm/rc.local
+END
+libmediainfo.a
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/scripts/ubuntu_vm/libmediainfo.a
+END

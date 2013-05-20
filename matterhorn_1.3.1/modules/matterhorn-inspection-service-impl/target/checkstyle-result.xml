@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/StreamMetadata.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/MediaContainerMetadata.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/CommonMetadata.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/AudioStreamMetadata.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/MediaAnalyzerException.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/VideoStreamMetadata.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/MediaAnalyzer.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/TemporalMetadata.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/util/CmdlineMediaAnalyzerSupport.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/endpoints/MediaInspectionRestEndpoint.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/MediaInfoAnalyzer.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/MediaInspectionServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/test/java/org/opencastproject/inspection/impl/MediaInspectionServiceImplTest.java">
+</file>
+</checkstyle>

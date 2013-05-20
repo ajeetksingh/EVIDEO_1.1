@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/impl
+END
+UserTrackingServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/impl/UserTrackingServiceImpl.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/impl/package-info.java
+END
+UserActionListImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/impl/UserActionListImpl.java
+END
+UserActionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/impl/UserActionImpl.java
+END

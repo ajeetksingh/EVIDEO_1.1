@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/feed-scanner.xml
+Export-Package: org.opencastproject.feed.scanner;uses:="org.apache.fel
+ ix.fileinstall,org.opencastproject.feed.api,org.opencastproject.searc
+ h.api,org.osgi.framework,org.apache.commons.io,org.slf4j,org.osgi.ser
+ vice.component"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-search-service-feeds
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613057422
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: org.apache.commons.io;version="1.4",org.apache.felix.f
+ ileinstall;version="3.1",org.opencastproject.feed.api;version="1.3",o
+ rg.opencastproject.feed.impl;version="1.3.1",org.opencastproject.feed
+ .scanner,org.opencastproject.search.api;version="1.3",org.osgi.framew
+ ork;version="1.5",org.osgi.service.component;version="1.1",org.slf4j;
+ version="1.5"
+Bundle-SymbolicName: matterhorn-search-service-feeds
+Bundle-DocURL: http://opencastproject.org/
+

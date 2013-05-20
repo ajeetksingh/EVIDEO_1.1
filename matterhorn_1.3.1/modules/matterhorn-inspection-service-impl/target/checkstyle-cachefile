@@ -1,0 +1,15 @@
+#Wed May 15 15:47:47 IST 2013
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/StreamMetadata.java=1368074414000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/MediaAnalyzerException.java=1368074414000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/MediaInfoAnalyzer.java=1368074414000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/AudioStreamMetadata.java=1368074414000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/TemporalMetadata.java=1368074414000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/VideoStreamMetadata.java=1368074414000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/MediaAnalyzer.java=1368074414000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/endpoints/MediaInspectionRestEndpoint.java=1368074414000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/util/CmdlineMediaAnalyzerSupport.java=1368074414000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/CommonMetadata.java=1368074414000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/api/MediaContainerMetadata.java=1368074414000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/test/java/org/opencastproject/inspection/impl/MediaInspectionServiceImplTest.java=1368074410000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-inspection-service-impl/src/main/java/org/opencastproject/inspection/impl/MediaInspectionServiceImpl.java=1368074414000
+configuration*?=E5F8F1F638592195FF2AFF95579090C786A800A8

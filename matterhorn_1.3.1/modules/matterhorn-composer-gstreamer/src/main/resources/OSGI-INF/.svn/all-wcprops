@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-gstreamer/src/main/resources/OSGI-INF
+END
+gscomposer-service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-gstreamer/src/main/resources/OSGI-INF/gscomposer-service.xml
+END
+gsencoderengine.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-gstreamer/src/main/resources/OSGI-INF/gsencoderengine.xml
+END
+gsprofile-scanner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-gstreamer/src/main/resources/OSGI-INF/gsprofile-scanner.xml
+END

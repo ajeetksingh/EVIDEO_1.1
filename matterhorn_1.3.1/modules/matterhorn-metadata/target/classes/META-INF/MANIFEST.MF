@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/static-metadata-service.xml
+Export-Package: org.opencastproject.metadata;uses:="org.opencastprojec
+ t.mediapackage.identifier,org.opencastproject.metadata.api,org.openca
+ stproject.util.data,org.opencastproject.mediapackage,org.opencastproj
+ ect.metadata.api.util,org.opencastproject.workspace.api,org.slf4j";ve
+ rsion="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-metadata
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613027796
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: org.opencastproject.mediapackage;resolution:=optional;
+ version="1.3",org.opencastproject.mediapackage.identifier;resolution:
+ =optional;version="1.3",org.opencastproject.metadata;resolution:=opti
+ onal;version="1.3",org.opencastproject.metadata.api;version="1.3.1",o
+ rg.opencastproject.metadata.api.util;resolution:=optional;version="1.
+ 3",org.opencastproject.util.data;resolution:=optional;version="1.3",o
+ rg.opencastproject.workspace.api;resolution:=optional;version="1.3",o
+ rg.slf4j;resolution:=optional;version="1.5"
+Bundle-SymbolicName: matterhorn-metadata
+Bundle-DocURL: http://opencastproject.org/
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/test/java/org/opencastproject/util/data
+END
+FunctionsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/test/java/org/opencastproject/util/data/FunctionsTest.java
+END
+OptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/test/java/org/opencastproject/util/data/OptionTest.java
+END
+CollectionUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/test/java/org/opencastproject/util/data/CollectionUtilTest.java
+END

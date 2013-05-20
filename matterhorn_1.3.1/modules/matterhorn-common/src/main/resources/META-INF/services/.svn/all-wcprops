@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/resources/META-INF/services
+END
+java.nio.charset.spi.CharsetProvider
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/resources/META-INF/services/java.nio.charset.spi.CharsetProvider
+END
+de.schlichtherle.io.registry.properties
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-common/src/main/resources/META-INF/services/de.schlichtherle.io.registry.properties
+END

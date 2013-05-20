@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 79
+SDL-*.tar.gz
+SDL-*.tgz
+SDL-*.tar.bz2
+SDL-*.tbz
+SDL-*.tb2
+SDL-*.zip
+.done-linux
+
+END

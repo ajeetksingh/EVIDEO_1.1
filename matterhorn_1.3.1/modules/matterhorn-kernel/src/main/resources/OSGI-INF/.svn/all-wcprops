@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF
+END
+pingback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/pingback.xml
+END
+http-client-factory.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/http-client-factory.xml
+END
+http-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/http-context.xml
+END
+security-config-scanner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/security-config-scanner.xml
+END
+organization-directory-service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/organization-directory-service.xml
+END
+security-service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/security-service.xml
+END
+organization-filter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/organization-filter.xml
+END
+cleansessions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/cleansessions.xml
+END
+jsonp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/jsonp.xml
+END
+http-client.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/http-client.xml
+END
+rest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/rest.xml
+END
+user-and-role-directory-service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-kernel/src/main/resources/OSGI-INF/user-and-role-directory-service.xml
+END

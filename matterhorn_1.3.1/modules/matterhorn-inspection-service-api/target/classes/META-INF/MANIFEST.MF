@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: org.opencastproject.inspection.api;versio="1.3.1";uses
+ :="org.opencastproject.job.api,org.opencastproject.mediapackage"
+Built-By: medialab
+Tool: Bnd-0.0.357
+Bundle-Category: opencastproject
+Bundle-Name: matterhorn-inspection-service-api
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368612991790
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Import-Package: org.opencastproject.inspection.api;versio="1.3.1",org.
+ opencastproject.job.api;version="1.3",org.opencastproject.mediapackag
+ e;version="1.3"
+Bundle-SymbolicName: matterhorn-inspection-service-api
+Bundle-DocURL: http://opencastproject.org/
+

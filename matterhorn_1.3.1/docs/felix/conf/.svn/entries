@@ -1,0 +1,123 @@
+10
+
+dir
+14579
+https://opencast.jira.com/svn/MH/tags/1.3.1/docs/felix/conf
+https://opencast.jira.com/svn
+
+
+
+2012-06-21T17:28:45.305033Z
+12316
+greg_logan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e6edf6fb-f266-4316-afb4-e53d95876a76
+
+encoding
+dir
+
+feeds
+dir
+
+security
+dir
+
+dictionaries
+dir
+
+workflows
+dir
+
+factories
+dir
+
+system.properties
+file
+
+
+
+
+2013-05-09T04:38:40.333277Z
+ed25cbe936bccc23e5e911425d1ae987
+2011-09-26T15:11:19.601274Z
+11005
+twunden
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7887
+
+gsencoding
+dir
+
+config.properties
+file
+
+
+
+
+2013-05-09T04:38:40.333277Z
+8c5f1b16e12bac33bc59857b6aeef9ce
+2012-06-07T17:43:01.881240Z
+12291
+greg_logan
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11582
+
+services
+dir
+
+branding
+dir
+

@@ -1,0 +1,58 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/caption-service.xml,OSGI-INF/converters/df
+ xp-caption-converter.xml,OSGI-INF/converters/subrip-caption-converter
+ .xml
+Export-Package: org.opencastproject.caption.impl;uses:="org.opencastpr
+ oject.caption.api,org.opencastproject.util,org.opencastproject.mediap
+ ackage,org.slf4j,org.osgi.service.component,org.apache.commons.lang,j
+ avax.activation,org.opencastproject.workspace.api,org.opencastproject
+ .job.api,org.opencastproject.serviceregistry.api,org.osgi.framework,o
+ rg.apache.commons.io,org.opencastproject.security.api";version="1.3.1
+ ",org.opencastproject.caption.endpoint;uses:="javax.ws.rs,org.opencas
+ tproject.rest,javax.xml.parsers,org.opencastproject.mediapackage,java
+ x.xml.transform.dom,org.osgi.service.component,org.slf4j,org.w3c.dom,
+ org.xml.sax,org.opencastproject.job.api,javax.xml.transform,org.openc
+ astproject.serviceregistry.api,javax.xml.transform.stream,org.opencas
+ tproject.caption.api,org.apache.commons.io,org.opencastproject.util.d
+ oc.rest,javax.ws.rs.core";version="1.3.1",org.opencastproject.caption
+ .converters;uses:="org.slf4j,org.xml.sax.helpers,org.xml.sax,javax.xm
+ l.parsers,javax.xml.transform.dom,org.w3c.dom,org.opencastproject.cap
+ tion.impl,javax.xml.transform,javax.xml.transform.stream,org.apache.c
+ ommons.io,org.opencastproject.caption.api";version="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-caption-impl
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613063060
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Import-Package: javax.activation;resolution:=optional,javax.ws.rs;reso
+ lution:=optional;version="1.1",javax.ws.rs.core;resolution:=optional;
+ version="1.1",javax.xml.parsers;version=0,javax.xml.transform;version
+ =0,javax.xml.transform.dom;resolution:=optional,javax.xml.transform.s
+ tream;resolution:=optional,org.apache.commons.io;resolution:=optional
+ ;version="1.4",org.apache.commons.lang;resolution:=optional;version="
+ 2.4",org.opencastproject.caption.api;version="1.3.1",org.opencastproj
+ ect.caption.converters;resolution:=optional;version="1.3",org.opencas
+ tproject.caption.endpoint;resolution:=optional;version="1.3",org.open
+ castproject.caption.impl;resolution:=optional;version="1.3",org.openc
+ astproject.job.api;resolution:=optional;version="1.3",org.opencastpro
+ ject.mediapackage;resolution:=optional;version="1.3",org.opencastproj
+ ect.rest;resolution:=optional;version="1.3",org.opencastproject.secur
+ ity.api;resolution:=optional;version="1.3",org.opencastproject.servic
+ eregistry.api;resolution:=optional;version="1.3",org.opencastproject.
+ util;resolution:=optional;version="1.3",org.opencastproject.util.doc.
+ rest;resolution:=optional;version="1.3",org.opencastproject.workspace
+ .api;resolution:=optional;version="1.3",org.osgi.framework;resolution
+ :=optional;version="1.5",org.osgi.service.component;resolution:=optio
+ nal;version="1.1",org.slf4j;resolution:=optional;version="1.5",org.w3
+ c.dom;version=0,org.xml.sax;version=0,org.xml.sax.helpers;version=0
+Bundle-SymbolicName: matterhorn-caption-impl
+Bundle-DocURL: http://opencastproject.org/
+

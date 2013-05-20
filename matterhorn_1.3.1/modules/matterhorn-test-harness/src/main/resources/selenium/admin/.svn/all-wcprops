@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/resources/selenium/admin
+END
+UploadRecording.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/resources/selenium/admin/UploadRecording.html
+END
+AddSeries.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/resources/selenium/admin/AddSeries.html
+END
+RedirectToRecordings.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/resources/selenium/admin/RedirectToRecordings.html
+END
+CaptureAgents.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/resources/selenium/admin/CaptureAgents.html
+END
+SeriesList.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/resources/selenium/admin/SeriesList.html
+END
+ViewInfoTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/resources/selenium/admin/ViewInfoTest.html
+END
+ScheduleRecording.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/resources/selenium/admin/ScheduleRecording.html
+END
+Suite.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/resources/selenium/admin/Suite.html
+END
+Statistics.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/resources/selenium/admin/Statistics.html
+END
+VerifyInspect.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/resources/selenium/admin/VerifyInspect.html
+END

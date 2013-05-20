@@ -1,0 +1,27 @@
+K 10
+svn:ignore
+V 37
+target
+.settings
+.classpath
+.project
+
+K 13
+svn:mergeinfo
+V 2164
+/MH/branches/1.1.x/modules/matterhorn-capture-admin-service-impl:9642-10173
+/MH/branches/1.2.x/modules/matterhorn-capture-admin-service-impl:10531-11021
+/MH/branches/MH-2391/modules/matterhorn-capture-admin-service-impl:6172-6179
+/MH/branches/MH-2691/modules/matterhorn-capture-admin-service-impl:6442-6456
+/MH/branches/MH-3603/modules/matterhorn-capture-admin-service-impl:6879-6891
+/MH/branches/MH-5003/modules/matterhorn-capture-admin-service-impl:8344-8352
+/MH/branches/MH-5308/modules/matterhorn-capture-admin-service-impl:10080-10095
+/MH/branches/MH-5361/modules/matterhorn-capture-admin-service-impl:9238-9248
+/MH/branches/MH-5468/modules/matterhorn-capture-admin-service-impl:8955-8969
+/MH/branches/MH-7938/modules/matterhorn-capture-admin-service-impl:10685-10715
+/MH/msub/berkeley.edu/1.2.x/modules/matterhorn-capture-admin-service-impl:10886,11186
+/MH/msub/uct.ac.za/branches/MH-8311/modules/matterhorn-capture-admin-service-impl:11233
+/MH/tags/1.1.10063/modules/matterhorn-capture-admin-service-impl:10064-10069
+/MH/tags/1.1.10173/modules/matterhorn-capture-admin-service-impl:10174-10176
+/MH/trunk/modules/matterhorn-capture-admin-service-impl:11054-11055,11058,11066,11076,11078-11084,11087,11095-11096,11100,11112,11117,11119,11126-11127,11129-11130,11134,11146,11162-11164,11169,11179,11183,11188,11190,11199,11204,11209,11215,11218-11219,11226,11228,11234,11237-11239,11242,11257-11259,11262,11264,11266,11268,11281,11294,11298-11299,11304-11307,11314-11315,11318,11324,11327-11328,11332-11335,11342,11345,11350,11367,11371,11386,11392-11396,11398,11411,11425-11426,11434,11444,11446,11452-11453,11457,11461,11465,11478-11479,11484,11491,11499-11500,11502,11504-11506,11513-11515,11518-11521,11536,11546,11548,11550-11552,11558,11563,11567,11569-11573,11585,11588-11594,11600,11603,11609,11612,11614,11631-11632,11637-11638,11640,11644,11646,11648,11651,11653-11655,11669,11676-11677,11682,11722-11723,11734-11735,11761,11765,11797-11798,11801,11836-11837,11839,11848,11852,11855,11870,11878,11886-11888,11932,11946,11970,11996,12057,12066,12117,12169,12175,12188,12216,12231,12244-12246,12265,12272,12279,12297-12298,12303,12307,12320,12339,12351
+END

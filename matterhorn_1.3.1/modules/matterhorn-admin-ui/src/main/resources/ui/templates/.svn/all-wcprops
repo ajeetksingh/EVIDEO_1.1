@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates
+END
+statistics-table-servers.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/statistics-table-servers.tpl
+END
+series_list-table.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/series_list-table.tpl
+END
+series_list-header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/series_list-header.tpl
+END
+viewinfo-episode.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/viewinfo-episode.tpl
+END
+viewinfo-header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/viewinfo-header.tpl
+END
+scheduler.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/scheduler.tpl
+END
+episode-detail-header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/episode-detail-header.tpl
+END
+viewinfo-series.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/viewinfo-series.tpl
+END
+viewinfo-info.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/viewinfo-info.tpl
+END
+statistics-header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/statistics-header.tpl
+END
+episode-detail-mediapackage.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/episode-detail-mediapackage.tpl
+END
+recordings-table.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/recordings-table.tpl
+END
+upload.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/upload.tpl
+END
+recordings-header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/recordings-header.tpl
+END
+viewseries.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/viewseries.tpl
+END
+capture_agents-table.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/capture_agents-table.tpl
+END
+viewinfo-inspect.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/viewinfo-inspect.tpl
+END
+series.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/series.tpl
+END
+inspect-header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/inspect-header.tpl
+END
+episode-detail-overview.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/episode-detail-overview.tpl
+END
+viewseries-privileges.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/viewseries-privileges.tpl
+END
+viewinfo-catalog.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/viewinfo-catalog.tpl
+END
+statistics-table-services.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/statistics-table-services.tpl
+END
+episodes-table.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/episodes-table.tpl
+END
+episodes-header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/episodes-header.tpl
+END
+users.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/templates/users.tpl
+END

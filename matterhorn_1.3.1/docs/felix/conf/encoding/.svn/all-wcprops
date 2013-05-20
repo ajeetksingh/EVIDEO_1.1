@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/encoding
+END
+other-movies.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/encoding/other-movies.properties
+END
+feed-movies.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/encoding/feed-movies.properties
+END
+matterhorn-movies.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/encoding/matterhorn-movies.properties
+END
+engage-movies-multi-quality.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/encoding/engage-movies-multi-quality.properties
+END
+matterhorn-branding.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/encoding/matterhorn-branding.properties
+END
+engage-movies.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/encoding/engage-movies.properties
+END
+feed-images.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/encoding/feed-images.properties
+END
+matterhorn-images.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/encoding/matterhorn-images.properties
+END
+engage-images.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/encoding/engage-images.properties
+END
+epiphan-split.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12398/MH/tags/1.3.1/docs/felix/conf/encoding/epiphan-split.properties
+END

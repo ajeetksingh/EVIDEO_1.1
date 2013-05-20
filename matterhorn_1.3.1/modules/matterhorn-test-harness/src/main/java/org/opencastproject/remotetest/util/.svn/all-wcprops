@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/java/org/opencastproject/remotetest/util
+END
+SampleUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/java/org/opencastproject/remotetest/util/SampleUtils.java
+END
+CaptureUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/java/org/opencastproject/remotetest/util/CaptureUtils.java
+END
+UniversalNamespaceResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/java/org/opencastproject/remotetest/util/UniversalNamespaceResolver.java
+END
+TrustedHttpClientException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/java/org/opencastproject/remotetest/util/TrustedHttpClientException.java
+END
+TrustedHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/java/org/opencastproject/remotetest/util/TrustedHttpClient.java
+END
+Tuple.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/java/org/opencastproject/remotetest/util/Tuple.java
+END
+JobUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/java/org/opencastproject/remotetest/util/JobUtils.java
+END
+WorkflowUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/java/org/opencastproject/remotetest/util/WorkflowUtils.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-test-harness/src/main/java/org/opencastproject/remotetest/util/Utils.java
+END

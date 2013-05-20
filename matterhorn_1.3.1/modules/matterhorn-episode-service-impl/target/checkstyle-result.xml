@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-impl/src/main/java/org/opencastproject/episode/endpoint/EpisodeRestService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-impl/src/main/java/org/opencastproject/episode/impl/solr/Schema.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-impl/src/main/java/org/opencastproject/episode/impl/solr/SolrIndexManager.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-impl/src/main/java/org/opencastproject/episode/impl/solr/DField.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-impl/src/main/java/org/opencastproject/episode/impl/solr/SolrRequester.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-impl/src/main/java/org/opencastproject/episode/impl/EpisodeServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-episode-service-impl/src/test/java/org/opencastproject/episode/impl/EpisodeServiceImplTest.java">
+</file>
+</checkstyle>

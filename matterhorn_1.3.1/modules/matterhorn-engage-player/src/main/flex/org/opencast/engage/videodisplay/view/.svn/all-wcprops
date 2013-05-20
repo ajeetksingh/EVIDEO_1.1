@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view
+END
+ErrorView.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view/ErrorView.mxml
+END
+FullscreenVideoControlsView.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view/FullscreenVideoControlsView.mxml
+END
+MultiMediaContainerView.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view/MultiMediaContainerView.mxml
+END
+CoverView.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view/CoverView.mxml
+END
+MediaView.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view/MediaView.mxml
+END
+Splashscreen.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view/Splashscreen.mxml
+END
+CaptionsView.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view/CaptionsView.mxml
+END
+AudioView.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view/AudioView.mxml
+END
+SoundVisualizer.as
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view/SoundVisualizer.as
+END
+SingleMediaContainerView.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view/SingleMediaContainerView.mxml
+END
+DebugView.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-engage-player/src/main/flex/org/opencast/engage/videodisplay/view/DebugView.mxml
+END

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/main/java/org/opencastproject/metadata/api/MediaPackageMetadata.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/main/java/org/opencastproject/metadata/api/MetadataService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/main/java/org/opencastproject/metadata/api/MediapackageMetadataImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/main/java/org/opencastproject/metadata/api/StaticMetadata.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/main/java/org/opencastproject/metadata/api/MetadataValues.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/main/java/org/opencastproject/metadata/api/StaticMetadataService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/main/java/org/opencastproject/metadata/api/MetadataValue.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/main/java/org/opencastproject/metadata/api/util/Interval.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/main/java/org/opencastproject/metadata/api/MetadataCatalog.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/main/java/org/opencastproject/metadata/api/MediaPackageMetadataService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/main/java/org/opencastproject/metadata/api/CatalogService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-metadata-api/src/test/java/org/opencast/metadata/api/util/IntervalTest.java">
+</file>
+</checkstyle>

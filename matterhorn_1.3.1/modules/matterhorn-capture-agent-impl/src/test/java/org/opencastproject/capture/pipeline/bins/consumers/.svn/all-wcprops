@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/consumers
+END
+AudioFilesinkConsumerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/consumers/AudioFilesinkConsumerTest.java
+END
+AudioMonitoringConsumerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/consumers/AudioMonitoringConsumerTest.java
+END
+ConsumerFactoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/consumers/ConsumerFactoryTest.java
+END
+ConsumerBinTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/consumers/ConsumerBinTest.java
+END
+CustomConsumerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/consumers/CustomConsumerTest.java
+END
+VideoFilesinkConsumerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/consumers/VideoFilesinkConsumerTest.java
+END
+VideoMonitoringConsumerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/consumers/VideoMonitoringConsumerTest.java
+END
+RTPVideoSinkConsumerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/pipeline/bins/consumers/RTPVideoSinkConsumerTest.java
+END

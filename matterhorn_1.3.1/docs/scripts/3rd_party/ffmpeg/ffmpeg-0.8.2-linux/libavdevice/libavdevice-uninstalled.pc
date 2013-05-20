@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/opt/matterhorn/matterhorn_1.3.1/docs/scripts/3rd_party/ffmpeg/ffmpeg-0.8.2-linux
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 53.1.1
+Requires: libavformat = 53.4.0
+Conflicts:
+Libs: ${libdir}/libavdevice.a -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lSDL -lpthread -lxvidcore -lx264 -lvpx -lvpx -lvorbisenc -lvorbis -logg -ltheoraenc -ltheoradec -logg -lmp3lame -lfaac -lm -lbz2 -lz -lvpx -ltheora -lvorbis -lfaac -lmp3lame -lx264 -lpthread -lxvidcore 
+Cflags: -I${includedir}

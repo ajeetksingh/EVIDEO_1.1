@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="coverage-1.2.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/modules/matterhorn-admin-ui/target/test-classes/plugins/coverage-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

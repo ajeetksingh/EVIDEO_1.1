@@ -1,0 +1,55 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/serviceregistry.xml,OSGI-INF/maintenance_s
+ hell.xml,OSGI-INF/serviceregistry-endpoint.xml
+Export-Package: org.opencastproject.serviceregistry.command;uses:="org
+ .opencastproject.serviceregistry.api";version="1.3.1",org.opencastpro
+ ject.serviceregistry.impl;uses:="javax.persistence,org.opencastprojec
+ t.job.api,javax.xml.bind.annotation,org.slf4j,org.opencastproject.sec
+ urity.api,org.opencastproject.serviceregistry.api,org.opencastproject
+ .util,org.apache.http.client.methods,org.apache.http,org.osgi.util.tr
+ acker,org.osgi.framework,org.apache.http.client.entity,org.apache.htt
+ p.message,org.osgi.service.component,org.apache.commons.lang,org.osgi
+ .service.cm,javax.persistence.spi";version="1.3.1",org.opencastprojec
+ t.serviceregistry.impl.endpoint;uses:="javax.ws.rs,org.opencastprojec
+ t.util,org.osgi.service.component,org.apache.commons.lang,org.opencas
+ tproject.serviceregistry.impl,org.opencastproject.job.api,org.opencas
+ tproject.serviceregistry.api,org.osgi.framework,org.opencastproject.u
+ til.doc.rest,javax.ws.rs.core,javax.servlet.http";version="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-serviceregistry
+Created-By: Apache Maven Bundle Plugin
+JPA-PersistenceUnits: org.opencastproject.serviceregistry
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613078787
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Import-Package: javax.persistence;resolution:=optional;version="2.0",j
+ avax.persistence.spi;resolution:=optional;version="2.0",javax.servlet
+ .http;resolution:=optional,javax.ws.rs;resolution:=optional;version="
+ 1.1",javax.ws.rs.core;resolution:=optional;version="1.1",javax.xml.bi
+ nd.annotation;resolution:=optional,org.apache.commons.lang;resolution
+ :=optional;version="2.4",org.apache.http;resolution:=optional,org.apa
+ che.http.client.entity;resolution:=optional;version="4.0",org.apache.
+ http.client.methods;resolution:=optional;version="4.0",org.apache.htt
+ p.message;resolution:=optional,org.opencastproject.job.api;version="1
+ .3.1",org.opencastproject.security.api;resolution:=optional;version="
+ 1.3",org.opencastproject.serviceregistry.api;version="1.3.1",org.open
+ castproject.serviceregistry.command;resolution:=optional;version="1.3
+ ",org.opencastproject.serviceregistry.impl;resolution:=optional;versi
+ on="1.3",org.opencastproject.serviceregistry.impl.endpoint;resolution
+ :=optional;version="1.3",org.opencastproject.util;resolution:=optiona
+ l;version="1.3",org.opencastproject.util.doc.rest;resolution:=optiona
+ l;version="1.3",org.osgi.framework;resolution:=optional;version="1.5"
+ ,org.osgi.service.cm;resolution:=optional;version="1.3",org.osgi.serv
+ ice.component;resolution:=optional;version="1.1",org.osgi.util.tracke
+ r;resolution:=optional;version="1.4",org.slf4j;resolution:=optional;v
+ ersion="1.5"
+Bundle-SymbolicName: matterhorn-serviceregistry
+Bundle-DocURL: http://opencastproject.org/
+

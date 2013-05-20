@@ -1,0 +1,18 @@
+#Wed May 15 15:46:34 IST 2013
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCore.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreValidator.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DCMIPeriod.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/StaticMetadataServiceDublinCoreImpl.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreCatalog.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/test/java/org/opencastproject/metadata/dublincore/EncodingSchemeUtilsTest.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/Precision.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreCatalogService.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreCatalogImpl.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/test/java/org/opencastproject/metadata/dublincore/StaticMetadataServiceDublinCoreImplTest.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/test/java/org/opencastproject/metadata/dublincore/DublinCoreTest.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreValue.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/test/java/org/opencastproject/metadata/dublincore/TestUtil.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/DublinCoreCatalogList.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/Temporal.java=1368074352000
+/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-dublincore/src/main/java/org/opencastproject/metadata/dublincore/EncodingSchemeUtils.java=1368074352000
+configuration*?=06CE3C06E9BFB8D01D73BAFFE5058851AB6C4637

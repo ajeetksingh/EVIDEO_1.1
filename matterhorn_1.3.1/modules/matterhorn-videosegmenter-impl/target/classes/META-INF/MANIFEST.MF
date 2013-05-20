@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/segmenter.xml
+Export-Package: org.opencastproject.videosegmenter.impl;uses:="org.ope
+ ncastproject.composer.api,org.opencastproject.videosegmenter.api,org.
+ opencastproject.mediapackage,org.opencastproject.util,org.slf4j,org.o
+ pencastproject.workspace.api,org.opencastproject.job.api,org.opencast
+ project.serviceregistry.api,org.opencastproject.metadata.mpeg7,org.ap
+ ache.commons.io,org.osgi.service.cm,org.opencastproject.security.api"
+ ;version="1.3.1",org.opencastproject.videosegmenter.impl.endpoint;use
+ s:="javax.ws.rs,org.opencastproject.rest,org.opencastproject.job.api,
+ org.opencastproject.serviceregistry.api,org.opencastproject.videosegm
+ enter.api,org.opencastproject.mediapackage,org.opencastproject.util.d
+ oc.rest,org.osgi.service.component,org.apache.commons.lang,javax.ws.r
+ s.core";version="1.3.1"
+Built-By: medialab
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-videosegmenter-impl
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_27
+Bundle-Version: 1.3.1
+Bnd-LastModified: 1368613074001
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Embed-Dependency: jmf;inline=true
+Import-Package: com.ms.awt;resolution:=optional,com.ms.net.wininet;res
+ olution:=optional,com.ms.security;resolution:=optional,com.sun.net.ss
+ l.internal.ssl;resolution:=optional,javax.imageio;resolution:=optiona
+ l,javax.imageio.stream;resolution:=optional,javax.sound.midi;resoluti
+ on:=optional,javax.sound.sampled;resolution:=optional,javax.ws.rs;res
+ olution:=optional;version="1.1",javax.ws.rs.core;resolution:=optional
+ ;version="1.1",netscape.security;resolution:=optional,org.apache.comm
+ ons.io;resolution:=optional;version="1.4",org.apache.commons.lang;res
+ olution:=optional;version="2.4",org.opencastproject.composer.api;reso
+ lution:=optional;version="1.3",org.opencastproject.job.api;resolution
+ :=optional;version="1.3",org.opencastproject.mediapackage;resolution:
+ =optional;version="1.3",org.opencastproject.metadata.mpeg7;resolution
+ :=optional;version="1.3",org.opencastproject.rest;resolution:=optiona
+ l;version="1.3",org.opencastproject.security.api;resolution:=optional
+ ;version="1.3",org.opencastproject.serviceregistry.api;resolution:=op
+ tional;version="1.3",org.opencastproject.util;resolution:=optional;ve
+ rsion="1.3",org.opencastproject.util.doc.rest;resolution:=optional;ve
+ rsion="1.3",org.opencastproject.videosegmenter.api;resolution:=option
+ al;version="1.3",org.opencastproject.videosegmenter.impl;resolution:=
+ optional;version="1.3",org.opencastproject.videosegmenter.impl.endpoi
+ nt;resolution:=optional;version="1.3",org.opencastproject.workspace.a
+ pi;resolution:=optional;version="1.3",org.osgi.service.cm;resolution:
+ =optional;version="1.3",org.osgi.service.component;resolution:=option
+ al;version="1.1",org.slf4j;resolution:=optional;version="1.5",sun.aud
+ io;resolution:=optional,sun.awt.image;resolution:=optional
+Bundle-SymbolicName: matterhorn-videosegmenter-impl
+Bundle-DocURL: http://opencastproject.org/
+

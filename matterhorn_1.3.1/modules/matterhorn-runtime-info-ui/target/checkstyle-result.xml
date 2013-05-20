@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/RuntimeInfo.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/ComponentsJsonParser.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/Activator.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/DocUtil.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/RestEndpointData.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/StatusData.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/DocData.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/RestTestForm.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/RestEndpointHolderData.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/RestEndpointHolder.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/DocRestData.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/Status.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/Param.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/RestParamData.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/RestEndpoint.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/RestDocData.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/Format.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/RestFormData.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/main/java/org/opencastproject/runtimeinfo/rest/RestFormatData.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-runtime-info-ui/src/test/java/org/opencastproject/runtimeinfo/rest/RestDocsAnnotationTest.java">
+</file>
+</checkstyle>

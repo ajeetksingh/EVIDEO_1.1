@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/ReportItemImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/UserTrackingRestService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/FootprintsListImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/ReportImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/StatsImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/endpoint/FootprintImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/impl/UserActionListImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/impl/UserTrackingServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/main/java/org/opencastproject/usertracking/impl/UserActionImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-usertracking-service-impl/src/test/java/org/opencastproject/usertracking/impl/UserTrackingServiceImplTest.java">
+</file>
+</checkstyle>

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl
+END
+ConfigurationManagerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/ConfigurationManagerListener.java
+END
+CaptureFailureHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/CaptureFailureHandler.java
+END
+UnableToStartCaptureException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/UnableToStartCaptureException.java
+END
+GStreamerCaptureFramework.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/GStreamerCaptureFramework.java
+END
+CaptureAgentShellCommands.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/CaptureAgentShellCommands.java
+END
+RecordingImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/RecordingImpl.java
+END
+SchedulerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/SchedulerImpl.java
+END
+CaptureFramework.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/CaptureFramework.java
+END
+ConfigurationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/ConfigurationManager.java
+END
+CaptureAgentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/CaptureAgentImpl.java
+END
+XProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/XProperties.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/main/java/org/opencastproject/capture/impl/package-info.java
+END

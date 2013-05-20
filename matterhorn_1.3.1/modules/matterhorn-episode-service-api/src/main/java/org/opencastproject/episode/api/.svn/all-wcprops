@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api
+END
+MediaSegmentPreviewImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/MediaSegmentPreviewImpl.java
+END
+SearchResultImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/SearchResultImpl.java
+END
+EpisodeServiceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/EpisodeServiceException.java
+END
+EpisodeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/EpisodeService.java
+END
+EpisodeQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/EpisodeQuery.java
+END
+MediaSegment.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/MediaSegment.java
+END
+SearchResultItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/SearchResultItem.java
+END
+MediaSegmentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/MediaSegmentImpl.java
+END
+MediaSegmentPreview.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/MediaSegmentPreview.java
+END
+SearchResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/SearchResult.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/package-info.java
+END
+SearchResultItemImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-episode-service-api/src/main/java/org/opencastproject/episode/api/SearchResultItemImpl.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl
+END
+EncoderEngineFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/EncoderEngineFactoryImpl.java
+END
+CmdlineEncoderListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/CmdlineEncoderListener.java
+END
+EncodingProfileScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/EncodingProfileScanner.java
+END
+AbstractCmdlineEncoderEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/AbstractCmdlineEncoderEngine.java
+END
+EmbedderEngineFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/EmbedderEngineFactoryImpl.java
+END
+AbstractEncoderEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/AbstractEncoderEngine.java
+END
+ComposerServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/ComposerServiceImpl.java
+END
+AbstractCmdlineEmbedderEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/AbstractCmdlineEmbedderEngine.java
+END

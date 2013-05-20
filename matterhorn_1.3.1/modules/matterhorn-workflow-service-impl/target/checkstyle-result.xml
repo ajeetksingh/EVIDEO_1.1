@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/main/java/org/opencastproject/workflow/endpoint/WorkflowRestService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/main/java/org/opencastproject/workflow/impl/WorkflowServiceIndex.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/main/java/org/opencastproject/workflow/impl/WorkflowServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/main/java/org/opencastproject/workflow/impl/WorkflowOperationWorker.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/main/java/org/opencastproject/workflow/impl/WorkflowServiceSolrIndex.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/main/java/org/opencastproject/workflow/impl/WorkflowDefinitionScanner.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/WorkflowServiceImplTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/WorkflowConfigurationTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/PropertyReplacementTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/WorkflowStatisticsTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/CountWorkflowsTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/SecurityServiceStub.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/PauseWorkflowTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/WorkflowServiceSolrIndexTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/WorkflowOperationSkippingTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/WorkflowInstanceTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/WorkflowServiceImplAuthzTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/ResumableTestWorkflowOperationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/MetadataExtractionTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/HoldStateTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/WorkflowRestEndpointTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-workflow-service-impl/src/test/java/org/opencastproject/workflow/impl/PauseFinalOperationTest.java">
+</file>
+</checkstyle>

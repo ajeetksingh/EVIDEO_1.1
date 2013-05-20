@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-static/src/main/java/org/opencastproject/fsresources/ResourceServlet.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-static/src/main/java/org/opencastproject/fsresources/StaticResourceServlet.java">
+</file>
+</checkstyle>

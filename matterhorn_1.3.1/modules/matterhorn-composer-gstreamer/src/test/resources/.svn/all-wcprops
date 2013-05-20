@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-gstreamer/src/test/resources
+END
+camera.mpg
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-gstreamer/src/test/resources/camera.mpg
+END
+audio_1.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-gstreamer/src/test/resources/audio_1.mp3
+END
+audio_2.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-composer-gstreamer/src/test/resources/audio_2.mp3
+END

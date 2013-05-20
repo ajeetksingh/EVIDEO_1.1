@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n
+END
+viewevent.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/viewevent.properties
+END
+scheduler.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/scheduler.properties
+END
+recordings.properties
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/recordings.properties
+END
+agent_status.properties
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/agent_status.properties
+END
+series_es.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/series_es.properties
+END
+users.properties
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/users.properties
+END
+upload.properties
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/upload.properties
+END
+scheduler_es.properties
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/scheduler_es.properties
+END
+recordings_es.properties
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/recordings_es.properties
+END
+scheduler_de.properties
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/scheduler_de.properties
+END
+schedulerform_complete.properties
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/schedulerform_complete.properties
+END
+series.properties
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/series.properties
+END
+upload_es.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-admin-ui/src/main/resources/ui/i18n/upload_es.properties
+END

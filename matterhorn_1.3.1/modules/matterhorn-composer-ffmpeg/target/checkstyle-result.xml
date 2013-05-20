@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/AbstractCmdlineEncoderEngine.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/endpoint/ComposerRestService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/ffmpeg/FFmpegEncoderEngine.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/CmdlineEncoderListener.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/AbstractCmdlineEmbedderEngine.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/AbstractEncoderEngine.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/ComposerServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/episode/XmlRpcEngineController.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/episode/EpisodeSettings.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/episode/EpisodeEncoderEngine.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/episode/XmlRpcJob.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/EncoderEngineFactoryImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/EmbedderEngineFactoryImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/EncodingProfileScanner.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/main/java/org/opencastproject/composer/impl/qtembedder/QTSbtlEmbedderEngine.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/test/java/org/opencastproject/composer/impl/EpisodeEncoderEngineTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/test/java/org/opencastproject/composer/impl/EncodingProfileTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/test/java/org/opencastproject/composer/impl/TrimmingTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/test/java/org/opencastproject/composer/impl/endpoint/ComposerRestServiceTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/test/java/org/opencastproject/composer/impl/EmbedderEngineTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/test/java/org/opencastproject/composer/impl/ImageConversionTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-composer-ffmpeg/src/test/java/org/opencastproject/composer/impl/ComposerServiceTest.java">
+</file>
+</checkstyle>

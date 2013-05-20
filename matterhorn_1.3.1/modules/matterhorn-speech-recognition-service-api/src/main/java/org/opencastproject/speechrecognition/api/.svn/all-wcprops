@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-speech-recognition-service-api/src/main/java/org/opencastproject/speechrecognition/api
+END
+SpeechRecognitionServiceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-speech-recognition-service-api/src/main/java/org/opencastproject/speechrecognition/api/SpeechRecognitionServiceException.java
+END
+SpeechRecognitionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-speech-recognition-service-api/src/main/java/org/opencastproject/speechrecognition/api/SpeechRecognitionService.java
+END
+SpeechRecognitionServiceNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-speech-recognition-service-api/src/main/java/org/opencastproject/speechrecognition/api/SpeechRecognitionServiceNotFoundException.java
+END

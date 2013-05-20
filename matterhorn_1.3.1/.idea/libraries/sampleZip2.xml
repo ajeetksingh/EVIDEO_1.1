@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sampleZip2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/modules/matterhorn-common/src/test/resources/sampleZip.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

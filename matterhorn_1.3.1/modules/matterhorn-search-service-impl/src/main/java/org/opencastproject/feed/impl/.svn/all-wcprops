@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl
+END
+FeedImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/FeedImpl.java
+END
+RomeFeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/RomeFeed.java
+END
+ITunesFeedExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/ITunesFeedExtension.java
+END
+PersonImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/PersonImpl.java
+END
+ContentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/ContentImpl.java
+END
+AggregationFeedService.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/AggregationFeedService.java
+END
+AbstractFeedGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/AbstractFeedGenerator.java
+END
+HtmlContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/HtmlContent.java
+END
+CategoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/CategoryImpl.java
+END
+SeriesFeedService.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/SeriesFeedService.java
+END
+LatestFeedService.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/LatestFeedService.java
+END
+PlainTextContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/PlainTextContent.java
+END
+ImageImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/ImageImpl.java
+END
+FeedEntryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/FeedEntryImpl.java
+END
+FeedServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/FeedServlet.java
+END
+DOIExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/DOIExtension.java
+END
+AbstractFeedService.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/AbstractFeedService.java
+END
+ITunesFeedEntryExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/ITunesFeedEntryExtension.java
+END
+FeedInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/FeedInfo.java
+END
+CustomFeedService.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/CustomFeedService.java
+END
+LinkImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/LinkImpl.java
+END
+EnclosureImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/EnclosureImpl.java
+END
+DublinCoreExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-search-service-impl/src/main/java/org/opencastproject/feed/impl/DublinCoreExtension.java
+END

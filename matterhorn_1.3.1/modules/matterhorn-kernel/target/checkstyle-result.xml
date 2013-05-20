@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/userdirectory/RoleEndpoint.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/userdirectory/InMemoryUserAndRoleProvider.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/userdirectory/UserAndRoleDirectoryServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/http/SharedHttpContext.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/http/impl/HttpClientImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/http/impl/HttpClientFactory.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/http/api/HttpClient.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/pingback/PingBackService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/OAuthSingleConsumerDetailsService.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/OrganizationFilter.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/SecurityServiceSpringImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/AuthenticationSuccessHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/OrganizationDirectoryServiceImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/SecurityFilter.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/TrustedHttpClientImpl.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/OrganizationEndpoint.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/DelegatingAuthenticationEntryPoint.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/SpringSecurityConfigurationArtifactInstaller.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/LtiProcessingFilter.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/LtiLaunchAuthenticationHandler.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/security/HttpConnectionMXBean.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/rest/RestPublisher.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/rest/CleanSessionsFilter.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/main/java/org/opencastproject/kernel/rest/JsonpFilter.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/test/java/org/opencastproject/kernel/userdirectory/UserAndRoleDirectoryServiceImplTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/test/java/org/opencastproject/kernel/http/DigestPerformanceTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/test/java/org/opencastproject/kernel/security/TrustedHttpClientImplTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/test/java/org/opencastproject/kernel/rest/docs/RestDocsAnnotationTest.java">
+</file>
+<file name="/opt/matterhorn/matterhorn_1.3.1/modules/matterhorn-kernel/src/test/java/org/opencastproject/kernel/rest/JsonpTest.java">
+</file>
+</checkstyle>

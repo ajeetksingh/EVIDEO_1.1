@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/impl
+END
+WaitForState.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/impl/WaitForState.java
+END
+GStreamerCaptureTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/impl/GStreamerCaptureTest.java
+END
+CheckState.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/impl/CheckState.java
+END
+RecordingImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/impl/RecordingImplTest.java
+END
+SchedulerImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/impl/SchedulerImplTest.java
+END
+ConfigurationManagerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/impl/ConfigurationManagerTest.java
+END
+StateServiceImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/impl/StateServiceImplTest.java
+END
+CaptureAgentImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/12398/MH/tags/1.3.1/modules/matterhorn-capture-agent-impl/src/test/java/org/opencastproject/capture/impl/CaptureAgentImplTest.java
+END
