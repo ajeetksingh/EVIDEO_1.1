@@ -61,17 +61,17 @@ On Ubuntu/Debian Linux:
         org.opencastproject.storage.dir=/opt/matterhorn/felix/work/
 
 3. Build
-
-   a. Matterhorn
-
+    
+    a. Matterhorn
+   
       export MAVEN_OPTS='-Xms256m -Xmx960m -XX:PermSize=64m -XX:MaxPermSize=256m'
       cd /opt/matterhorn/matterhorn_1.3.1
       mvn clean install -DdeployTo=/opt/matterhorn/felix/matterhorn
 
- b. Third Party Tools
+    b. Third Party Tools
 
-     cd /opt/matterhorn/matterhorn_1.3.1/docs/scripts/3rd_party
-     Read README file in 3rd_party folder for additional instructions
+        cd /opt/matterhorn/matterhorn_1.3.1/docs/scripts/3rd_party
+        Read README file in 3rd_party folder for additional instructions
 
 4. Run
 
