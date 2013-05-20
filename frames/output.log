@@ -1,0 +1,6 @@
+0:00:46.800000
+/opt/matterhorn/felix/work/opencast/downloads/1b421dfe-d811-4b62-ba4e-5e2d780ca903/dcb14e75-3851-4707-bb8b-320e3522ecb1/Principles_of_Operating_System___Lecture_3.mp4
+
+ffmpeg -i /opt/matterhorn/felix/work/opencast/downloads/1b421dfe-d811-4b62-ba4e-5e2d780ca903/dcb14e75-3851-4707-bb8b-320e3522ecb1/Principles_of_Operating_System___Lecture_3.mp4 -r 1 -vframes 1 -ss 0:00:46.800000 /var/www/frames/annotations/1b421dfe-d811-4b62-ba4e-5e2d780ca90345.8.png
+
+Success
