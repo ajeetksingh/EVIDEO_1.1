@@ -13,8 +13,7 @@ On Ubuntu/Debian Linux:
     a. Creating EVIDEO Installation Directory
 
     sudo mkdir -p /opt/evideo
-
-sudo chown $USER:$GROUPS /opt/evideo
+    sudo chown $USER:$GROUPS /opt/evideo
 
     b. Clone EVIDEO Project from Github
 
@@ -22,8 +21,8 @@ sudo chown $USER:$GROUPS /opt/evideo
 
     c. Install
 
-        i. Java
-
+    i. Java
+        
         sudo apt-get install openjdk-6-jdk
         echo "export JAVA_HOME=/usr/lib/jvm/java-6-openjdk" >> ~/.bashrc
         source ~/.bashrc
