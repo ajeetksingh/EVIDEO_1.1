@@ -25,10 +25,8 @@ sudo chown $USER:$GROUPS /opt/evideo
         i. Java
 
         sudo apt-get install openjdk-6-jdk
-
-echo "export JAVA_HOME=/usr/lib/jvm/java-6-openjdk" >> ~/.bashrc
-
-source ~/.bashrc
+        echo "export JAVA_HOME=/usr/lib/jvm/java-6-openjdk" >> ~/.bashrc
+        source ~/.bashrc
 
     ii. Apache Maven2
 
@@ -40,8 +38,6 @@ source ~/.bashrc
 
         b) Unarchive
 
-           
-
             tar xvf org.apache.felix.main.distribution-<version>.tar.gz
 
         c) Move to Matterhorn Installation Directory
@@ -51,21 +47,18 @@ source ~/.bashrc
         d) Configure
 
            mkdir /opt/matterhorn/felix/load
-
-  cp -rf /opt/matterhorn/matterhorn_1.3.1/docs/felix/* /opt/matterhorn/felix/
+           cp -rf /opt/matterhorn/matterhorn_1.3.1/docs/felix/* /opt/matterhorn/felix/
 
 2. Configure
 
    Configure the main config file of your installation /opt/matterhorn/felix/conf/config.properties
 
-      
-
      a. Set the Server
-
+     
         org.opencastproject.server.url=http://<the URL of your server with port>
-
+        
      b. Set the storage dir, we use /opt/matterhorn/felix/work in our implementation.
-
+     
         org.opencastproject.storage.dir=/opt/matterhorn/felix/work/
 
 3. Build
@@ -73,15 +66,12 @@ source ~/.bashrc
    a. Matterhorn
 
       export MAVEN_OPTS='-Xms256m -Xmx960m -XX:PermSize=64m -XX:MaxPermSize=256m'
-
-    cd /opt/matterhorn/matterhorn_1.3.1
-
+      cd /opt/matterhorn/matterhorn_1.3.1
       mvn clean install -DdeployTo=/opt/matterhorn/felix/matterhorn
 
  b. Third Party Tools
 
      cd /opt/matterhorn/matterhorn_1.3.1/docs/scripts/3rd_party
-
      Read README file in 3rd_party folder for additional instructions
 
 4. Run
@@ -92,14 +82,14 @@ source ~/.bashrc
      echo "export FELIX_HOME=/opt/matterhorn/felix" >> ~/.bashrc
      echo "export JAVA_OPTS='-Xms1024m -Xmx1024m -XX:MaxPermSize=256m'" >> ~/.bashrc
      source ~/.bashrc
-
- b. Run Matterhorn
+   
+   b. Run Matterhorn
 
     sh /opt/matterhorn/felix/bin/start_matterhorn.sh
 
- c. Browse http://localhost:8080/
+   c. Browse http://localhost:8080/
 
- d. Stop Matterhorn (optional)
+   d. Stop Matterhorn (optional)
 
     sh /opt/matterhorn/felix/bin/stop_matterhorn.sh
 
