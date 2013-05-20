@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>Simple pdf.js page viewer</title>
+	
+	
+	
+	<!-- VIDEO.JS FILES -->
+	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet" type="text/css">
+	<script src="http://vjs.zencdn.net/c/video.js"></script>
+
+	<!-- scrolling file -->
+	<script type="text/javascript" src="jquery.scrollTo.js"></script>
+
+        <!-- SCROLL TO TOP -->
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+	<script type="text/javascript" src="scrolltopcontrol.js"> </script>
+
+	
+
+	
+	
+
+<script type="application/javascript">
+
+function light(){
+	
+	var dynElems = document.getElementsByClassName('textLayer');
+	dynElems[1].background-color = #EFEFEF;
+</script>	
+
+<script type="application/javascript">  
+  
+   // Function to change the content of t2  
+   function scrollFunc() {
+		
+	var txtdiv = document.getElementById("pageContainer2");
+	var myPlayer1 = _V_("example_video_1");
+	var whereYouAt = myPlayer1.currentTime();
+		if (whereYouAt >= 30 && whereYouAt < 40){		//window.scrollTo(0, 1600);
+									PDFView.pages[1].scrollIntoView();
+									var txtElem = txtdiv.getElementsByTagName("div");
+									txtElem[9].style.border = "2px solid blue";
+									txtElem[10].style.border = "2px solid blue";
+									document.getElementById("highlight1").style.visibility = "visible";
+									}
+		else if (whereYouAt >= 40 && whereYouAt < 60){		var txtElem = txtdiv.getElementsByTagName("div");
+									txtElem[9].style.border = "1px solid blue";
+									txtElem[10].style.border = "1px solid blue"; }
+		else if (whereYouAt >= 60 && whereYouAt < 75){		//window.scrollTo(0, 2000);	
+									PDFView.pages[2].scrollIntoView();}
+		else if (whereYouAt >= 90 && whereYouAt < 105){		//window.scrollTo(0, 2500);	
+									PDFView.pages[3].scrollIntoView();}
+		else if (whereYouAt >= 120 && whereYouAt < 135){		//window.scrollTo(0, 3001);	
+									PDFView.pages[4].scrollIntoView();}
+		else if (whereYouAt >= 150 && whereYouAt < 165){	//window.scrollTo(0, 3900);	
+									PDFView.pages[5].scrollIntoView();}
+		else if (whereYouAt >= 180 && whereYouAt < 195){	//window.scrollTo(0, 4900);	
+									PDFView.pages[6].scrollIntoView();}
+		else if (whereYouAt >= 210 && whereYouAt < 225){	//window.scrollTo(0, 5500);	
+									PDFView.pages[0].scrollIntoView();}
+		
+   }  
+   
+   // Function to add event listener to t 
+	
+   function load() {
+		$(function() {
+			$("#viewer").load("ptest.html")
+			})
+	var myPlayer = _V_("example_video_1");   
+	myPlayer.addEvent("timeupdate", scrollFunc);
+	myPlayer.addEvent("timeupdate", light);   
+   }   
+  
+   document.addEventListener("DOMContentLoaded", load, false);  
+  
+   </script>
+<link rel="stylesheet" href="themes/base/jquery.ui.all.css">
+	
+	<script src="ui/jquery.ui.core.js"></script>
+	<script src="ui/jquery.ui.widget.js"></script>
+	<script src="ui/jquery.ui.button.js"></script>
+<script>
+	$(function() {
+		$( "input:submit, a, button", ".demo" ).button();
+		$( "first", ".demo" ).click(function() { document.location.href='nature.jpg'; });
+	});
+	</script>
+
+<script>
+    $(function() {
+      $("#refresh").click(function(evt) {
+         $("#viewer").load("iframe.html")
+         evt.preventDefault();
+      })
+    })
+</script>
+
+
+
+
+<style>
+.highlight
+{
+   filter:alpha(opacity=60); 
+   -moz-opacity: 0.6; 
+   opacity: 0.6;
+   position:relative;
+   background-color:#FFFF00;
+   visibility:hidden; 
+}
+
+</style>   
+	
+
+    </head>
+
+<body >
+
+
+
+
+
+<div id="container" style="width:100%">
+<div id="header" style="background-color:#800080;margin-top:15px;width:40%;position:fixed;">
+<h1 style="margin-bottom:0;">Main Title of Web Page</h1></div>
+
+<div id="menu" style="background-color:#FFE4C4;width:40%;height:900px;position:fixed;top:75px;">
+<br/><br/>
+
+
+
+<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="760" height="400"
+      poster="swing.png"
+      data-setup="{}">
+    <source src="swing.mp4" type='video/mp4' />
+    <track kind="subtitles" src="paradise.srt" srclang="en" label="English" default>
+  </video>
+<a id="refresh" href="#">click</a>
+
+</div>
+
+
+
+
+
+<div id="content" style="background-color:#FFE4C4;width:60%;float:right;z-index:1">
+
+    
+</div>
+
+
+</div>
+
+
+  </body>
+</html>
